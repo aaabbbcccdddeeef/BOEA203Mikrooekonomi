@@ -1,0 +1,49 @@
+---
+title: ""
+output: github_document
+---
+
+```{r, eval=T, echo=F}
+source('../inst/forelesningsnotater/timeplan.R')
+```
+
+## Introduksjon
+
+Forelesning #1: [`r tema[1]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/1-3_introduksjon.pdf)
+
+## Produsentteori: Produsentens økonomiske adferd
+
+Forelesning #2: [`r tema[2]`](https://github.com/joernih/sfb10816mikrooekonomi/blob/main/inst/forelesningsnotater/4_produsent_teknologi.pdf)
+<br>
+Forelesning #3: [`r tema[3]`](https://github.com/joernih/sfb10816mikrooekonomi/blob/main/inst/forelesningsnotater/5_produsent_innt_kostn.pdf)
+<br>
+Forelesning #4: [`r tema[4]`](https://github.com/joernih/sfb10816mikrooekonomi/blob/main/inst/forelesningsnotater/6_produsent_profittmaksimering.pdf)
+
+## Konsumentteori: Konsumentens økonomiske adferd
+
+Forelesning #5: [`r tema[5]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/7_konsumentens_tilpasning.pdf)
+<br>
+Forelesning #6: [`r tema[6]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/8_konsumentens_adferd.pdf)
+
+## Markedsteori
+
+Forelesning #7: [`r tema[7]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/9_markedsform_fullkommen.pdf)
+<br>
+Forelesning #8: [`r tema[8]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/10_markedsform_monopol.pdf)
+<br>
+Forelesning #9: [`r tema[9]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/11_markedsform_ufullkommen.pdf)
+<br>
+Forelesning #10: [`r tema[10]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/12_prisdiskriminering.pdf)
+
+## Andre Emner
+
+Forelesning #11: [`r tema[11]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/13_effektivitet_markedssvikt.pdf)
+<br>
+Forelesning #12: [`r substring(tema[12],1,15)`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/14_litt_spillteori.pdf)`r substring(tema[12],17,nchar(tema[12]))`
+<br>
+Forelesning #13: `r tema[13]`
+
+```{r echo=F}
+knitr::knit_exit()
+```
+

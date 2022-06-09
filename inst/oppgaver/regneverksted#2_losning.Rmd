@@ -1,0 +1,49 @@
+---
+title: "Regneverksted #2"
+output: html_document
+---
+
+# Tema: Husholdningens tilpasning
+
+## Oppgave 3
+a)
+Hva mener vi med nytte i konsumentteorien? Forklar forskjellen mellom ordinal og
+kardinal nytte.
+
+b)
+Hva mener vi med indifferenskurver? Skisser grafisk følgende 3 typer av
+indifferenskurver:
+  1) ordinære indifferenskurver.
+  2) Indifferenskurver for en konsument som konsumerer to goder i et fast forhold (for
+  eksempel en enhet saft og 2 enheter farrisvann)
+  3) en konsument som liker to goder like godt (for eksempel ferie i Norge og ferie i
+  utlandet).
+c)
+Hva mener vi med den marginale substitusjonsbrøk? Bruk de tre typene
+indifferenskurver fra oppgave 1b) i svaret ditt.
+d)
+Hvilke kriterier må være oppfylt for at konsumenten skal oppnå maksimal nytte til en
+gitt inntekt? Forklar grundig, og illustrer svaret ditt med en figur.
+e)
+En konsument, Olava, liker å kose seg på en av byens kafeer. Prisen på et stykke kake er
+20 kroner, mens prisen for en kaffe latte er 40 kroner. Budsjettet til Olava er på 160
+kroner. Formuler Olavas budsjettbetingelse og illustrer den grafisk i et godediagram. Du
+skal ha mengden kake langs den horisontale aksen og mengden kaffe latte langs den
+vertikale. Forklar hva budsjettlinjen gir uttrykk for. Finn også et uttrykk for helningen
+på kurven.
+f)
+Hva skjer med budsjettlinjen dersom inntekten reduseres til 120 kroner? Bruk også en
+figur i forklaringen din.
+g)
+Olava har følgende nyttefunksjon: U =10 x 0.5
+ 1 x 0,5
+ 2 . Her er x lik mengden som konsumeres
+av henholdsvis gode 1 (kake) og gode 2 (kaffe latte). Hvor mye velger Olava å
+konsumere av de to godene når priser og inntekt er som i oppgave 1e)? Hva blir
+nyttenivået i dette tilfellet? Illustrer svaret grafisk.
+h)
+Olava hadde egentlig tenkt å kjøpe 2 stykker kake og 3 kaffe latte for sitt budsjett. Hva
+blir nyttenivået i dette tilfellet? Hvilket råd vil du som samfunnsøkonom gi henne?
+i)
+Anta at prisen på kake synker. Forklar kort hva vi mener med inntekt- og
+substitusjonseffekt i dette tilfellet. Illustrer grafisk.

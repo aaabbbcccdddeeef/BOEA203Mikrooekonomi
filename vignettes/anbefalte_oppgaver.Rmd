@@ -1,0 +1,13 @@
+---
+title: ""
+output: github_document
+---
+
+
+```{r, echo=F}
+library(htmlTable)
+source('../inst/forelesningsnotater/timeplan.R')
+#oppgplan <- htmlTable(df2)
+knitr::kable(df2)
+```
+Fra Innføring i Mikroøkonomi, øvingsoppgaver med løsningsforslag (3. utgave)

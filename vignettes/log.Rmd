@@ -1,0 +1,50 @@
+---
+title: ""
+output: github_document
+---
+
+## 31.3
+- Under forelesning #11
+	- Endret litt på notasjonent tilknyttet bytteboksene.
+	- Lenke om MTB knyttet til Isrealsk flyselskap lagt til.
+	- Mulige løsninger ved markedsmakt..
+
+## 24.3
+- Under forelesning #10
+	- Effekten av en inntektsreduksjon i periode 2 på konsum i periode 1 og 2: Endret på figur, inneholder nå både tålmodig og utolmådig husholdning.
+	- Intertemporal tilpasning: fikset et par feil i den matematiske notasjonen.
+
+## 10.3
+- En del av materiale som ble benyttet under forelesning #8 er nå inkludert i forlesningsnotatene.
+
+## 3.3
+- En del av materiale som ble benyttet under forelesning #7 er nå inkludert i forlesningsnotatene.
+
+## 2.3
+- En del av materiale som ble benyttet under forelesning #6 er nå inkludert i forlesningsnotatene.
+- Løsningsforslag tilhørende oppgave 8.2 lagt inn i forelesningsnotatene.
+- Pyntet litt på diagramarket til konsumentents økonomiske adferd i gode og arbeidsmarkedet.
+- Definisjonen for *normal goder* er lagt inn i forlesningsnotatene tilknyttet konsumentents tilpasning.
+
+## 22.2
+- Korrigert feil diagramark tilknyttet forelesning #1: Makspris er nå erstatett med minstepris og vice versa.
+
+## 17.2
+- En del av materiale som ble benyttet under forelesning #5 er nå inkludert i forlesningsnotatene.
+- Matematiske utledninger av MSB, budsjettbetingelsen og Lagrange metode ble lagt til i notaten like før forelesning.
+- Svar på øvelse.
+- Nærmere forklaring av Gossens lov.
+
+## 3.2
+- En del av materiale som ble benyttet under forelesning #4 er nå inkludert i forlesningsnotatene.
+- Skrevet litt mer utfyllende om dette med reservasjonsprisen i oppdateringen av forelesningsnotatene gjort etter forelesningen.
+
+## 27.1
+- En del av materiale som ble benyttet under forelesning #3 er nå inkludert i forlesningsnotatene.
+- For å gjøre det mer pedagogisk, har endret litt på tallene som inngikk i kostnadstabellene som vi så på i starten av 2. forelesningstimen.
+
+## 20.1
+- En del av materiale som ble benyttet under forelesning #2 er nå inkludert i forlesningsnotatene.
+
+## 13.1
+- En del av materiale som ble benyttet under forelesning #1 er nå inkludert i forlesningsnotatene.

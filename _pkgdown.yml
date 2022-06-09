@@ -1,0 +1,41 @@
+url: https://pkgdown.r-lib.org
+title: Mikroøkonomi (SFB10816) 
+template:
+  params:
+    bootswatch: flatly
+    bootstrap: 5
+      #bootswatch: cerulean
+navbar:
+  type: inverse
+  left:
+    - icon: fa-home 
+      #      href: "index.html"
+    - text: "Forelesningsnotater"
+      href: "articles/forelesninger.html"
+    - text: "Timeplan"
+      href: "articles/timeplan.html"
+    - text: "Anbefalte oppgaver"
+      href: "articles/anbefalte_oppgaver.html"
+    - text: "Andre oppgaver pluss tidligere eksamen"
+      href: "articles/arbeidskrav2022_V.html"
+    - text: "Presentasjoner (alle)"
+      menu:
+      - text: "Introduksjon"
+        href: "articles/presentations.html#7" 
+      - text: "Produsentteori"
+        href: "articles/presentations.html#35" 
+      - text: "Konsumentteori"
+        href: "articles/presentations.html#78" 
+      - text: "Markedsteori"
+        href: "articles/presentations.html#115" 
+      - text: "Andre emner"
+        href: "articles/presentations.html#171" 
+      right:
+    - text: "Log"
+      href: "articles/log.html" 
+    - icon: fa-github fa-lg
+      text: "github"
+      href: https://github.com/joernih/SFB10816Mikrooekonomi
+home:
+  sidebar:
+    structure: [license,  citation, authors, dev]

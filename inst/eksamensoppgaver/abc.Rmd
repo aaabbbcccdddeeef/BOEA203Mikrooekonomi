@@ -1,0 +1,24 @@
+---
+output:
+  html_document:
+  #html_notebook:
+    css: PAA.css
+#rnotb2 8900 $PWD arbeidskrav_losningsforslag.Rmd
+---
+
+|               |                   | **Bedrift 2**     |                   |
+|---------------|-------------------|-------------------|-------------------|
+|               | ***Strategi***    | **Holde avtalen** | **Bryte avtalen** |
+| **Bedrift 1** | **Holde avtalen** | 25/30             | 5/40              |
+|               | **Bryte avtalen** | 35/10             | 12,5/17,5         |
+|               |                   |                   |                   |
+
+***Kartell spill***
+
+Vi tenker oss at vi har to bedrifter som går sammen i et salgskartell. Det er kjent informasjon for begge parter at lønnsomheten ved de forskjellige strategiene (i millioner av kroner) er gitt ved følgende tabell:
+
+| Strategi          | Holde avtalen | Bryte avtalen           |
+|-------------------|---------------|-------------------------|
+| **Holde avtalen** | 25/30         | 5/[40]{.ul}             |
+| **Bryte avtalen** | [35]{.ul}/10  | [12,5]{.ul}/[17,5]{.ul} |
+|                   |               |                         |

@@ -1,0 +1,23 @@
+---
+title: ""
+output: github_document
+---
+
+```{r, echo=F}
+library(kableExtra)
+library(dplyr)
+forel <- 13
+source('../inst/forelesningsnotater/timeplan.R')
+timeplan <- df1
+htmlTable::htmlTable(df1)
+#kableExtra::kbl(timeplan) %>% kableExtra::kable_paper(full_width = F) %>% kableExtra::row_spec(forel, bold = T)
+kableExtra::kbl(timeplan) %>% kableExtra::row_spec(forel, bold = T)
+```
+
+[timeplan](https://tp.uio.no/hiof/timeplan/timeplan.php?type=course&id[]=SFB10816%2C1&sort=week)
+
+**Eksamen avholdes den 03.05.**
+
+```{r echo=F}
+knitr::knit_exit()
+```

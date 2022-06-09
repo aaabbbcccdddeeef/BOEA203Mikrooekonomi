@@ -1,0 +1,108 @@
+---
+title: ""
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/"
+)
+```
+
+```{r, eval=F, echo=F}
+# Git relatert
+git2r::config(user.name = "joernih", user.email = "jorn.halvorsen@gmail.com")
+``
+
+```{r, eval=F, echo=F}
+# R-pakker
+devtools::document()
+devtools::install()
+```
+
+```{r, eval=F, echo=F}
+pkgdown::build_home()
+### Simple build
+pkgdown::build_site()
+## Specific build
+pkgdown::build_articles()
+pkgdown::build_news()
+#pkgdown::build_news()
+## Fine build
+#rmarkdown::render('inst/forelesningsnotater/presentations.html', 'xaringan::moon_reader')
+#rmarkdown::render('inst/forelesningsnotater/dagens.Rmd', 'xaringan::moon_reader')
+rmarkdown::render("index.Rmd")
+### Tasks
+##- Sjekke timeplanenummer
+### Arbeidskrav
+system("cp inst/forelesningsnotater/presentations.html docs/articles/presentations.html")
+system("cp -R inst/forelesningsnotater/drawio docs/articles")
+system("cp -R inst/forelesningsnotater/bilder docs/articles")
+#system("cp inst/forelesningsnotater/presentations.html docs/articles/presentations.html")
+### Eksamen
+```
+
+# Mikroøkonomi med anvendelser (våren 2022)
+
+![](man/figures/abc.jpg)
+
+### Nyheter
+
+- [Løsningsforslag](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/oppgaver/arbeidskrav_2022_losning.pdf) obligatorisk arbeidskrav er nå publisert	
+
+### Studietips
+
+[Generelle studietips_ System framfor mål.pdf](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/systemvsmaal.pdf)
+
+### Pensum
+
+![](man/figures/pensum.jpg){width=20%}
+<br>
+[Pensumbok (Andreassen, Bredesen og Thøgersen)](https://www.cappelendammundervisning.no/_innforing-i-mikrookonomi-9788202640521)
+<br>
+
+![](man/figures/oppgaver.jpg){width=10%}
+
+[Oppgavebok (Andreassen, Bredesen og Thøgersen)](https://www.cappelendammundervisning.no/_innforing-i-mikrookonomi-ovingsoppgaver-med-losningsforslag-9788202656485)
+<br>
+
+Undervisnings- og emneansvarlig (jornih at hiof.no)
+
+Jørn I. Halvorsen
+
+**Siste gang oppdatert: `r Sys.time()`**
+
+```{r, eval=T, echo=F}
+# Git relaterte
+knitr::knit_exit()
+```
+
+```{r, eval=T, echo=F}
+getwd()
+```
+
+# Forelesninger
+inst/forelesningsnotater/presentations.Rmd
+inst/forelesningsnotater/dagens.Rmd
+inst/forelesningsnotater/neste1.Rmd
+inst/forelesningsnotater/timeplan.R
+
+# Nettside
+vignettes/log.Rmd
+vignettes/timeplan.Rmd
+vignettes/forelesninger.Rmd
+vignettes/arbeidskrav2022_V.Rmd
+_pkgdown.yml
+
+# Arbeidskrav og eksamen
+../Template/SFB10816_Mikro_Plates/arbeidskrav_losningsforslag_2022.Rmd
+../Template/SFB10816_Mikro_Plates/arbeidskrav_losningsforslag.Rmd
+../Template/SFB10816_Mikro_Plates/arbeidskrav_losningsforslag.Rmd
+
+# Regneverksted
+inst/oppgaver/Regneverksted3_losning.Rmd
+inst/oppgaver/Regneverksted#2_losning.Rmd
