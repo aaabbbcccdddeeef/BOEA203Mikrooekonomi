@@ -46,13 +46,9 @@ system("cp -R inst/forelesningsnotater/bilder docs/articles")
 ### Eksamen
 ```
 
-# Mikroøkonomi med anvendelser (våren 2022)
+# Mikroøkonomi med anvendelser (høsten 2022)
 
 ![](man/figures/abc.jpg)
-
-### Nyheter
-
-- [Løsningsforslag](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/oppgaver/arbeidskrav_2022_losning.pdf) obligatorisk arbeidskrav er nå publisert	
 
 ### Studietips
 
@@ -70,7 +66,7 @@ system("cp -R inst/forelesningsnotater/bilder docs/articles")
 [Oppgavebok (Andreassen, Bredesen og Thøgersen)](https://www.cappelendammundervisning.no/_innforing-i-mikrookonomi-ovingsoppgaver-med-losningsforslag-9788202656485)
 <br>
 
-Undervisnings- og emneansvarlig (jornih at hiof.no)
+Undervisnings- og emneansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
@@ -80,29 +76,21 @@ Jørn I. Halvorsen
 # Git relaterte
 knitr::knit_exit()
 ```
+Innleveringsfrist: 25. september
+Kan samarbeide i grupper på inntil 4 personer
+
+Arbeidskrav 2 – BØA 203 (Mikroøkonomi 1) 
+Innleveringsfrist: 30. oktober  
+
 
 ```{r, eval=T, echo=F}
 getwd()
 ```
 
 # Forelesninger
-inst/forelesningsnotater/presentations.Rmd
-inst/forelesningsnotater/dagens.Rmd
-inst/forelesningsnotater/neste1.Rmd
-inst/forelesningsnotater/timeplan.R
 
 # Nettside
-vignettes/log.Rmd
 vignettes/timeplan.Rmd
-vignettes/forelesninger.Rmd
-vignettes/arbeidskrav2022_V.Rmd
 _pkgdown.yml
-
 # Arbeidskrav og eksamen
-../Template/SFB10816_Mikro_Plates/arbeidskrav_losningsforslag_2022.Rmd
-../Template/SFB10816_Mikro_Plates/arbeidskrav_losningsforslag.Rmd
-../Template/SFB10816_Mikro_Plates/arbeidskrav_losningsforslag.Rmd
-
 # Regneverksted
-inst/oppgaver/Regneverksted3_losning.Rmd
-inst/oppgaver/Regneverksted#2_losning.Rmd
