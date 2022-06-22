@@ -178,3 +178,19 @@ df1 <- data.frame(
 #42 17 18 *19 20 21* 22 23   47 21 22 23 24 25 26 27   51 19 20 21 22 23 24 25
 #43 24 25 26 27 28 29 30   48 28 29 30               52 26 27 28 29 30 31   
 #44 31                                                                      
+
+#Forelesninger: Du tenkte å starte med digital økt? Kan det passe å ta denne fredag den 26.8 klokken 10:15 (og hvor lenge?). Supert om du får kommet litt i gang med pensum på denne så Akbar får startet med noen oppgaver torsdagen etter (den 1.9).
+#
+# 
+#
+#Så har du samlinger:
+#
+#torsdag  8.9 klokken 12:15 – 16:00 og fredag 9.9 klokken 10:15 – 14:00
+#torsdag  29.9 klokken 12:15 – 16:00 og fredag 30.9 klokken 10:15 – 14:00
+#torsdag  20.10 klokken 12:15 – 16:00 og fredag 21.10 klokken 10:15 – 14:00
+#torsdag  10.11 klokken 12:15 – 16:00 og fredag 11.11 klokken 10:15 – 14:00
+# 
+#
+#Akbar har oppgaveseminar de ukene du ikke er tilstede (torsdager fra 10:15).
+#
+#
