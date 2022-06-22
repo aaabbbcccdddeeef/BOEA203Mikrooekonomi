@@ -32,10 +32,10 @@ navbar:
         #        #href: "articles/presentations.html#171" 
       right:
     - text: "Log"
-      #href: "articles/log.html" 
+      href: "articles/log.html" 
     - icon: fa-github fa-lg
       text: "github"
-      #href: https://github.com/joernih/SFB10816Mikrooekonomi
+      href: https://github.com/joernih/BOEA203Mikrooekonomi      
 home:
   sidebar:
     structure: [license,  citation, authors, dev]

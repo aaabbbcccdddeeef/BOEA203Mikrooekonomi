@@ -52,22 +52,6 @@ git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 
 ![](man/figures/abc.jpg)
 
-### Studietips
-
-[Generelle studietips_ System framfor mål.pdf](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/systemvsmaal.pdf)
-
-### Pensum
-
-![](man/figures/pensum.jpg){width=20%}
-<br>
-[Pensumbok (Andreassen, Bredesen og Thøgersen)](https://www.cappelendammundervisning.no/_innforing-i-mikrookonomi-9788202640521)
-<br>
-
-![](man/figures/oppgaver.jpg){width=10%}
-
-[Oppgavebok (Andreassen, Bredesen og Thøgersen)](https://www.cappelendammundervisning.no/_innforing-i-mikrookonomi-ovingsoppgaver-med-losningsforslag-9788202656485)
-<br>
-
 Undervisnings- og emneansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
@@ -90,6 +74,22 @@ getwd()
 ```
 
 # Forelesninger
+
+### Studietips
+
+[Generelle studietips_ System framfor mål.pdf](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/systemvsmaal.pdf)
+
+### Pensum
+
+![](man/figures/pensum.jpg){width=20%}
+<br>
+[Pensumbok (Andreassen, Bredesen og Thøgersen)](https://www.cappelendammundervisning.no/_innforing-i-mikrookonomi-9788202640521)
+<br>
+
+![](man/figures/oppgaver.jpg){width=10%}
+
+[Oppgavebok (Andreassen, Bredesen og Thøgersen)](https://www.cappelendammundervisning.no/_innforing-i-mikrookonomi-ovingsoppgaver-med-losningsforslag-9788202656485)
+<br>
 
 # Nettside
 vignettes/timeplan.Rmd
