@@ -3,7 +3,7 @@ title: ""
 output: github_document
 ---
 
-```{r, echo=F}
+```{r, echo=F, warning=F, message=F}
 library(kableExtra)
 library(dplyr)
 forel <- 11
