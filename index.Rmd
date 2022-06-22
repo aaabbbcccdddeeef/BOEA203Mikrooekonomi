@@ -43,12 +43,9 @@ system("cp inst/forelesningsnotater/presentations.html docs/articles/presentatio
 system("cp -R inst/forelesningsnotater/drawio docs/articles")
 system("cp -R inst/forelesningsnotater/bilder docs/articles")
 #system("cp inst/forelesningsnotater/presentations.html docs/articles/presentations.html")
-<<<<<<< HEAD
 ### Eksamen
 git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
-=======
 ### Eksamen 123
->>>>>>> 9761c9f9794bef7697040006cb411c31d86e969f
 ```
 
 # Mikroøkonomi med anvendelser (høsten 2022)

@@ -11,31 +11,31 @@ navbar:
     - icon: fa-home 
       #      href: "index.html"
     - text: "Forelesningsnotater"
-      href: "articles/forelesninger.html"
+      #      href: "articles/forelesninger.html"
     - text: "Timeplan"
-      href: "articles/timeplan.html"
+      #      href: "articles/timeplan.html"
     - text: "Anbefalte oppgaver"
-      href: "articles/anbefalte_oppgaver.html"
+      #href: "articles/anbefalte_oppgaver.html"
     - text: "Andre oppgaver pluss tidligere eksamen"
-      href: "articles/arbeidskrav2022_V.html"
+      #href: "articles/arbeidskrav2022_V.html"
     - text: "Presentasjoner (alle)"
-      menu:
-      - text: "Introduksjon"
-        href: "articles/presentations.html#7" 
-      - text: "Produsentteori"
-        href: "articles/presentations.html#35" 
-      - text: "Konsumentteori"
-        href: "articles/presentations.html#78" 
-      - text: "Markedsteori"
-        href: "articles/presentations.html#115" 
-      - text: "Andre emner"
-        href: "articles/presentations.html#171" 
+      #      menu:
+      #- text: "Introduksjon"
+        #href: "articles/presentations.html#7" 
+        #      - text: "Produsentteori"
+        #        #href: "articles/presentations.html#35" 
+        #      - text: "Konsumentteori"
+        #        #href: "articles/presentations.html#78" 
+        #      - text: "Markedsteori"
+        #        #href: "articles/presentations.html#115" 
+        #      - text: "Andre emner"
+        #        #href: "articles/presentations.html#171" 
       right:
     - text: "Log"
-      href: "articles/log.html" 
+      #href: "articles/log.html" 
     - icon: fa-github fa-lg
       text: "github"
-      href: https://github.com/joernih/SFB10816Mikrooekonomi
+      #href: https://github.com/joernih/SFB10816Mikrooekonomi
 home:
   sidebar:
     structure: [license,  citation, authors, dev]
