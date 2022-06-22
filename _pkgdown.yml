@@ -1,8 +1,8 @@
 url: https://pkgdown.r-lib.org
-title: Mikroøkonomi (SFB10816) 
+title: Mikroøkonomi (BØA0816) 
 template:
   params:
-    bootswatch: flatly
+    bootswatch: cerulean
     bootstrap: 5
       #bootswatch: cerulean
 navbar:
