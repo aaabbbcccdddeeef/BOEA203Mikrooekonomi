@@ -44,6 +44,7 @@ system("cp -R inst/forelesningsnotater/drawio docs/articles")
 system("cp -R inst/forelesningsnotater/bilder docs/articles")
 #system("cp inst/forelesningsnotater/presentations.html docs/articles/presentations.html")
 ### Eksamen
+git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 ```
 
 # Mikroøkonomi med anvendelser (våren 2022)
