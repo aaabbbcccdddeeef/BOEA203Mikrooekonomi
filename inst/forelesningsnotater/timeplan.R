@@ -5,8 +5,8 @@ library(xaringan)
 library(aweek)
 # Timeplan
 ## Input
-ukenr <- c("33",rep("35/34",3),rep("38",2),rep("42",2),rep("45",3))
-#datoer <- get_date(week = ukenr, day=4, year = 2022)
+ukenr <- c("34",rep("36",3),rep("39",2),rep("42",2),rep("45",3))
+datoer <- get_date(week = ukenr, day=4, year = 2022)
 antall <- length(ukenr)
 forenr <- seq(1,antall)
 antall <- length(ukenr)
@@ -87,17 +87,17 @@ literatur <- c(
 length(literatur)
 
 undervfor <- c(
-"", 
-"", 
-"", 
-"", 
-"", 
-"", 
-"", 
-"",
-"",  
-"",  
-""
+"Zoom", 
+"Auditorium ?", 
+"Auditorium ?", 
+"Auditorium ?", 
+"Auditorium ?", 
+"Auditorium ?", 
+"Auditorium ?", 
+"Auditorium ?",
+"Auditorium ?",  
+"Auditorium ?",  
+"Auditorium ?"
 )
 length(undervfor)
 
@@ -149,8 +149,7 @@ df1 <- data.frame(
 		  Start=star,
 		  Timer=timer
 )
-
-
+View(df1)
 #timenavn <- names(df1)
 #df2 <- data.frame(Kapittel=c(1,3:15),
 #		 Oppgaver=oppgaver_bok)
@@ -184,13 +183,9 @@ df1 <- data.frame(
 # 
 #
 #Så har du samlinger:
-#
-#torsdag  8.9 klokken 12:15 – 16:00 og fredag 9.9 klokken 10:15 – 14:00
-#torsdag  29.9 klokken 12:15 – 16:00 og fredag 30.9 klokken 10:15 – 14:00
-#torsdag  20.10 klokken 12:15 – 16:00 og fredag 21.10 klokken 10:15 – 14:00
-#torsdag  10.11 klokken 12:15 – 16:00 og fredag 11.11 klokken 10:15 – 14:00
-# 
-#
+#    								          34
+#torsdag  8.9 klokken 12:15 – 16:00 og fredag 9.9 klokken 10:15 – 14:00 - 36
+#torsdag  29.9 klokken 12:15 – 16:00 og fredag 30.9 klokken 10:15 – 14:00 - 39
+#torsdag  20.10 klokken 12:15 – 16:00 og fredag 21.10 klokken 10:15 – 14:00 - 42
+#torsdag  10.11 klokken 12:15 – 16:00 og fredag 11.11 klokken 10:15 – 14:00 - 45
 #Akbar har oppgaveseminar de ukene du ikke er tilstede (torsdager fra 10:15).
-#
-#

@@ -13,7 +13,7 @@ navbar:
     - text: "Forelesningsnotater"
       #      href: "articles/forelesninger.html"
     - text: "Timeplan"
-      #      href: "articles/timeplan.html"
+      href: "articles/timeplan.html"
     - text: "Anbefalte oppgaver"
       #href: "articles/anbefalte_oppgaver.html"
     - text: "Andre oppgaver pluss tidligere eksamen"
@@ -32,7 +32,7 @@ navbar:
         #        #href: "articles/presentations.html#171" 
       right:
     - text: "Log"
-      href: "articles/log.html" 
+      #      href: "articles/log.html" 
     - icon: fa-github fa-lg
       text: "github"
       href: https://github.com/joernih/BOEA203Mikrooekonomi      

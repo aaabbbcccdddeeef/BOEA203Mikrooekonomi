@@ -4,13 +4,13 @@ output: github_document
 ---
 
 ```{r, echo=F}
-#library(kableExtra)
-#library(dplyr)
-#forel <- 13
-#source('../inst/forelesningsnotater/timeplan.R')
-#timeplan <- df1
+library(kableExtra)
+library(dplyr)
+forel <- 11
+source('../inst/forelesningsnotater/timeplan.R')
+timeplan <- df1
 #htmlTable::htmlTable(df1)
-##kableExtra::kbl(timeplan) %>% kableExtra::kable_paper(full_width = F) %>% kableExtra::row_spec(forel, bold = T)
+kableExtra::kbl(timeplan) %>% kableExtra::kable_paper(full_width = F) %>% kableExtra::row_spec(forel, bold = T)
 #kableExtra::kbl(timeplan) %>% kableExtra::row_spec(forel, bold = T)
 ```
 
