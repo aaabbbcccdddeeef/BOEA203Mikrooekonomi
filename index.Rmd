@@ -43,7 +43,7 @@ system("cp inst/forelesningsnotater/presentations.html docs/articles/presentatio
 system("cp -R inst/forelesningsnotater/drawio docs/articles")
 system("cp -R inst/forelesningsnotater/bilder docs/articles")
 #system("cp inst/forelesningsnotater/presentations.html docs/articles/presentations.html")
-### Eksamen
+### Eksamen 123
 ```
 
 # Mikroøkonomi med anvendelser (høsten 2022)
