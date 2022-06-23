@@ -149,14 +149,10 @@ df1 <- data.frame(
 		  Start=star,
 		  Timer=timer
 )
-View(df1)
 #timenavn <- names(df1)
 #df2 <- data.frame(Kapittel=c(1,3:15),
 #		 Oppgaver=oppgaver_bok)
 #
-
-
-
 #torsdag 25. og fredag 26. august. Samlet åtte timer forelesning? Hvordan ønsker du å fordele disse timene? 08:15 – 10:00 + 12:15 – 14:00 begge dager? Litt heftig med fire timer sammenhengende kanskje? Med 2 + 2 hver dag kan de jo få litt tid mellom øktene til å jobbe med oppgaver du gir dem.
 #torsdag 22. og fredag 23. september. Samme fordeling som bolken over.
 #torsdag 20. og fredag 21. oktober. Samme fordeling som bolken over.

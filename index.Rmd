@@ -46,11 +46,24 @@ system("cp -R inst/forelesningsnotater/bilder docs/articles")
 ### Eksamen
 git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 ### Eksamen 123
+https://hvl.instructure.com/courses/22507
 ```
 
 # Mikroøkonomi med anvendelser (høsten 2022)
 
 ![](man/figures/abc.jpg)
+
+### Pensum
+
+![](man/figures/pensum.jpg){width=20%}
+<br>
+[Pensumbok (Andreassen, Bredesen og Thøgersen)](https://www.cappelendammundervisning.no/_innforing-i-mikrookonomi-9788202640521)
+<br>
+
+![](man/figures/oppgaver.jpg){width=10%}
+
+[Oppgavebok (Andreassen, Bredesen og Thøgersen)](https://www.cappelendammundervisning.no/_innforing-i-mikrookonomi-ovingsoppgaver-med-losningsforslag-9788202656485)
+<br>
 
 Undervisnings- og emneansvarlig (jornih at hvl.no)
 
@@ -61,16 +74,6 @@ Jørn I. Halvorsen
 ```{r, eval=T, echo=F}
 # Git relaterte
 knitr::knit_exit()
-```
-Innleveringsfrist: 25. september
-Kan samarbeide i grupper på inntil 4 personer
-
-Arbeidskrav 2 – BØA 203 (Mikroøkonomi 1) 
-Innleveringsfrist: 30. oktober  
-
-
-```{r, eval=T, echo=F}
-getwd()
 ```
 
 # Forelesninger

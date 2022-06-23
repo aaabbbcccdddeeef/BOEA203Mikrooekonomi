@@ -5,8 +5,21 @@
 
 ![](man/figures/abc.jpg)
 
+### Pensum
+
+<img src="man/figures/pensum.jpg" style="width:20.0%" /> <br> [Pensumbok
+(Andreassen, Bredesen og
+Thøgersen)](https://www.cappelendammundervisning.no/_innforing-i-mikrookonomi-9788202640521)
+<br>
+
+<img src="man/figures/oppgaver.jpg" style="width:10.0%" />
+
+[Oppgavebok (Andreassen, Bredesen og
+Thøgersen)](https://www.cappelendammundervisning.no/_innforing-i-mikrookonomi-ovingsoppgaver-med-losningsforslag-9788202656485)
+<br>
+
 Undervisnings- og emneansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-06-22 14:27:40**
+**Siste gang oppdatert: 2022-06-23 09:44:04**
