@@ -5,6 +5,8 @@
 
 ![](man/figures/abc.jpg)
 
+Starter opp …
+
 ### Pensum
 
 <img src="man/figures/pensum.jpg" style="width:20.0%" /> <br> [Pensumbok
@@ -22,4 +24,4 @@ Undervisnings- og emneansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-06-23 09:44:04**
+**Siste gang oppdatert: 2022-06-23 10:15:26**

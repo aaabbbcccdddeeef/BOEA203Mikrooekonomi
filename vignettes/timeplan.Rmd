@@ -14,8 +14,6 @@ kableExtra::kbl(timeplan) %>% kableExtra::kable_paper(full_width = F) %>% kableE
 #kableExtra::kbl(timeplan) %>% kableExtra::row_spec(forel, bold = T)
 ```
 
-**Eksamen avholdes den **
-
 ```{r echo=F}
 knitr::knit_exit()
 ```
