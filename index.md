@@ -24,4 +24,4 @@ Undervisnings- og emneansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-06-23 10:15:26**
+**Siste gang oppdatert: 2022-06-28 14:24:35**
