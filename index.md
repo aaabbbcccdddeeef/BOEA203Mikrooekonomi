@@ -5,7 +5,8 @@
 
 ![](man/figures/abc.jpg)
 
-Starter opp …
+Mer info vil bli publisert etter sommerferien. Inntil videre, ha en
+riktig god sommer!
 
 ### Pensum
 
@@ -24,4 +25,4 @@ Undervisnings- og emneansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-06-28 14:24:35**
+**Siste gang oppdatert: 2022-07-03 15:54:08**
