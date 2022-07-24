@@ -4,15 +4,23 @@ library(xaringan)
 library(aweek)
 # Timeplan
 ## Input
-ukenr <- c("34",rep("36",2),rep("39",1),rep("42",1),rep("45",1))
-datoer <- c(get_date(week = ukenr, day=4, year = 2022),get_date(week = ukenr, day=5, year = 2022)[-1])
+ukenr <- c("34",rep("36",2),rep("39",1),rep("42",1),rep("45",2))
+datoer <- c(get_date(week = ukenr, day=4, year = 2022),
+	    get_date(week = ukenr, day=5, year = 2022)[-1])[c(1,2,3,8,4,10,5,11,6,7,12)]
+#get_date(week = ukenr, day=4, year = 2022)
+#get_date(week = ukenr, day=5, year = 2022)
+##[1] (1)"2022-08-25" (2)"2022-09-08" (3)"2022-09-08"  (6)"2022-09-29"  "2022-10-20" "2022-11-10" (4)"2022-09-09" (5)"2022-09-09" (7)"2022-09-30" 
+##
+#datoer
+
+
+# [1] "2022-08-25"
 ukenr2 <- c("34",rep("36",3),rep("39",2),rep("42",2),rep("45",3))
 forenr <-c(1,2,2,3,4,5,6,7,8,8,9)
 dag <-c('Fre','Tor','Tor','Fre','Tor','Fre','Tor','Fre','Tor','Tor','Fre')
 tid <-c('09:00','13:00','13:00','09:00','13:00','09:00','13:00','09:00','13:00','13:00','09:00')
 ant <-c('3/4','3/4','3/4','3/4','3/4','3/4','3/4','3/4','3/4','3/4','3/4')
 del <-c('1','2','2','2','3','3','4','4','5','5','5')
-
 
 del <- c(
 "1. Introduksjon",
@@ -118,4 +126,4 @@ df1 <- data.frame(
          	  Timer=ant
 )
 df1
-View(df1)
+
