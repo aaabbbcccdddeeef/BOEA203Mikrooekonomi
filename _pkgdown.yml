@@ -11,7 +11,7 @@ navbar:
     - icon: fa-home 
       #      href: "index.html"
     - text: "Forelesningsnotater"
-      #      href: "articles/forelesninger.html"
+      href: "articles/forelesninger.html"
     - text: "Timeplan"
       href: "articles/timeplan.html"
     - text: "Anbefalte oppgaver"
@@ -19,9 +19,9 @@ navbar:
     - text: "Andre oppgaver pluss tidligere eksamen"
       #href: "articles/arbeidskrav2022_V.html"
     - text: "Presentasjoner (alle)"
-      #      menu:
-      #- text: "Introduksjon"
-        #href: "articles/presentations.html#7" 
+      menu:
+      - text: "Introduksjon"
+        href: "articles/presentations.html#7" 
         #      - text: "Produsentteori"
         #        #href: "articles/presentations.html#35" 
         #      - text: "Konsumentteori"

@@ -89,7 +89,7 @@ knitr::include_graphics("oppgaver.jpg")
 # Anbefalte oppgaver
 
 ```{r, eval=T, echo=F}
-knitr::kable(df2)
+#knitr::kable(df2)
 ```
 
 ---
@@ -428,6 +428,11 @@ knitr::include_graphics("drawio/markedfullkommen.png")
 ```
 
 ---
+
+```{r, eval=T, echo=F}
+# Git relaterte
+knitr::knit_exit()
+```
 
 class: inverse, center, middle
 

@@ -11,6 +11,10 @@ source('../inst/forelesningsnotater/timeplan.R')
 
 Forelesning #1: [`r tema[1]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/1-3_introduksjon.pdf)
 
+```{r echo=F}
+knitr::knit_exit()
+```
+
 ## Produsentteori: Produsentens økonomiske adferd
 
 Forelesning #2: [`r tema[2]`](https://github.com/joernih/sfb10816mikrooekonomi/blob/main/inst/forelesningsnotater/4_produsent_teknologi.pdf)
