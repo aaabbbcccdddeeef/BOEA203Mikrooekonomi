@@ -18,11 +18,6 @@ knitr::opts_chunk$set(
 git2r::config(user.name = "joernih", user.email = "jorn.halvorsen@gmail.com")
 ``
 
-```{r, eval=F, echo=F}
-# R-pakker
-devtools::document()
-devtools::install()
-```
 
 ```{r, eval=F, echo=F}
 pkgdown::build_home()
