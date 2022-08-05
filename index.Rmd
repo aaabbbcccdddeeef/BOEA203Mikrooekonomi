@@ -20,9 +20,11 @@ git2r::config(user.name = "joernih", user.email = "jorn.halvorsen@gmail.com")
 
 
 ```{r, eval=F, echo=F}
+# Complete build
+pkgdown::build_site()
+
 pkgdown::build_home()
 ### Simple build
-pkgdown::build_site()
 ## Specific build
 pkgdown::build_articles()
 pkgdown::build_news()
