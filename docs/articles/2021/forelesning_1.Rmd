@@ -1,0 +1,34 @@
+# Forelesning 1
+
+## DEL 1: INNLEDNING
+
+
+### Litt om samfunnsøkonomi og mikroøkonomi som fag
+
+### Om kurset
+
+### Litt mer om samfunnsøkonomi og mikroøkonomi som fag
+
+![](drawio/png_produksjon/abc.png)
+
+Alternativkostnad
+
+![](drawio/png_produksjon/alternativ.png)
+
+### Introduksjon til mikroøkonomi: En markedsmodell med fullkommen konkurranse
+
+![](drawio/png_produksjon/markedfullkommen.png)
+
+Produksjonen og etterspørsel skjer ved hjelp av et marked
+
+-   Beslutningene er destraliserte
+
+Lenke til video
+
+Planøkonomi: staten produserer varer og tjenester
+
+-   Beslutningene er sentraliserte
+
+# 
+
+[Om markedsmekanismen](https://www.youtube.com/watch?v=67tHtpac5ws)

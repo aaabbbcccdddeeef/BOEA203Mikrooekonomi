@@ -1,0 +1,17 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+# Forelesning 9:
+
+## DEL 4: MARKEDSTEORI: kartel, duopol, oligopol og monopolistisk konkurranse
+
+```{r, child=c('presentasjon_jih/pre_forelesning_9.Rmd')}
+```
+
+![](drawio/png_produksjon/markedufullkommenanalyse.png)
+
+[Examples Cournot](https://www.quora.com/What-are-some-real-life-examples-of-the-Cournot-Duopoly-Model?share=1)
+
