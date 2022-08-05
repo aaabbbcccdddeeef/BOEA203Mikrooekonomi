@@ -19,6 +19,7 @@ navbar:
     - text: "Andre oppgaver pluss tidligere eksamen"
       #href: "articles/arbeidskrav2022_V.html"
     - text: "Presentasjoner (alle)"
+      href: "articles/presentations.html"
       #      menu:
       #- text: "Introduksjon"
         #href: "articles/presentations.html#7" 

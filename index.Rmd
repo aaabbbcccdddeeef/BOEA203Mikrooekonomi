@@ -25,10 +25,12 @@ devtools::install()
 ```
 
 ```{r, eval=F, echo=F}
-pkgdown::build_home()
-### Simple build
+### Complete build
 pkgdown::build_site()
+system("cp -R inst/forelesningsnotater/* docs/articles")
 ## Specific build
+system("cp inst/forelesningsnotater/presentations.html docs/articles/presentations.html")
+pkgdown::build_home()
 pkgdown::build_articles()
 pkgdown::build_news()
 #pkgdown::build_news()
@@ -39,7 +41,6 @@ rmarkdown::render("index.Rmd")
 ### Tasks
 ##- Sjekke timeplanenummer
 ### Arbeidskrav
-system("cp inst/forelesningsnotater/presentations.html docs/articles/presentations.html")
 system("cp -R inst/forelesningsnotater/drawio docs/articles")
 system("cp -R inst/forelesningsnotater/bilder docs/articles")
 #system("cp inst/forelesningsnotater/presentations.html docs/articles/presentations.html")
