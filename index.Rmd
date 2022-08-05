@@ -46,7 +46,7 @@ system("cp -R inst/forelesningsnotater/bilder docs/articles")
 ### Eksamen
 git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 ### Eksamen 123
-https://hvl.instructure.com/courses/22507
+#https://hvl.instructure.com/courses/22507
 ```
 
 # Mikroøkonomi med anvendelser (høsten 2022)
@@ -77,6 +77,9 @@ Jørn I. Halvorsen
 # Git relaterte
 knitr::knit_exit()
 ```
+
+inst/forelesningsnotater/presentations.Rmd
+
 
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
