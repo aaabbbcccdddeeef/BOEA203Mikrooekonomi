@@ -16,13 +16,11 @@ knitr::opts_chunk$set(
 ```{r, eval=F, echo=F}
 # Git relatert
 git2r::config(user.name = "joernih", user.email = "jorn.halvorsen@gmail.com")
-``
-
+```
 
 ```{r, eval=F, echo=F}
 # Complete build
 pkgdown::build_site()
-
 pkgdown::build_home()
 ### Simple build
 ## Specific build
@@ -76,7 +74,6 @@ knitr::knit_exit()
 ```
 
 inst/forelesningsnotater/presentations.Rmd
-
 
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
