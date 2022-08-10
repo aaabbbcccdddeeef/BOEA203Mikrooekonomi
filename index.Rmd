@@ -27,7 +27,7 @@ devtools::install()
 ```{r, eval=F, echo=F}
 ### Complete build
 pkgdown::build_site()
-system("cp -R inst/forelesningsnotater/* docs/articles")
+system("cp -r inst/forelesningsnotater/* docs/articles")
 ## Specific build
 system("cp inst/forelesningsnotater/presentations.html docs/articles/presentations.html")
 pkgdown::build_home()
