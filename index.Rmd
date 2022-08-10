@@ -83,11 +83,7 @@ knitr::knit_exit()
 - Anbefalte oppgver
 - Datoer for obligatorisk innleveringsoppgave
 - Datoer for obligatorisk eksamen
-
-
 inst/forelesningsnotater/presentations.Rmd
-
-
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
 https://github.com/joernih/BOEA203Mikrooekonomi.git
