@@ -79,6 +79,12 @@ Jørn I. Halvorsen
 knitr::knit_exit()
 ```
 
+# Oppgaveliste
+- Anbefalte oppgver
+- Datoer for obligatorisk innleveringsoppgave
+- Datoer for obligatorisk eksamen
+
+
 inst/forelesningsnotater/presentations.Rmd
 
 
