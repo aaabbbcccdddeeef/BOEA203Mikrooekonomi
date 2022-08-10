@@ -1,5 +1,0 @@
-#!/bin/bash
-convert 8.1_losninga.png 8.1_losningb.png -append 8.1_losning.png
-convert 8.2a.png 8.2b.png -append 8.2.png
-convert 8.2_losninga.png 8.2_losningb.png -append 8.2_losning.png
-convert 8.3_losninga.png 8.3_losningb.png -append 8.3_losning.png
