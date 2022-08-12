@@ -87,3 +87,17 @@ inst/forelesningsnotater/presentations.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
 https://github.com/joernih/BOEA203Mikrooekonomi.git
+
+# Forelesning 1
+inst/forelesningsnotater/drawio/oversikt_hele.png
+inst/forelesningsnotater/drawio/alternativ.png
+inst/forelesningsnotater/drawio/etakt.png
+inst/forelesningsnotater/drawio/tiakt.png
+inst/forelesningsnotater/drawio/markedfullkommen.png
+# Forelesning 2
+inst/forelesningsnotater/drawio/bilder/prodftall.png
+
+
+
+
+

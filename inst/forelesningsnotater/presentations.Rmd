@@ -2572,3 +2572,16 @@ system('drawio drawio/spillteori.drawio')
 system('drawio drawio/andre_emner.drawio')
 ```
 
+# Tasks
+
+Anbefalte oppgaver
+Eksamensdatoer
+Kapittel 1
+Kapittel 2
+Kapittel 3
+
+
+
+
+
+
