@@ -431,7 +431,7 @@ Produsenten ”sender” nå avgiften til staten, men begge bærer byrden!!
 knitr::include_graphics("drawio/markedfullkommen.png")
 ```
 
-```{r}
+```{r, eval=F}
 knitr::knit_exit()
 ```
 
