@@ -19,9 +19,16 @@ navbar:
     - text: "Andre oppgaver pluss tidligere eksamen"
       #href: "articles/arbeidskrav2022_V.html"
     - text: "Presentasjoner (alle)"
+<<<<<<< HEAD
       menu:
       - text: "Introduksjon"
         href: "articles/presentations.html#7" 
+=======
+      #href: "articles/presentations.html"
+      #      menu:
+      #- text: "Introduksjon"
+        #href: "articles/presentations.html#7" 
+>>>>>>> bacfd0f9634ea14aaa6492a8a678aacaf419458a
         #      - text: "Produsentteori"
         #        #href: "articles/presentations.html#35" 
         #      - text: "Konsumentteori"
