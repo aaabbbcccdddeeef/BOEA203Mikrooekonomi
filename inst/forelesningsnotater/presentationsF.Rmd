@@ -325,7 +325,8 @@ class: inverse, center, middle
 - Fra et individs etterspørsel til markedsetterspørsel.
 
 ```{r, echo=FALSE, out.width="65%", fig.cap=""}
-knitr::include_graphics("drawio/etakt.png")
+p1 <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/ekurve.png')
+knitr::include_graphics(p1)
 ```
 
 ---
