@@ -82,6 +82,30 @@ knitr::knit_exit()
 - Anbefalte oppgver
 - Datoer for obligatorisk innleveringsoppgave
 - Datoer for obligatorisk eksamen
+- Tema: Intro
+- Bakgrunn
+-- Hva er tema?
+-- Definisjon
+-- Behov
+-- Ressurser
+-- Kjernen i økonomifaget
+-- Alternativkostnad
+-- Sentral spørsmål 1: Valg
+-- Sentral spørsmål 2: Egeninteresse vs. samfunnets beste
+-- Økonomisk tankemåte
+-- Økonomi som vitenskap
+
+- Tema: Overblikk
+-- Intro
+-- Bakgrunn
+-- Etterspørsel
+-- Tilbud
+-- Likevekt
+-- Komparativ statikk
+-- Effekten av en avgift
+-- Produksjonsmulighetskurven 
+
+inst/forelesningsnotater/presentationsF.Rmd
 inst/forelesningsnotater/presentations.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
@@ -95,8 +119,4 @@ inst/forelesningsnotater/drawio/tiakt.png
 inst/forelesningsnotater/drawio/markedfullkommen.png
 # Forelesning 2
 inst/forelesningsnotater/drawio/bilder/prodftall.png
-
-
-
-
 

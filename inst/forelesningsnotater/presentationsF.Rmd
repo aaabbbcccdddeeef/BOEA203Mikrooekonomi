@@ -30,10 +30,10 @@ library(plotly)
 ```
 
 ```{r eval=FALSE, include=FALSE}
-xaringan::inf_mr(paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/presentations.Rmd'))
-system(paste0('brave ',rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/presentations.html'))
+xaringan::inf_mr(paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/presentationsF.Rmd'))
+system(paste0('brave ',rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/presentationsF.html'))
 servr::daemon_stop()
-rmarkdown::render(paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/presentations.Rmd'))
+rmarkdown::render(paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/presentationsF.Rmd'))
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
@@ -393,7 +393,7 @@ La oss se på et eksempel der lavere pris på innsatsfaktorene har ført til et 
 
 ---
 
-### Effekten av en avgift
+## Effekten av en avgift
 
 - En avgift kan ha flere hensikter, men spesielt er to ting viktig:
 	i) Inntekt for staten
