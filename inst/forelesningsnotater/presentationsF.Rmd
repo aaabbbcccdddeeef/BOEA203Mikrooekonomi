@@ -214,7 +214,7 @@ class: inverse, center, middle
   - *Alternativkostnaden er altså verdien av beste alternative anvendelse.*
 
 ```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/alternativ.png")
+knitr::include_graphics("drawio/alternativ.svg")
 ```
 
 ---
@@ -279,7 +279,7 @@ knitr::include_graphics("drawio/alternativ.png")
 ## Appendiks (diagramark benyttet under forelesning)
 
 ```{r, echo=FALSE, out.width="50%", fig.cap=""}
-knitr::include_graphics("drawio/oversikt_hele.png")
+knitr::include_graphics("drawio/oversikt_hele.svg")
 ```
 
 ---
@@ -325,7 +325,7 @@ class: inverse, center, middle
 - Fra et individs etterspørsel til markedsetterspørsel.
 
 ```{r, echo=FALSE, out.width="65%", fig.cap=""}
-p1 <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/ekurve.png')
+p1 <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/ekurve.svg')
 knitr::include_graphics(p1)
 ```
 
