@@ -6,6 +6,15 @@ output:
     css: PAA.css
 ---
 
-# To arbeidskrav:  
+## Arbeidskrav 
 
-For å få gå opp til eksamen i mikroøkonomi må du få godkjent to arbeidskrav.
+For å få gå opp til eksamen i mikroøkonomi må du i forkant ha fått godkjent to arbeidskrav
+
+**Første arbeidskrav**
+Utlevert:
+Innleveringsfrist: 25. september
+
+**Andre arbeidskrav**
+Utlevert:
+Innleveringsfrist: 30. oktober
+

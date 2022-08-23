@@ -30,7 +30,7 @@ system("cp -r inst/forelesningsnotater/* docs/articles")
 ## Specific build
 system("cp inst/forelesningsnotater/presentations.html docs/articles/presentations.html")
 pkgdown::build_home()
-pgdown::build_articles()
+pkgdown::build_articles()
 pkgdown::build_news()
 #pkgdown::build_news()
 ## Fine build

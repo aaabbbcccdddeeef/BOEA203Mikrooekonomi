@@ -38,7 +38,7 @@ del <- c(
 length(del)
 
 tema <- c(
-"Introduksjon til mikroøkonomi. Overbikk over fulllkomen konkurranse, Matterepetisjon", 
+"Introduksjon til mikroøkonomi. Overbikk over fulllkomen konkurranse", 
 "Produksjon", 
 "Inntekts- og kostnadsteori", 
 "Produsentens økonomiske adferd i gode- og arbeidsmarkedet", 
@@ -78,22 +78,19 @@ dag <- c(
 "Tor",  
 "Tor",  
 "Fre"
-)
-length(dag)
-
-literatur <- c(
-"Kap. 1-3", 
-"Kap. 4", 
-"Kap. 5", 
-"Kap. 6", 
-"Kap. 7", 
-"Kap. 8", 
-"Kap. 9", 
-"Kap. 10", 
-"Kap. 11",  
-"Kap. 12, 15.2, 18",  
-"Kap. 13"
-)
+) 
+length(dag) 
+literatur <- c( "Hele kapittel 1. Kapittel 3.1-3.7, 3.9", 
+"Kapittel 4.1-4.7, 4.9", 
+"Kapittel 5.1-5.5, appendiks 5.1, 5.2", 
+"Kapittel 6.1-6.3, 6.5-6.6", 
+"Kapittel 7 (hele, inkulsiv appendiks)", 
+"Kapittel 8.1-8.3, 8.7. Appendiks 8.1, 8.2", 
+"Kapittel 3 og 9", 
+"Kapittel 10 (hele)", 
+"Kapittel 11.3-11.4",  
+"Kap. 12.1-12.3",  
+"Kap. 13.2 (frem til s. 385 'kollektive goder')")
 length(literatur)
 
 undervfor <- c(
@@ -145,4 +142,4 @@ df1
 #44 31                                                                      
 
 #ukenr <- c("34",rep("36",2),rep("39",1),rep("42",1),rep("45",2))
-
+View(df1)
