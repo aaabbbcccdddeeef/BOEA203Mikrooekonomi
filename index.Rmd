@@ -117,6 +117,7 @@ inst/forelesningsnotater/drawio/alternativ.png
 inst/forelesningsnotater/drawio/etakt.png
 inst/forelesningsnotater/drawio/tiakt.png
 inst/forelesningsnotater/drawio/markedfullkommen.png
+
 # Forelesning 2
 inst/forelesningsnotater/drawio/bilder/prodftall.png
 
