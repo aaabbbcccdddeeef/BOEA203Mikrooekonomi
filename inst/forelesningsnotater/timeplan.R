@@ -92,6 +92,18 @@ literatur <- c( "Hele kapittel 1. Kapittel 3.1-3.7, 3.9",
 "Kap. 12.1-12.3",  
 "Kap. 13.2 (frem til s. 385 'kollektive goder')")
 length(literatur)
+oppgaver <- c(
+"1.4-1.8, 1.10,1.11, 3 (alle oppgavene)", 
+"4.2, 4.4-4.8", 
+"5 (alle oppgavene)", 
+"6 (alle oppgavene)", 
+"7 (alle oppgavene)", 
+"8 (alle oppgavene)", 
+"3 (alle oppgavene), 9.1-9.4", 
+"10.1-10.4", 
+"11.3-11.4", 
+"12 (alle oppgavene)", 
+"13.2,13.4-13.5")
 
 undervfor <- c(
 "Zoom", 
@@ -117,6 +129,7 @@ df1 <- data.frame(
 	          Modul=del,
 		  Uke=ukenr2,
 		  Literatur=literatur,
+		  Oppgaver=oppgaver,
 		  Temaer=tema, 
 		  Undervisningsform=undervfor, 
 		  Start=tid,
