@@ -27,11 +27,10 @@ navbar:
     - text: "Timeplan"
       href: "articles/timeplan.html"
     - text: "Arbeidskrav"
-      #href: "articles/anbefalte_oppgaver.html"
+      href: "articles/arbeidskrav.html"
     - text: "Oppgaveseminar"
       #href: "articles/anbefalte_oppgaver.html"
     - text: "Tidligere eksamensoppgaver"
-      href: "articles/arbeidskrav.html"
     - text: "Utskrifter"
       href: "articles/forelesninger.html"
       right:

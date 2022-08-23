@@ -11,10 +11,14 @@ output:
 For å få gå opp til eksamen i mikroøkonomi må du i forkant ha fått godkjent to arbeidskrav
 
 **Første arbeidskrav**
-Utlevert:
+
+Utlevert: xx. september
+<br>
 Innleveringsfrist: 25. september
 
 **Andre arbeidskrav**
-Utlevert:
+
+Utlevert: xx. oktober
+<br>
 Innleveringsfrist: 30. oktober
 
