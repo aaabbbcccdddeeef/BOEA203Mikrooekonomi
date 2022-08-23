@@ -10,7 +10,19 @@ navbar:
   left:
     - icon: fa-home 
       #      href: "index.html"
-    - text: "Forelesningsnotater"
+    - text: "Slides til forelesninger"
+      menu:
+      - text: "Praktisk informasjon"
+ #        href: "articles/presentations.html#1" 
+      - text: "#1: Introduksjon og overblikk"
+ #      - text: "Produsentteori"
+ #        #href: "articles/presentations.html#35" 
+ #      - text: "Konsumentteori"
+ #        #href: "articles/presentations.html#78" 
+ #      - text: "Markedsteori"
+ #        #href: "articles/presentations.html#115" 
+ #      - text: "Andre emner"
+ #        #href: "articles/presentations.html#171" 
       href: "articles/forelesninger.html"
     - text: "Timeplan"
       href: "articles/timeplan.html"
@@ -18,28 +30,11 @@ navbar:
       #href: "articles/anbefalte_oppgaver.html"
     - text: "Andre oppgaver pluss tidligere eksamen"
       #href: "articles/arbeidskrav2022_V.html"
-    - text: "Presentasjoner (alle)"
-<<<<<<< HEAD
-      menu:
-      - text: "Introduksjon"
-        href: "articles/presentations.html#7" 
-=======
-      #href: "articles/presentations.html"
-      #      menu:
-      #- text: "Introduksjon"
-        #href: "articles/presentations.html#7" 
->>>>>>> bacfd0f9634ea14aaa6492a8a678aacaf419458a
-        #      - text: "Produsentteori"
-        #        #href: "articles/presentations.html#35" 
-        #      - text: "Konsumentteori"
-        #        #href: "articles/presentations.html#78" 
-        #      - text: "Markedsteori"
-        #        #href: "articles/presentations.html#115" 
-        #      - text: "Andre emner"
-        #        #href: "articles/presentations.html#171" 
+    - text: "Utskrifter"
+      href: "articles/forelesninger.html"
       right:
     - text: "Log"
-      #      href: "articles/log.html" 
+      href: "articles/log.html" 
     - icon: fa-github fa-lg
       text: "github"
       href: https://github.com/joernih/BOEA203Mikrooekonomi      

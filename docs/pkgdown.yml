@@ -8,11 +8,7 @@ articles:
   forelesninger: forelesninger.html
   log: log.html
   timeplan: timeplan.html
-<<<<<<< HEAD
-last_built: 2022-08-03T13:45Z
-=======
-last_built: 2022-08-10T10:15Z
->>>>>>> bacfd0f9634ea14aaa6492a8a678aacaf419458a
+last_built: 2022-08-23T13:17Z
 urls:
   reference: https://pkgdown.r-lib.org/reference
   article: https://pkgdown.r-lib.org/articles
