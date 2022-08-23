@@ -78,6 +78,13 @@ Jørn I. Halvorsen
 knitr::knit_exit()
 ```
 
+# Tasks
+Anbefalte oppgaver
+Eksamensdatoer
+Kapittel 1
+Kapittel 2
+Kapittel 3
+
 # Oppgaveliste
 - Anbefalte oppgver
 - Datoer for obligatorisk innleveringsoppgave

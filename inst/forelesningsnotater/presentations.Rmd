@@ -213,8 +213,8 @@ class: inverse, center, middle
 - Dette tapet er alternativkostnaden.
   - *Alternativkostnaden er altså verdien av beste alternative anvendelse.*
 
-```{r, echo=FALSE, out.width="65%", fig.cap=""}
-knitr::include_graphics("drawio/alternativ.png")
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+knitr::include_graphics("drawio/alternativ.svg")
 ```
 
 ---
@@ -278,8 +278,8 @@ knitr::include_graphics("drawio/alternativ.png")
 
 ## Appendiks (diagramark benyttet under forelesning)
 
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/oversikt_hele.png")
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+knitr::include_graphics("drawio/oversikt_hele.svg")
 ```
 
 ---
@@ -325,7 +325,8 @@ class: inverse, center, middle
 - Fra et individs etterspørsel til markedsetterspørsel.
 
 ```{r, echo=FALSE, out.width="65%", fig.cap=""}
-knitr::include_graphics("drawio/etakt.png")
+p1 <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/ekurve.png')
+knitr::include_graphics(p1)
 ```
 
 ---
@@ -341,12 +342,12 @@ knitr::include_graphics("drawio/etakt.png")
 - Fra en bedrifts tilbud til markedstilbud.
 
 ```{r, echo=FALSE, out.width="65%", fig.cap=""}
-knitr::include_graphics("drawio/tiakt.png")
+knitr::include_graphics("drawio/tkurve.png")
 ```
 
 ---
 
-## Markedslikevekt
+## Markedslikevekt 
 
 - Utgangspunkt: markedets E-kurve og T-kurve.
 - Likevekt: dersom ingen aktører ønsker å endre den eksisterende økonomiske tilpasning.
@@ -356,7 +357,10 @@ knitr::include_graphics("drawio/tiakt.png")
 	- Overskuddstilbud: $X^S > X^D$
 - Anta at prisen er over likevektsprisen (minpris).
 - Ingenting i modellen som tilsier stabilitet. Men utenfor modellen kan vi resonnere omkring markedskrefter, slik de er beskrevet av Adam Smith.
-- Matematisk eksempel. På tavla.
+
+```{r, echo=FALSE, out.width="65%", fig.cap=""}
+knitr::include_graphics("drawio/telikevekt.png")
+```
 
 ---
 
@@ -372,6 +376,10 @@ La oss se på noen av disse forholdene.
 	- gitt teknologi for bedriften,
 	- gitte priser på innsatsfaktorene.
 
+
+```{r, echo=FALSE, out.width="65%", fig.cap=""}
+knitr::include_graphics("drawio/telikevekt_kt.png")
+```
 ---
 
 ### Etterspørselskurven
@@ -381,6 +389,10 @@ La oss se på noen av disse forholdene.
 	- gitt samlet inntekt for konsumenten,
 	- gitt inntektsfordeling,
 	- gitte priser på andre goder.
+
+```{r, echo=FALSE, out.width="65%", fig.cap=""}
+knitr::include_graphics("drawio/telikevekt_ke.png")
+```
 
 ---
 
@@ -393,12 +405,16 @@ La oss se på et eksempel der lavere pris på innsatsfaktorene har ført til et 
 
 ---
 
-### Effekten av en avgift
+## Effekten av en avgift
 
 - En avgift kan ha flere hensikter, men spesielt er to ting viktig:
 	i) Inntekt for staten
 	ii) Endrer markedsresultatet. Aktuelt ved behov for korrigering av nåværende situasjon (tilpasning).
 - Avgiften kan pålegges kjøperne og selgerne.
+
+```{r, echo=FALSE, out.width="65%", fig.cap=""}
+knitr::include_graphics("drawio/telikevekt_avg.png")
+```
 
 ---
 
@@ -427,14 +443,15 @@ Produsenten ”sender” nå avgiften til staten, men begge bærer byrden!!
 
 ## Appendiks (diagramark benyttet under forelesning)
 
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
+```{r, echo=FALSE, out.width="55%", fig.cap=""}
 knitr::include_graphics("drawio/markedfullkommen.png")
 ```
 
-```{r, eval=F}
+```{r, eval=T}
 knitr::knit_exit()
 ```
 
+---
 class: inverse, center, middle
 
 # Kapittel 4: `r paste(substring(del[2],4),tema[2])`
@@ -2570,17 +2587,4 @@ knitr::knit_exit()
 system('drawio drawio/spillteori.drawio')
 system('drawio drawio/andre_emner.drawio')
 ```
-
-# Tasks
-
-Anbefalte oppgaver
-Eksamensdatoer
-Kapittel 1
-Kapittel 2
-Kapittel 3
-
-
-
-
-
 
