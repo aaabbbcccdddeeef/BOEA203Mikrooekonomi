@@ -30,7 +30,7 @@ system("cp -r inst/forelesningsnotater/* docs/articles")
 ## Specific build
 system("cp inst/forelesningsnotater/presentations.html docs/articles/presentations.html")
 pkgdown::build_home()
-pkgdown::build_articles()
+pgdown::build_articles()
 pkgdown::build_news()
 #pkgdown::build_news()
 ## Fine build
@@ -77,14 +77,12 @@ Jørn I. Halvorsen
 # Git relaterte
 knitr::knit_exit()
 ```
-
 # Tasks
 Anbefalte oppgaver
 Eksamensdatoer
 Kapittel 1
 Kapittel 2
 Kapittel 3
-
 # Oppgaveliste
 - Anbefalte oppgver
 - Datoer for obligatorisk innleveringsoppgave
@@ -101,7 +99,6 @@ Kapittel 3
 -- Sentral spørsmål 2: Egeninteresse vs. samfunnets beste
 -- Økonomisk tankemåte
 -- Økonomi som vitenskap
-
 - Tema: Overblikk
 -- Intro
 -- Bakgrunn
@@ -111,20 +108,16 @@ Kapittel 3
 -- Komparativ statikk
 -- Effekten av en avgift
 -- Produksjonsmulighetskurven 
-
-inst/forelesningsnotater/presentationsF.Rmd
 inst/forelesningsnotater/presentations.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
 https://github.com/joernih/BOEA203Mikrooekonomi.git
-
 # Forelesning 1
 inst/forelesningsnotater/drawio/oversikt_hele.png
 inst/forelesningsnotater/drawio/alternativ.png
 inst/forelesningsnotater/drawio/etakt.png
 inst/forelesningsnotater/drawio/tiakt.png
 inst/forelesningsnotater/drawio/markedfullkommen.png
-
 # Forelesning 2
 inst/forelesningsnotater/drawio/bilder/prodftall.png
 

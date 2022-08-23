@@ -26,10 +26,12 @@ navbar:
       href: "articles/forelesninger.html"
     - text: "Timeplan"
       href: "articles/timeplan.html"
+    - text: "Arbeidskrav"
+      #href: "articles/anbefalte_oppgaver.html"
     - text: "Oppgaveseminar"
       #href: "articles/anbefalte_oppgaver.html"
     - text: "Tidligere eksamensoppgaver"
-      #href: "articles/arbeidskrav2022_V.html"
+      href: "articles/arbeidskrav.html"
     - text: "Utskrifter"
       href: "articles/forelesninger.html"
       right:

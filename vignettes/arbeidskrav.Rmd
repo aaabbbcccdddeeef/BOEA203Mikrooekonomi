@@ -1,0 +1,11 @@
+---
+title: ""
+output:
+  html_document:
+  #html_notebook:
+    css: PAA.css
+---
+
+# To arbeidskrav:  
+
+For å få gå opp til eksamen i mikroøkonomi må du få godkjent to arbeidskrav.
