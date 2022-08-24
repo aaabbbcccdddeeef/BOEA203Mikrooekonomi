@@ -1,6 +1,8 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+<br> <br> <br> <br> <br>
+
 # Mikroøkonomi med anvendelser (høsten 2022)
 
 ![](man/figures/abc.jpg)
@@ -39,4 +41,4 @@ Undervisningsansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-08-24 15:33:08**
+**Siste gang oppdatert: 2022-08-24 15:38:34**
