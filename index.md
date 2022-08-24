@@ -13,8 +13,7 @@ blir gjennomført på
 [Zoom](https://hvl.zoom.us/j/61050250520?pwd=WUtvRjRobkw0cmdsYWRWOHZIbnZ6UT09).
 
 -   Introduksjon til mikroøkonomi (notatene er nå publisert)
--   Overblikk over fulllkomen konkurranse (blir publisert i løpet av
-    dagen)
+-   Overblikk over fulllkomen konkurranse (notatene er nå publisert)
 
 ### Studietips
 
@@ -33,8 +32,8 @@ Thøgersen)](https://www.cappelendammundervisning.no/_innforing-i-mikrookonomi-9
 Thøgersen)](https://www.cappelendammundervisning.no/_innforing-i-mikrookonomi-ovingsoppgaver-med-losningsforslag-9788202656485)
 <br>
 
-Undervisnings- og emneansvarlig (jornih at hvl.no)
+Undervisningsansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-08-24 15:09:26**
+**Siste gang oppdatert: 2022-08-24 15:21:45**
