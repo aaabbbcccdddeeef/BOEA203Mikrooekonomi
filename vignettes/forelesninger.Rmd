@@ -7,13 +7,12 @@ output: github_document
 source('../inst/forelesningsnotater/timeplan.R')
 ```
 
-Forelesning #1: [`r tema[1]`]()
+Forelesning #1: [`r tema[1]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/1-3_introduksjon.pdf)
 
 ```{r echo=F}
 knitr::knit_exit()
 ```
 
-Forelesning #1: [`r tema[1]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/1-3_introduksjon.pdf)
 
 
 ## Produsentteori: Produsentens økonomiske adferd

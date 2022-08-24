@@ -30,10 +30,10 @@ navbar:
     - text: "Arbeidskrav"
       href: "articles/arbeidskrav.html"
     - text: "Oppgaveseminar"
-      #href: "articles/anbefalte_oppgaver.html"
-    - text: "Tidligere eksamensoppgaver"
+      href: "articles/oppgaveseminar.html"
+        #    - text: "Tidligere eksamensoppgaver"
     - text: "Utskrifter"
-      #href: "articles/forelesninger.html"
+      href: "articles/forelesninger.html"
       right:
     - text: "Log"
       href: "articles/log.html" 

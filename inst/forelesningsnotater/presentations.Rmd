@@ -277,7 +277,7 @@ knitr::include_graphics("drawio/alternativ.svg")
 knitr::include_graphics("drawio/oversikt_hele.svg")
 ```
 
-```{r, echo=F,eval=T}
+```{r, echo=F,eval=F}
 knitr::knit_exit()
 ```
 
@@ -307,22 +307,25 @@ class: inverse, center, middle
 ## Bakgrunn
 
 - Store deler av kurset vil handle om teorien bak denne modellen. MERK at oppbyggingen gir oss flere selvstendige modeller som er nyttige for økonomiske analyser.
-- Modellen går langt tilbake. Adam Smith (1776) $\rightarrow$ Nyklassikerne og John Stuart Mill $\rightarrow$ Alfred Marshall $\rightarrow$ Paul Samuelson mfl.
+- Modellen går langt tilbake: 
+  - Adam Smith (1776) $\rightarrow$ 
+  - Nyklassikerne og John Stuart Mill $\rightarrow$ 
+  - Alfred Marshall $\rightarrow$ 
+  -  Paul Samuelson mfl.
 - Vi skal komme tilbake til forutsetningene bak denne modellen i kapittel 9.
-- Men merk spesielt: Aktørene er pristakere og har ingen innflytelse på pris som enkeltaktør, men summen av aktørenes adferd bestemmer markedsprisen.
+- Men merk spesielt: Aktørene er *pristakere* og har ingen innflytelse på pris som enkeltaktør, men *summen* av aktørenes adferd bestemmer markedsprisen.
 
 ---
 
 ## Markedsetterspørsel
 
 - Etterspørsel etter varer og tjenester. Ofte kalles varer + tjenester for goder.
-- Hva bestemmer etterspørselen? Priser, inntekt med mer. Matematisk på tavla.
+- Hva bestemmer etterspørselen? Priser, inntekt med mer. 
 - Etterspørselsloven:
-- Økt pris $\rightarrow$ lavere etterspørsel, alt annet konstant (cet.par.). Kurve.
-- Flere forhold holdes her konstante. Vi ser kun på endringer i prisen på varen. En endring i denne vil flytte oss langs kurven.
-- En endring i konstantene vil føre til skift i kurven.
+  - Økt pris $\rightarrow$ lavere etterspørsel, alt annet konstant (cet.par.). 
+  - Flere forhold holdes her konstante. Vi ser kun på endringer i prisen på varen. En endring i denne vil flytte oss langs kurven.
+  - En endring i konstantene vil føre til skift i kurven.
 - Fra et individs etterspørsel til markedsetterspørsel.
-
 ```{r, echo=FALSE, out.width="65%", fig.cap=""}
 p1 <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/ekurve.png')
 knitr::include_graphics(p1)
@@ -335,13 +338,13 @@ knitr::include_graphics(p1)
 - Tilbud av varer og tjenester. Tilbudet utgjøres av bedriftene eller produsentene. Tilbudet er altså produksjonen.
 - Hva bestemmer tilbudet? Pris på ferdigvare og innsatsfaktorer. Matematisk på tavla.
 - Tilbudsloven:
-- Økt pris $\rightarrow$ økt tilbud, cet.par. Kurve.
-- Endringer i prisen på varen fører til bevegelse langs kurven.
-- En endring i konstantene fører til skift i kurven.
+  - Økt pris $\rightarrow$ økt tilbud, cet.par. Kurve.
+  - Endringer i prisen på varen fører til bevegelse langs kurven.
+  - En endring i konstantene fører til skift i kurven.
 - Fra en bedrifts tilbud til markedstilbud.
-
 ```{r, echo=FALSE, out.width="65%", fig.cap=""}
-knitr::include_graphics("drawio/tkurve.png")
+p1 <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/tkurve.png')
+knitr::include_graphics(p1)
 ```
 
 ---
@@ -357,7 +360,7 @@ knitr::include_graphics("drawio/tkurve.png")
 - Anta at prisen er over likevektsprisen (minpris).
 - Ingenting i modellen som tilsier stabilitet. Men utenfor modellen kan vi resonnere omkring markedskrefter, slik de er beskrevet av Adam Smith.
 
-```{r, echo=FALSE, out.width="65%", fig.cap=""}
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
 knitr::include_graphics("drawio/telikevekt.png")
 ```
 
@@ -368,20 +371,12 @@ knitr::include_graphics("drawio/telikevekt.png")
 - Vi vet at tilbuds- og etterspørselskurvene er konstruert under en antagelse om at flere forhold antas konstante. Dersom det skjer endringer i noen av disse forholdene, vil kurvene forskyves i diagrammet.
 La oss se på noen av disse forholdene.
 
----
-
-### Tilbudskurven
+**Tilbudskurven**
 - Ble tegnet for:
 	- gitt teknologi for bedriften,
 	- gitte priser på innsatsfaktorene.
 
-
-```{r, echo=FALSE, out.width="65%", fig.cap=""}
-knitr::include_graphics("drawio/telikevekt_kt.png")
-```
----
-
-### Etterspørselskurven
+**Etterspørselskurven**
 
 - Ble tegnet for:
 	- en gitt behovsstruktur for konsumenten,
@@ -389,19 +384,16 @@ knitr::include_graphics("drawio/telikevekt_kt.png")
 	- gitt inntektsfordeling,
 	- gitte priser på andre goder.
 
-```{r, echo=FALSE, out.width="65%", fig.cap=""}
-knitr::include_graphics("drawio/telikevekt_ke.png")
-```
-
 ---
 
 ### Helningens betydning
 
 - Helningen på tilbuds- og etterspørselskurven påvirker hvordan endringer i markedet påvirker pris og mengde.
 La oss se på et eksempel der lavere pris på innsatsfaktorene har ført til et positivt skift i tilbudskurven.
-	- Ved bratt etterspørselskurve
-	- Ved slak etterspørselskurve
 
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+knitr::include_graphics("drawio/telikevekt_ke.png")
+```
 ---
 
 ## Effekten av en avgift
@@ -411,13 +403,8 @@ La oss se på et eksempel der lavere pris på innsatsfaktorene har ført til et 
 	ii) Endrer markedsresultatet. Aktuelt ved behov for korrigering av nåværende situasjon (tilpasning).
 - Avgiften kan pålegges kjøperne og selgerne.
 
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/telikevekt_avg.png")
-```
-
 ---
 
-Forts. Effekten av en avgift
 Anta nå at avgiften $\tau$ blir pålagt selgerne
 - Dersom avgiften pålegges produsentene, vil
 kostnadene til bedriften stige. Dette skifter isolert sett
@@ -429,12 +416,26 @@ Resultater:
 - Produsenten mottar: $P^P$
 Produsenten ”sender” nå avgiften til staten, men begge bærer byrden!!
 
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+knitr::include_graphics("drawio/telikevekt_avg.png")
+```
+
 ---
 
-## Maksimal- og minstepris
+## Maksimal- og minsteprisen
 
-```{r, echo=FALSE, out.width="55%", fig.cap=""}
-knitr::include_graphics("drawio/telikevekt_maxmin.png")
+- Maksimalpris har vi dersom markedsprisen blir overtyrt ved at myndighetene setter et makspris som er *lavere* enn markedsprisen.
+
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+knitr::include_graphics("drawio/telikevekt_max.png")
+```
+
+---
+
+- Minstrepris har vi dersom markedsprisen blir overtyrt ved at myndighetene setter et minstepris som er *høyere* enn markedsprisen.
+
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+knitr::include_graphics("drawio/telikevekt_min.png")
 ```
 
 ---
@@ -446,9 +447,13 @@ knitr::include_graphics("drawio/telikevekt_maxmin.png")
 - Kurven bygger på en antagelse om at alternativkostnadene øker ved stadige overføringer av ressurser mellom sektorer.
 - Forutsetninger: to produkter, gitt mengde produksjonsfaktorer (kort sikt) og produksjonsteknologien er konstant.
 
+```{r, echo=FALSE, out.width="60%", fig.cap=""}
+knitr::include_graphics("drawio/pmk.png")
+```
+
 ---
 
-## Appendiks (diagramark benyttet under forelesning)
+## Appendiks (figurer benyttet under forelesning)
 
 ```{r, echo=FALSE, out.width="55%", fig.cap=""}
 knitr::include_graphics("drawio/markedfullkommen.png")

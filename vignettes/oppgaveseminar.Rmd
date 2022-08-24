@@ -11,3 +11,7 @@ output: github_document
 #knitr::kable(df2)
 ```
 
+Akbar Osman er ansvarlig for kursets oppgaveseminar.
+
+Mer info følger snart ...
+
