@@ -33,7 +33,7 @@ navbar:
       #href: "articles/anbefalte_oppgaver.html"
     - text: "Tidligere eksamensoppgaver"
     - text: "Utskrifter"
-      href: "articles/forelesninger.html"
+      #href: "articles/forelesninger.html"
       right:
     - text: "Log"
       href: "articles/log.html" 
