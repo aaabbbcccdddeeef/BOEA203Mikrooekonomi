@@ -40,7 +40,7 @@ rmarkdown::render(paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesnings
 source(paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/timeplan.R'))
 ```
 
-# Timeplan
+# Timeplan med anbefalte oppgaver
 
 
 ```{r, eval=T, echo=F}
@@ -88,9 +88,6 @@ knitr::include_graphics("oppgaver.jpg")
 
 ]
 
----
-
-# Anbefalte oppgaver
 
 ```{r, eval=T, echo=F}
 #knitr::kable(df2)
@@ -282,6 +279,10 @@ knitr::include_graphics("drawio/alternativ.svg")
 knitr::include_graphics("drawio/oversikt_hele.svg")
 ```
 
+```{r, echo=F,eval=F}
+knitr::knit_exit()
+```
+
 ---
 
 class: inverse, center, middle
@@ -412,7 +413,7 @@ La oss se på et eksempel der lavere pris på innsatsfaktorene har ført til et 
 	ii) Endrer markedsresultatet. Aktuelt ved behov for korrigering av nåværende situasjon (tilpasning).
 - Avgiften kan pålegges kjøperne og selgerne.
 
-```{r, echo=FALSE, out.width="65%", fig.cap=""}
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
 knitr::include_graphics("drawio/telikevekt_avg.png")
 ```
 
@@ -429,6 +430,14 @@ Resultater:
 - Konsumenten betaler: $P^K$
 - Produsenten mottar: $P^P$
 Produsenten ”sender” nå avgiften til staten, men begge bærer byrden!!
+
+---
+
+## Maksimal- og minstepris
+
+```{r, echo=FALSE, out.width="55%", fig.cap=""}
+knitr::include_graphics("drawio/telikevekt_maxmin.png")
+```
 
 ---
 

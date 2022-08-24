@@ -7,7 +7,7 @@ output: github_document
 source('../inst/forelesningsnotater/timeplan.R')
 ```
 
-## Introduksjon
+Forelesning #1: [`r tema[1]`]()
 
 ```{r echo=F}
 knitr::knit_exit()
