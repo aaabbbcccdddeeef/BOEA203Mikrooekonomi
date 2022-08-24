@@ -16,6 +16,10 @@ blir gjennomført på
 -   Overblikk over fulllkomen konkurranse (blir publisert i løpet av
     dagen)
 
+### Studietips
+
+[Generelle studietips\_ System framfor mål.pdf]()
+
 ### Pensum
 
 <img src="man/figures/pensum.jpg" style="width:20.0%" /> <br> [Pensumbok
@@ -33,4 +37,4 @@ Undervisnings- og emneansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-08-24 13:33:06**
+**Siste gang oppdatert: 2022-08-24 15:09:26**

@@ -14,8 +14,10 @@ navbar:
       menu:
       - text: "Praktisk informasjon"
         href: "articles/presentations.html#1" 
-      - text: "#1: Introduksjon og overblikk"
+      - text: "#1a): Introduksjon"
         href: "articles/presentations.html#6" 
+      - text: "#1b): Overblikk over fullkommen konkurranse"
+        href: "articles/presentations.html#20" 
  #      - text: "Produsentteori"
  #        #href: "articles/presentations.html#35" 
  #      - text: "Konsumentteori"
