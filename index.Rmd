@@ -53,7 +53,7 @@ git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 
 ![](man/figures/abc.jpg)
 
-Mer info vil bli publisert etter sommerferien. Inntil videre, ha en riktig god sommer!
+Første forelesning (Introduksjon til mikroøkonomi. Overbikk over fulllkomen konkurranse) er fredag 26.08.2020 og blir gjennomført på Zoom
 
 ### Pensum
 
