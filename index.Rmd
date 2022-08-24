@@ -65,8 +65,7 @@ Første forelesning (Introduksjon til mikroøkonomi, Overblikk over fulllkomen k
 
 [Generelle studietips_ System framfor mål.pdf]()
 
-
-### Pensum
+### Pensum og emneplan
 
 ![](man/figures/pensum.jpg){width=20%}
 <br>
@@ -78,6 +77,8 @@ Første forelesning (Introduksjon til mikroøkonomi, Overblikk over fulllkomen k
 [Oppgavebok (Andreassen, Bredesen og Thøgersen)](https://www.cappelendammundervisning.no/_innforing-i-mikrookonomi-ovingsoppgaver-med-losningsforslag-9788202656485)
 <br>
 
+[Emneplan for kurset](https://www.hvl.no/studier/studieprogram/emne/41/b%C3%B8a203)
+
 Undervisningsansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
@@ -88,6 +89,7 @@ Jørn I. Halvorsen
 # Git relaterte
 knitr::knit_exit()
 ```
+
 # Tasks
 Anbefalte oppgaver
 Eksamensdatoer
