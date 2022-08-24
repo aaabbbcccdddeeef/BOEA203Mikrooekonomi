@@ -5,8 +5,16 @@
 
 ![](man/figures/abc.jpg)
 
-Mer info vil bli publisert etter sommerferien. Inntil videre, ha en
-riktig god sommer!
+## Nyheter
+
+Første forelesning (Introduksjon til mikroøkonomi, Overblikk over
+fulllkomen konkurranse) er **fredag 26.08.2020 (starter kl. 09:15)** og
+blir gjennomført på
+[Zoom](https://hvl.zoom.us/j/61050250520?pwd=WUtvRjRobkw0cmdsYWRWOHZIbnZ6UT09).
+
+-   Introduksjon til mikroøkonomi (notatene er nå publisert)
+-   Overblikk over fulllkomen konkurranse (blir publisert i løpet av
+    dagen)
 
 ### Pensum
 
@@ -25,4 +33,4 @@ Undervisnings- og emneansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-08-10 12:09:05**
+**Siste gang oppdatert: 2022-08-24 12:58:14**
