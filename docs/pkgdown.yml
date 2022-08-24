@@ -1,0 +1,14 @@
+pandoc: '2.18'
+pkgdown: 2.0.6
+pkgdown_sha: ~
+articles:
+  arbeidskrav: arbeidskrav.html
+  forelesninger: forelesninger.html
+  log: log.html
+  oppgaveseminar: oppgaveseminar.html
+  timeplan: timeplan.html
+last_built: 2022-08-24T14:00Z
+urls:
+  reference: https://pkgdown.r-lib.org/reference
+  article: https://pkgdown.r-lib.org/articles
+
