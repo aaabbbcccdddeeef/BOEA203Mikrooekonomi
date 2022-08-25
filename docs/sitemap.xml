@@ -4,7 +4,25 @@
     <loc>https://pkgdown.r-lib.org/404.html</loc>
   </url>
   <url>
+    <loc>https://pkgdown.r-lib.org/articles/2021/forelesning_2.html</loc>
+  </url>
+  <url>
+    <loc>https://pkgdown.r-lib.org/articles/2021/forelesning_3.html</loc>
+  </url>
+  <url>
+    <loc>https://pkgdown.r-lib.org/articles/2021/forelesning_4.html</loc>
+  </url>
+  <url>
+    <loc>https://pkgdown.r-lib.org/articles/2021/forelesning_5.html</loc>
+  </url>
+  <url>
+    <loc>https://pkgdown.r-lib.org/articles/2021/timeplan_mikro/timeplan_HiØ_Mikro_2021V.html</loc>
+  </url>
+  <url>
     <loc>https://pkgdown.r-lib.org/articles/arbeidskrav.html</loc>
+  </url>
+  <url>
+    <loc>https://pkgdown.r-lib.org/articles/dagens.html</loc>
   </url>
   <url>
     <loc>https://pkgdown.r-lib.org/articles/forelesninger.html</loc>
@@ -16,7 +34,16 @@
     <loc>https://pkgdown.r-lib.org/articles/log.html</loc>
   </url>
   <url>
+    <loc>https://pkgdown.r-lib.org/articles/mathjax-equation-numbers.html</loc>
+  </url>
+  <url>
     <loc>https://pkgdown.r-lib.org/articles/oppgaveseminar.html</loc>
+  </url>
+  <url>
+    <loc>https://pkgdown.r-lib.org/articles/presentations.html</loc>
+  </url>
+  <url>
+    <loc>https://pkgdown.r-lib.org/articles/tavlefil.html</loc>
   </url>
   <url>
     <loc>https://pkgdown.r-lib.org/articles/timeplan.html</loc>
