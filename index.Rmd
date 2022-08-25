@@ -95,6 +95,8 @@ Jørn I. Halvorsen
 # Git relaterte
 knitr::knit_exit()
 ```
+Lenker:
+https://www.nrk.no/rogaland/stromkrisen_-bonder-ma-destruere-avlinger-1.16077698
 
 inst/forelesningsnotater/presentations.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/

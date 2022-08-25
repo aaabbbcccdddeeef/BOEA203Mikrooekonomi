@@ -308,10 +308,10 @@ class: inverse, center, middle
 
 - Store deler av kurset vil handle om teorien bak denne modellen. MERK at oppbyggingen gir oss flere selvstendige modeller som er nyttige for økonomiske analyser.
 - Modellen går langt tilbake: 
-  - Adam Smith (1776) $\rightarrow$ 
-  - Nyklassikerne og John Stuart Mill $\rightarrow$ 
-  - Alfred Marshall $\rightarrow$ 
-  -  Paul Samuelson mfl.
+  - Adam Smith (1723-1790) $\rightarrow$ 
+  - Nyklassikerne og John Stuart Mill (1806-1873) $\rightarrow$ 
+  - Alfred Marshall (1842-1924) $\rightarrow$ 
+  -  Paul Samuelson (1915-2009) mfl.
 - Vi skal komme tilbake til forutsetningene bak denne modellen i kapittel 9.
 - Men merk spesielt: Aktørene er *pristakere* og har ingen innflytelse på pris som enkeltaktør, men *summen* av aktørenes adferd bestemmer markedsprisen.
 
@@ -2600,3 +2600,4 @@ system('drawio drawio/spillteori.drawio')
 system('drawio drawio/andre_emner.drawio')
 ```
 
+https://www.nrk.no/rogaland/stromkrisen_-bonder-ma-destruere-avlinger-1.16077698
