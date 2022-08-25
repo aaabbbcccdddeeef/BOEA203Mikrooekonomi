@@ -136,90 +136,19 @@ inst/forelesningsnotater/presentations.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
 https://github.com/joernih/BOEA203Mikrooekonomi.git
+
 # Forelesning 1
 inst/forelesningsnotater/drawio/oversikt_hele.png
 inst/forelesningsnotater/drawio/alternativ.png
 inst/forelesningsnotater/drawio/etakt.png
 inst/forelesningsnotater/drawio/tiakt.png
 inst/forelesningsnotater/drawio/markedfullkommen.png
+
 # Forelesning 2
 inst/forelesningsnotater/drawio/bilder/prodftall.png
 
-Velkommen til alle kursdeltagere i BØA203  Mikroøkonomi 1
-
-Vi starter opp kurset på fredag med Zoom-forelesning 26.08 (start kl. 09:15).
-
-Tema
-
-Introduksjon til mikroøkonomi (notatene er nå publisert)
-Overblikk over fulllkomen konkurranse (notatene er nå publisert)
-
-De resterende forelesninger kommer i fire bolker på torsdager og fredager (jmf. timeplanen), og skjer i form av fysiske forelesnigner på Campus-Haugesund.
-
-Mellom forelesningene blir det oppgaveseminarer ledet av Akbar Osman. 
-
-Mer praktisk om disse tingene vil komme på fredag.
-
-Før den tid kan dere gjøre dere kjent med hjemmesiden for kurset (nylig oppdatert), som speiles i Canvas men kan nås direkte ved å trykke seg inn på
-
-https://joernih.github.io/BOEA203Mikrooekonomi/
-
-Da sees vi snart!
-
-Jørn I. Halvorsen (undervisningsansvarlig BØA203 Mikroøkonomi 1)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Velkommen til alle kursdeltagere i BØA203  Mikroøkonomi 1
-
-Vi starter opp kurset på fredag med Zoom-forelesning 26.08 (start kl. 09:15).
-
-Tema
-
-Introduksjon til mikroøkonomi (notatene er nå publisert)
-Overblikk over fulllkomen konkurranse (notatene er nå publisert)
-
-De resterende forelesninger kommer i fire bolker på torsdager og fredager (jmf. timeplanen), og skjer i form av fysiske forelesninger på Campus-Haugesund.
-
-Mellom forelesningene blir det oppgaveseminarer ledet av Akbar Osman. 
-
-Mer praktisk om disse tingene vil komme på fredag.
-
-Før den tid kan dere gjøre dere kjent med hjemmesiden for kurset (nylig oppdatert), som speiles i Canvas, men kan nås direkte ved å trykke seg inn på
-
-https://joernih.github.io/BOEA203Mikrooekonomi/
-
-Sees!
-
-Jørn I. Halvorsen (undervisningsansvarlig BØA203 Mikroøkonomi 1)
+2 Arbeidskrav
+4 
+2

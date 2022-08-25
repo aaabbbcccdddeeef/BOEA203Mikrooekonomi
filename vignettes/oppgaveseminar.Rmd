@@ -13,5 +13,12 @@ output: github_document
 
 Akbar Osman er ansvarlig for kursets oppgaveseminar.
 
-Mer info følger snart ...
+Her vil få hjelp til både de anbefalte oppgavene (jmf. timeplanen) samt de to obligatoriske arbeidskravene.
+
+Seminarene vil finne sted (de gjøres ikke opptak) i de ukene hvor det ikke er tradisjonell undervisning.
+
+Timeplanen er under utarbeidelse, og vil bli publisert før førstkommende mandag.
+
+
+
 
