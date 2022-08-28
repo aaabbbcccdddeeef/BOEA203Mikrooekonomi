@@ -12,7 +12,7 @@
 Første forelesning (Introduksjon til mikroøkonomi, Overblikk over
 fulllkomen konkurranse) er **fredag 26.08.2020 (starter kl. 09:15)** og
 blir gjennomført på
-[Zoom](https://hvl.zoom.us/j/61050250520?pwd=WUtvRjRobkw0cmdsYWRWOHZIbnZ6UT09).
+[Zoom](https://hvl.zoom.us/j/62275559537?pwd=aGM4aE9udC9oMjZucXNWcGtNOS84Zz09).
 
 -   Introduksjon til mikroøkonomi (notatene er nå publisert)
 -   Overblikk over fulllkomen konkurranse (notatene er nå publisert)
@@ -41,4 +41,8 @@ Undervisningsansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
+<<<<<<< HEAD
 **Siste gang oppdatert: 2022-08-28 20:00:13**
+=======
+**Siste gang oppdatert: 2022-08-26 08:55:59**
+>>>>>>> 8360339a62348db68bc4da1b5d2af12e2bf46a89

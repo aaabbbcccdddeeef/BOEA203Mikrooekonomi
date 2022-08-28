@@ -62,7 +62,7 @@ git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 
 ## Nyheter
 
-Første forelesning (Introduksjon til mikroøkonomi, Overblikk over fulllkomen konkurranse) er **fredag 26.08.2020 (starter kl. 09:15)** og blir gjennomført på [Zoom](https://hvl.zoom.us/j/61050250520?pwd=WUtvRjRobkw0cmdsYWRWOHZIbnZ6UT09).
+Første forelesning (Introduksjon til mikroøkonomi, Overblikk over fulllkomen konkurranse) er **fredag 26.08.2020 (starter kl. 09:15)** og blir gjennomført på [Zoom](https://hvl.zoom.us/j/62275559537?pwd=aGM4aE9udC9oMjZucXNWcGtNOS84Zz09).
 
   - Introduksjon til mikroøkonomi (notatene er nå publisert)
   - Overblikk over fulllkomen konkurranse (notatene er nå publisert)
