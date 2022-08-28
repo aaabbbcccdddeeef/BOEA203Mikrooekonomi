@@ -11,14 +11,22 @@ output: github_document
 #knitr::kable(df2)
 ```
 
-Akbar Osman er ansvarlig for kursets oppgaveseminar.
+**Akbar Osman (akbar.osman at hvl.no)** er ansvarlig for kursets oppgaveseminar.
 
-Her vil få hjelp til både de anbefalte oppgavene (jmf. timeplanen) samt de to obligatoriske arbeidskravene.
+Her vil få hjelp til både de anbefalte oppgavene samt de to obligatoriske arbeidskravene.
 
-Seminarene vil finne sted (de gjøres ikke opptak) i de ukene hvor det ikke er tradisjonell undervisning.
-
-Timeplanen er under utarbeidelse, og vil bli publisert før førstkommende mandag.
+Seminarene vil finne sted (merk:det gjøres ikke opptak) i de ukene hvor det ikke er tradisjonell undervisning.
 
 
+```{r, echo=F, warning=F, message=F}
+library(kableExtra)
+library(dplyr)
+forel <- 1
+source(paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/timeplan.R'))
+timeplan <- df2
+c_names <- c("Fra forelesningsmodul","Oppgaver")
+c_names=c("Uke nr","Dag","Tidspunkt","Del","Fra oppgavebok")
+kableExtra::kbl(timeplan, col.names=c_names) %>% kableExtra::kable_paper(full_width = F) %>% kableExtra::row_spec(forel, bold = T)
+```
 
 

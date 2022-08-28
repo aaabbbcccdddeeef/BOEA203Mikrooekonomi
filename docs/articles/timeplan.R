@@ -136,6 +136,26 @@ df1 <- data.frame(
          	  Timer=ant
 )
 df1
+###########################################################################################################3
+oppgaver <- c(
+	  "1.1,1.2,1.4,1.5,1.7.1.8",
+	  "2.1,2.2,2.3,2.6",
+	  "2.7,2.8,2.9,2.10",
+	  "3.1,3.2,3.3,3.5,3.6",
+	  "3.3,3.4,3.7,3.8,3.9",
+	  "5.1,5.2,5.3,5.8,5.9",
+	  "6.1,6.6,6.7,6.8",
+	  "7.1,7.2,7.8,7.8,7.9",
+	  "8.1,8.3,8.4,8.5,8.7,8.8,8.10",
+	  "11.1,**11.2**,11.5,11.7,11.8,11.9",
+	  "12.1,12.2,**12.3**,12.5, **12.6**,12.7,**12.8**,12.9"
+)
+df2 <- data.frame(Del_av_Pensum=del,Oppgaver_bok=oppgaver)
+#Hei, 
+#
+#Har snakket med Knut Steffen om timeplanen. Han booket rom for hver torsdag mellom kl 12-14. Studentene kan se fra timeplanen om hvor og når oppgaveseminaret holder. Det førstekommende blir på den 01.09 rom 2008.
+#
+
 #                                    2022                                   
 #          juli                     august                  september       
 #   ma ti on to fr lø sø      ma ti on to fr lø sø      ma ti on to fr lø sø
