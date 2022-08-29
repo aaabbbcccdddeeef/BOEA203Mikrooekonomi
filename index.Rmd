@@ -98,7 +98,7 @@ knitr::knit_exit()
 Lenker:
 https://www.nrk.no/rogaland/stromkrisen_-bonder-ma-destruere-avlinger-1.16077698
 
-inst/forelesningsnotater/presentations.Rmd
+inst/forelesningsnotater/presentationsD.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
 https://github.com/joernih/BOEA203Mikrooekonomi.git

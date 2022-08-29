@@ -30,10 +30,11 @@ library(plotly)
 ```
 
 ```{r eval=FALSE, include=FALSE}
-xaringan::inf_mr(paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/presentations.Rmd'))
-system(paste0('brave ',rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/presentations.html'))
+pathn <- '/inst/forelesningsnotater/presentationsD.Rmd'
+xaringan::inf_mr(paste0(rprojroot::find_rstudio_root_file(),pathn))
+system(paste0('brave ',rprojroot::find_rstudio_root_file(),pathn))
 servr::daemon_stop()
-rmarkdown::render(paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/presentations.Rmd'))
+rmarkdown::render(paste0(rprojroot::find_rstudio_root_file(),pathn))
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
@@ -459,7 +460,7 @@ knitr::include_graphics("drawio/pmk.png")
 knitr::include_graphics("drawio/markedfullkommen.png")
 ```
 
-```{r, eval=T}
+```{r, eval=F}
 knitr::knit_exit()
 ```
 
@@ -1005,7 +1006,7 @@ Optimal løsning er også her karakterisert ved tangeringspunktet mellom isokvan
 # Appendiks (diagramark benyttet under forelesningen)
 
 ```{r, echo=FALSE, out.width="45%", fig.cap=""}
-#knitr::include_graphics("drawio/oversikt_prod_iii.drawio.png")
+p1 <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/drawio/oversikt_prod_iii.drawio.png')
 ```
 
 ---
