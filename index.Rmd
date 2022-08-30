@@ -103,49 +103,6 @@ https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
 https://github.com/joernih/BOEA203Mikrooekonomi.git
 
-# Tasks
-Anbefalte oppgaver
-Eksamensdatoer
-Kapittel 1
-Kapittel 2
-Kapittel 3
-# Oppgaveliste
-- Anbefalte oppgver
-- Datoer for obligatorisk innleveringsoppgave
-- Datoer for obligatorisk eksamen
-- Tema: Intro
-- Bakgrunn
--- Hva er tema?
--- Definisjon
--- Behov
--- Ressurser
--- Kjernen i økonomifaget
--- Alternativkostnad
--- Sentral spørsmål 1: Valg
--- Sentral spørsmål 2: Egeninteresse vs. samfunnets beste
--- Økonomisk tankemåte
--- Økonomi som vitenskap
-- Tema: Overblikk
--- Intro
--- Bakgrunn
--- Etterspørsel
--- Tilbud
--- Likevekt
--- Komparativ statikk
--- Effekten av en avgift
--- Produksjonsmulighetskurven 
-inst/forelesningsnotater/presentations.Rmd
-https://joernih.github.io/BOEA203Mikrooekonomi/
-https://hvl.instructure.com/courses/23179
-https://github.com/joernih/BOEA203Mikrooekonomi.git
-
-# Forelesning 1
-inst/forelesningsnotater/drawio/oversikt_hele.png
-inst/forelesningsnotater/drawio/alternativ.png
-inst/forelesningsnotater/drawio/etakt.png
-inst/forelesningsnotater/drawio/tiakt.png
-inst/forelesningsnotater/drawio/markedfullkommen.png
-
 # Forelesning 2
 inst/forelesningsnotater/drawio/bilder/prodftall.png
 2 Arbeidskrav
