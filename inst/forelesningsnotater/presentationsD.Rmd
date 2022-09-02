@@ -272,7 +272,7 @@ knitr::include_graphics("drawio/alternativ.svg")
 
 ---
 
-## Appendiks (diagramark benyttet under forelesning)
+## Appendiks (alle figurene samlet)
 
 ```{r, echo=FALSE, out.width="50%", fig.cap=""}
 knitr::include_graphics("drawio/oversikt_hele.svg")
@@ -454,7 +454,7 @@ knitr::include_graphics("drawio/pmk.png")
 
 ---
 
-## Appendiks (figurer benyttet under forelesning)
+## Appendiks (alle figurene samlet)
 
 ```{r, echo=FALSE, out.width="55%", fig.cap=""}
 knitr::include_graphics("drawio/markedfullkommen.png")
@@ -475,7 +475,6 @@ class: inverse, center, middle
 
 ## Innledning
 
-- Vi skal følge en litt annen rekkefølge enn boka.
 - Produsentene eller bedriftene er en av hovedaktørene i en økonomi.
 - Produsentens rolle: tilby de varer og tjenester som etterspørres i et samfunn. Basert på konsumentens ønsker må produsenten vite hva som skal produseres, mengde og lokalisering.
 - Teknologisk perspektiv: Produsenten bruker innsatsfaktorer til å omforme råvarer til ferdige produkter.
@@ -483,6 +482,11 @@ class: inverse, center, middle
 ---
 
 - Vi forenkler produksjonsbildet ved å anta at produsenten bruker to innsatsfaktorer, $N$ og $K$, til å produsere ett produkt, $x$. $N$ er arbeidskraft og $K$ er realkapital.
+
+```{r, echo=FALSE, out.width="65%", fig.cap=""}
+pf <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/prodbildetf.png')
+knitr::include_graphics(pf)
+```
 
 - Bedriften må altså velge effektiv produksjonsprosess.
 - Økonomisk perspektiv: Her består valget i å velge hvor mye bedriften skal produsere og tilby av produktet.
@@ -498,15 +502,24 @@ class: inverse, center, middle
 - $x = f(N, K)$
 - Viser for enhver mulig faktorkombinasjon det maksimale antall enheter som kan produseres av produktet.
 - $f$ beskriver formen på avhengighetsforholdet mellom produksjonsmengden og innsatsfaktorene. Kan tolkes som forhold (faktorer) som endrer produksjonsmengden uten å endre mengden av innsatsfaktorene $N$ og $K$.
-- Forutsetninger om produktfunksjonen
 
 ---
 
 ## Talleksempel på en produkfunksjon (kort sikt)
 
-
 ```{r, echo=FALSE, out.width="100%", fig.cap=""}
 knitr::include_graphics("bilder/prodftall.png")
+```
+
+---
+
+## Talleksempel på en produkfunksjon (kort sikt)
+
+```{r, echo=FALSE}
+library(dplyr)
+tabell_prodf <- data.frame(N=seq(1,10),K=10,x=10,GP='-',GjP='1')
+tipf_navn <- c("Arbeidskraft (N)","Kapital (K)","Produksjon", "Grenseprodukt.", "Gjennomsnittsprod.")
+kableExtra::kbl(tabell_prodf, col.names=tipf_navn)
 ```
 
 ---
@@ -632,10 +645,10 @@ $$
 
 ---
 
-- MERK: produksjonsprosesser kan variere skala.
+- MERK: produksjonsprosesser kan variere i skala.
 ---
 
-## Appendiks (diagramark benyttet under forelesning)
+## Appendiks (alle figurene samlet)
 
 ```{r, echo=FALSE, out.width="45%", fig.cap=""}
 knitr::include_graphics("drawio/oversikt_prod_i.png")
@@ -851,7 +864,7 @@ Optimal løsning er også her karakterisert ved tangeringspunktet mellom isokvan
 
 ---
 
-# Appendiks (diagramark benyttet under forelesningen)
+## Appendiks (alle figurene samlet)
 
 ```{r, echo=FALSE, out.width="45%", fig.cap=""}
 knitr::include_graphics("drawio/oversikt_prod_ii.png")
@@ -1003,10 +1016,14 @@ Optimal løsning er også her karakterisert ved tangeringspunktet mellom isokvan
 
 ---
 
-# Appendiks (diagramark benyttet under forelesningen)
+## Appendiks (alle figurene samlet)
 
 ```{r, echo=FALSE, out.width="45%", fig.cap=""}
-p1 <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/drawio/oversikt_prod_iii.drawio.png')
+knitr::include_graphics("drawio/oversikt_prod_iii.png")
+```
+```{r, eval=T, echo=F}
+# Git relaterte
+knitr::knit_exit()
 ```
 
 ---
@@ -1239,7 +1256,7 @@ x_{2} = 40/5 = 8
 
 ---
 
-## Appendiks (diagramark benyttet under forelesning)
+## Appendiks (alle figurene samlet)
 
 ```{r, echo=FALSE, out.width="45%", fig.cap=""}
 knitr::include_graphics("drawio/oversikt_kons_i.png")
@@ -1473,7 +1490,7 @@ c) For *komplementære goder* vil etterspørselen etter gode reduseres når pris
 
 ---
 
-## Appendiks (diagramark benyttet under forelesning)
+## Appendiks (alle figurene samlet)
 
 ```{r, echo=FALSE, out.width="50%", fig.cap=""}
 knitr::include_graphics("drawio/oversikt_kons_ii.png")
