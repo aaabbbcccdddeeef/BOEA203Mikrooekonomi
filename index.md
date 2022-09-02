@@ -19,7 +19,8 @@ blir gjennomført på
 
 ### Studietips
 
-[Generelle studietips\_ System framfor mål.pdf]()
+[Generelle studietips\_ System framfor
+mål.pdf](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/oppgaver/systemvsmaal.pdf)
 
 ### Pensum og emneplan
 
@@ -41,4 +42,4 @@ Undervisningsansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-08-28 20:54:25**
+**Siste gang oppdatert: 2022-09-02 22:59:23**

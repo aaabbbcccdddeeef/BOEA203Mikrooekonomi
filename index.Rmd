@@ -69,7 +69,7 @@ Første forelesning (Introduksjon til mikroøkonomi, Overblikk over fulllkomen k
 
 ### Studietips
 
-[Generelle studietips_ System framfor mål.pdf]()
+[Generelle studietips_ System framfor mål.pdf](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/oppgaver/systemvsmaal.pdf)
 
 ### Pensum og emneplan
 
