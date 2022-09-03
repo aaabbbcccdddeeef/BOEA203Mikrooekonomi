@@ -508,7 +508,7 @@ knitr::include_graphics(pf)
 ## Talleksempel på en produkfunksjon (kort sikt)
 
 ```{r, echo=FALSE, out.width="100%", fig.cap=""}
-knitr::include_graphics("bilder/prodftall.png")
+#knitr::include_graphics("bilder/prodftall.png")
 ```
 
 ---
@@ -529,8 +529,12 @@ kableExtra::kbl(tabell_prodf, col.names=tipf_navn)
 - For analytiske formål antas funksjonen kontinuerlig og to ganger deriverbar:
 
 .pull-left[
-
 Arbeidskraft
+
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+pkl <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/prodkl.png')
+knitr::include_graphics(pkl)
+```
 
 - $\frac{\partial f}{\partial N} > 0$
 - $\frac{\partial^2 f}{\partial N^2} < 0$
@@ -538,29 +542,35 @@ Arbeidskraft
 ]
 
 .pull-right[
-
 Kapital
+
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+pkk <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/prodkl.png')
+knitr::include_graphics(pkk)
+```
 
 - $\frac{\partial f}{\partial K} > 0$
 - $\frac{\partial^2 f}{\partial K^2} < 0$
 
-
 ]
-
 
 - Positive, men avtagende grenseproduktiviteter.
 - De førsteordens partielle deriverte uttrykker grenseproduktiviteten: hvor mye produsert kvantum endres ved en liten endring i bruken av vedkommende innsatsfaktor.
 - Loven om avtakende utbytte gjelder altså her.
-- Isokvanter og MTSB for produksjon
-
 ---
 
 ## Isokvanter og MTSB for produksjon
 
 - For å representere produktfunksjonen grafisk skal vi bruke et redskap fra matteboka. Nemlig nivåkurver.
 - Nivåkurven kalles her en isokvant: viser alle kombinasjoner av N og K som gir samme produserte kvantum.
-- Grafisk illustrasjon på tavla. Isokvantens form bygger på følgende prinsipp: jo mer bedriften har av en innsatsfaktor, jo mer kan den bytte for en ekstra enhet av den andre faktoren, gitt at produksjonsmengden skal være den samme.
-- Forts. Isokvanter og MTSB
+- Grafisk illustrasjon på tavla. 
+
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+iso <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/isokvant.png')
+knitr::include_graphics(iso)
+```
+ 
+- Isokvantens form bygger på følgende prinsipp: jo mer bedriften har av en innsatsfaktor, jo mer kan den bytte for en ekstra enhet av den andre faktoren, gitt at produksjonsmengden skal være den samme.
 
 ---
 
@@ -616,7 +626,26 @@ $$
 - For eksempel: I noen bransjer er det lettere å erstatte arbeidskraft med kapital enn i andre.
 - Dette kan fremstilles med formen på isokvanten.
 - Ytterkantene: perfekt substitusjon og ingen substitusjon (perfekte komplementer).
-- Grafisk på tavla.
+
+.pull-left[
+Linear produksjonsteknolog (perfekte substitutter)
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+pss <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/linsub.png')
+knitr::include_graphics(pss)
+```
+]
+
+.pull-right[
+Linear produksjonsteknolog (perfekte substitutter)
+
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+fss <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/lensub.png')
+knitr::include_graphics(fss)
+```
+]
+
+
+
 
 ---
 
@@ -626,26 +655,39 @@ $$
 - Definisjon: Skalaegenskapene sier noe om hvor mye produksjonsmengden endres ved proporsjonale endringer i bruken av innsatsfaktorene.
 - Proporsjonale endringer innebærer at forholdet mellom N og K er konstant. Faktorstråle…
 - Anta en proporsjonal økning på 10%.
-- Hva skjer med produksjonsmengden?
+- Hva skjer med produksjonsmengden (MERK: produksjonsprosesser kan variere i skala)?
 
 ---
 
 - i) Konstant skalautbytte
  - Skalaøkning på y % $\Rightarrow$ økning i produsert kvantum på y %.
 
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+ksa <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/koskala.png')
+knitr::include_graphics(ksa)
+```
+
 ---
 
 - ii) Avtagende skalautbytte
  - Skalaøkning på y % $\Rightarrow$ økning i produsert kvantum på mindre enn y %.
+
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+ksa <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/koskala.png')
+knitr::include_graphics(ksa)
+```
 
 ---
 
 - iii) Økende skalautbytte
  - Skalaøkning på y % $\Rightarrow$ økning i produsert kvantum på mer enn y %.
 
----
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+ksa <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/koskala.png')
+knitr::include_graphics(ksa)
+```
 
-- MERK: produksjonsprosesser kan variere i skala.
+
 ---
 
 ## Appendiks (alle figurene samlet)
