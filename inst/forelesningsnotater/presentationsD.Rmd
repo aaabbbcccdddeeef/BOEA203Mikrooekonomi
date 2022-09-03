@@ -629,16 +629,17 @@ $$
 
 .pull-left[
 Linear produksjonsteknolog (perfekte substitutter)
-```{r, echo=FALSE, out.width="40%", fig.cap=""}
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
 pss <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/linsub.png')
 knitr::include_graphics(pss)
 ```
 ]
 
 .pull-right[
-Linear produksjonsteknolog (perfekte substitutter)
+Lientof produksjonsteknologi (fast produksjonsforhold)
 
-```{r, echo=FALSE, out.width="40%", fig.cap=""}
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
 fss <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/lensub.png')
 knitr::include_graphics(fss)
 ```
@@ -663,7 +664,7 @@ knitr::include_graphics(fss)
  - Skalaøkning på y % $\Rightarrow$ økning i produsert kvantum på y %.
 
 ```{r, echo=FALSE, out.width="40%", fig.cap=""}
-ksa <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/koskala.png')
+ksa <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/okskala.png')
 knitr::include_graphics(ksa)
 ```
 
@@ -673,7 +674,7 @@ knitr::include_graphics(ksa)
  - Skalaøkning på y % $\Rightarrow$ økning i produsert kvantum på mindre enn y %.
 
 ```{r, echo=FALSE, out.width="40%", fig.cap=""}
-ksa <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/koskala.png')
+ksa <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/avskala.png')
 knitr::include_graphics(ksa)
 ```
 
@@ -683,7 +684,7 @@ knitr::include_graphics(ksa)
  - Skalaøkning på y % $\Rightarrow$ økning i produsert kvantum på mer enn y %.
 
 ```{r, echo=FALSE, out.width="40%", fig.cap=""}
-ksa <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/koskala.png')
+ksa <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/avskala.png')
 knitr::include_graphics(ksa)
 ```
 
