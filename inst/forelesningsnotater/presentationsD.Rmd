@@ -693,8 +693,9 @@ knitr::include_graphics(ksa)
 
 ## Appendiks (alle figurene samlet)
 
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/oversikt_prod_i.png")
+```{r, echo=FALSE, out.width="85%", fig.cap=""}
+allp <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/oversikt_prod_i.png')
+knitr::include_graphics(allp)
 ```
 
 ---
@@ -722,6 +723,11 @@ class: inverse, center, middle
 - Inntekt: $R=px$. Stigende i et $(x,R)$-diagram
 - Grenseinntekt: endring i inntekt ved en marginal endring i solgt kvantum: $R'(x)$
 - Gjennomsnitsinntekt: inntekt per produsert enhet: $\overline{R}$.
+
+```{r, echo=FALSE, out.width="85%", fig.cap=""}
+innt <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/inntf.png')
+knitr::include_graphics(innt)
+```
 
 ---
 
