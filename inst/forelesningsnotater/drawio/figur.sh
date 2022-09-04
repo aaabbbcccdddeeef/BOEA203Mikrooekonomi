@@ -24,13 +24,13 @@ magick oversikt_prod_ii.png -crop 350x600+1+675 submalen.png
 magick oversikt_prod_ii.png -crop 500x600+375+675 skalau.png
 
 ## Adferd i gode- og arbeidsdmarkedet
-magick oversikt_prod_iii.png -crop 1000x250+375+360 kgkufast.png
-magick oversikt_prod_iii.png -crop 1000x250+375+360 kgkmfast.png
-magick oversikt_prod_iii.png -crop 1000x450+425+830 krbtilp.png
-magick oversikt_prod_iii.png -crop 1000x250+375+360 lgkufast.png
-magick oversikt_prod_iii.png -crop 1000x250+375+360 lgkmfast.png
-magick oversikt_prod_iii.png -crop 1000x450+425+830 lrbtilp.png
-magick oversikt_prod_iii.png -crop 1000x450+425+830 ktilbu.png
-magick oversikt_prod_iii.png -crop 1000x450+425+830 ltilbu.png
-magick oversikt_prod_iii.png -crop 1000x450+425+830 klearb.png
+magick oversikt_prod_iii.png -crop 250x225+0+120 kgkufast.png
+magick oversikt_prod_iii.png -crop 260x225+270+120 kgkmfast.png
+magick oversikt_prod_iii.png -crop 260x225+525+110 krbtilp.png
+magick oversikt_prod_iii.png -crop 270x270+1+350 lgkufast.png
+magick oversikt_prod_iii.png -crop 270x270+245+350 lgkmfast.png\n
+magick oversikt_prod_iii.png -crop 280x450+1+750 lrbtilp.png
+magick oversikt_prod_iii.png -crop 280x450+1+750  ktilbu.png
+magick oversikt_prod_iii.png -crop 280x450+270+750  ltilbu.png
+magick oversikt_prod_iii.png -crop 1000x450+500+800  klearb.png
 
