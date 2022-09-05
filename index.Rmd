@@ -92,7 +92,6 @@ knitr::knit_exit()
 ```
 
 inst/forelesningsnotater/presentationsD.Rmd
-
 Lenker:
 https://www.nrk.no/rogaland/stromkrisen_-bonder-ma-destruere-avlinger-1.16077698
 inst/forelesningsnotater/presentationsD.Rmd
@@ -103,5 +102,3 @@ https://github.com/joernih/BOEA203Mikrooekonomi.git
 # Forelesning 2
 inst/forelesningsnotater/drawio/bilder/prodftall.png
 2 Arbeidskrav
-4 
-2

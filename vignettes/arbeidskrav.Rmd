@@ -7,6 +7,8 @@ output: github_document
 
 For å få gå opp til eksamen i mikroøkonomi må du i forkant ha fått godkjent to arbeidskrav
 
+Det kan være maks 4 (ikke mulig å forhandle) personer på gruppa.
+
 **Første arbeidskrav**
 
 Utlevert (ca. 2 uker i forkant): xx. september
