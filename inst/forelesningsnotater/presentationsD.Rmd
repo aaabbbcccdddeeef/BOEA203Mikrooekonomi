@@ -13,6 +13,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 #bibliography: pensum.bib
+#output: html_document
 ---
 
 ```{r xaringan-tile-view, echo=FALSE, message=F, warning=F}
@@ -30,9 +31,9 @@ library(plotly)
 ```
 
 ```{r eval=FALSE, include=FALSE}
-pathn <- '/inst/forelesningsnotater/presentationsD.Rmd'
-xaringan::inf_mr(paste0(rprojroot::find_rstudio_root_file(),pathn))
-system(paste0('brave ',rprojroot::find_rstudio_root_file(),pathn))
+pathn <- '/inst/forelesningsnotater/presentationsD'
+xaringan::inf_mr(paste0(rprojroot::find_rstudio_root_file(),pathn,'.Rmd'))
+system(paste0('brave ',rprojroot::find_rstudio_root_file(),pathn,'.html'))
 servr::daemon_stop()
 rmarkdown::render(paste0(rprojroot::find_rstudio_root_file(),pathn))
 ```
@@ -505,21 +506,16 @@ knitr::include_graphics(pf)
 
 ---
 
-## Talleksempel på en produkfunksjon (kort sikt)
-
-```{r, echo=FALSE, out.width="100%", fig.cap=""}
-#knitr::include_graphics("bilder/prodftall.png")
-```
-
----
-
-## Talleksempel på en produkfunksjon (kort sikt)
+**Talleksempel på en produktfunksjonen**
 
 ```{r, echo=FALSE}
-library(dplyr)
-tabell_prodf <- data.frame(N=seq(1,10),K=10,x=10,GP='-',GjP='1')
+#knitr::include_graphics("bilder/prodftall.png")
+xout <- c(10,24,39,52,61,66,66,64,56,44)
+gpout <- c(NA,14,15,17,9,5,0,-2,-8,-12)
+gjout <- round(c(10,24,39,52,61,66,66,64,56,44)/seq(1,10),digits=0)
+tabell_prodf <- data.frame(N=seq(1,10),K=20,x=xout,GP=gpout,GjP=gjout)
 tipf_navn <- c("Arbeidskraft (N)","Kapital (K)","Produksjon", "Grenseprodukt.", "Gjennomsnittsprod.")
-kableExtra::kbl(tabell_prodf, col.names=tipf_navn)
+kableExtra::kbl(tabell_prodf, col.names=tipf_navn) %>% kableExtra::kable_paper(full_width = F) %>% kableExtra::row_spec(c(4,5,6), bold = T)
 ```
 
 ---
@@ -693,7 +689,7 @@ knitr::include_graphics(ksa)
 
 ## Appendiks (alle figurene samlet)
 
-```{r, echo=FALSE, out.width="85%", fig.cap=""}
+```{r, echo=FALSE, out.height="30%",out.width="55%", fig.cap=""}
 allp <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/oversikt_prod_i.png')
 knitr::include_graphics(allp)
 ```
@@ -724,14 +720,14 @@ class: inverse, center, middle
 - Grenseinntekt: endring i inntekt ved en marginal endring i solgt kvantum: $R'(x)$
 - Gjennomsnitsinntekt: inntekt per produsert enhet: $\overline{R}$.
 
-```{r, echo=FALSE, out.width="85%", fig.cap=""}
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
 innt <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/inntf.png')
 knitr::include_graphics(innt)
 ```
 
 ---
 
-**Tabelleksempel på salgsinntekter**
+**Tabelleksempel for salgsinntekter**
 
 ```{r echo=F, message=FALSE, warning=FALSE}
 library(dplyr)
@@ -753,6 +749,29 @@ kableExtra::kbl(tabell_inntekt, col.names=ti_navn)
 - Grensekostnader ( $GK$ eller $C'$ )
   - Endringen i bedriftens totale kostnade ved en liten endring i produsert kvantum 
   - $GK=\frac{dC(x)}{dx}=C'(x)$
+---
+
+.pull-left[
+Kostnader uten faste kostnader
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+kostku <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/kostku.png')
+knitr::include_graphics(kostku)
+```
+]
+
+.pull-right[
+Kostnader med faste kostnader
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+kostkm <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/kostkm.png')
+knitr::include_graphics(kostkm)
+```
+]
+
+
+
+
 ---
 
 ## Sammenhengen mellom gjennomsnittskostnad og grensekostnad
@@ -816,6 +835,11 @@ kableExtra::kbl(tabell_inntekt_ii, col.names=ti_navn_ii)
 - Pris på K: r
 - $C = wN + rK$
 
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+skalau <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/skalau.png')
+knitr::include_graphics(skalau)
+```
+
 ---
 
 Totale kostnader (C) er da gitt ved:
@@ -856,11 +880,38 @@ K = C^0/r
 
 ---
 
-# Kostnadslinjen og isokost
-- Grafisk illustrasjon av kostnadslinja på tavla.
+# Kostnadslinjen og Isokostlinja
+## Optimal tilpasning
 - Isokostlinja viser alle faktorkombinasjoner som gir samme totale kostnad.
 - Endrede kostnader: parallellforskyver linja. MERK: en endring i kostnader kan tolkes som en endring i bedriftens kostnadsramme. Typisk for bedrifter i offentlig sektor, som opererer under tildelte bevilgninger.
-- Endrede faktorpriser: helningen på linja endres.
+
+```{r, echo=FALSE, out.width="30%", fig.cap=""}
+kosmin <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/kosmin.png')
+knitr::include_graphics(kosmin)
+```
+
+---
+
+## Endrede faktorpriser: helningen på linja endres.
+
+.pull-left[
+Økt pris på kapital
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+kosminkk <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/kosminkk.png')
+knitr::include_graphics(pss)
+```
+]
+
+.pull-right[
+Redusert pris på arbeidskraft
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+kosminkl <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/kosminkl.png')
+knitr::include_graphics(fss)
+```
+]
+
 
 ---
 
@@ -874,7 +925,6 @@ K = C^0/r
 - Tar så utgangspunkt i kostnadslinja:
 - $C = wN + rK$
 - Kombinerer disse for å finne optimal tilpasning.
-- Matematisk løsning på tavla.
 
 ---
 
@@ -905,7 +955,12 @@ Optimal løsning er også her karakterisert ved tangeringspunktet mellom isokvan
 
 # Substitumalen: økonomisk substitusjon
 - Dersom vi tenker oss flere endringer i bedriftens kostnadsramme med tilhørende optimale isokvant, vil vi få frem en rekke tangeringspunkter. Kostnadsminimering og produktmaksimering gir samme resultat.
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+submalen <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/submalen.png')
+knitr::include_graphics(submalen)
+```
 - Kurven gjennom disse kalles ekspansjonsveien eller substitumalen.
+---
 - På ethvert punkt på denne kurven kan det leses av produksjonsmengde, tilhørende kostnader og etterspørsel etter innsatsfaktorer.
 - Forts. Substitumalen: økonomisk substitusjon
 - Alle punktene på substitumalen viser tilpasninger der det ikke er mulig å øke produktmengden, uten at kostnadene øker. Det er heller ikke mulig å redusere kostnadene, uten samtidig å redusere produsert kvantum.
@@ -960,8 +1015,8 @@ class: inverse, center, middle
 $$
 \underset{x}{\text{Maks }} F=px-C(x)
 $$
-
 ---
+
 
 **Løsning og tolkning**
 
@@ -977,6 +1032,22 @@ F''(x)=p-C''(x) < 0 \Rightarrow C''(x) > 0
 $$
 
 Kostnadsfunksjonen må være konveks (som vi tidligere har sett at kan komme som et resultat av avtagende grenseproduktivitet mhp. bruken av arbeidskraft)
+
+---
+
+.pull-left[
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+kgkufast <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/kgkufast.png')
+knitr::include_graphics(kgkufast)
+```
+]
+
+.pull-right[
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+kgkmfast <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/kgkmfast.png')
+knitr::include_graphics(kgkufast)
+```
+]
 
 ---
 
@@ -997,6 +1068,22 @@ Kostnadsfunksjonen må være konveks (som vi tidligere har sett at kan komme som
   	- Dersom de faste kostnadene er irrreversible (har en alternativ anvendelse), vil $\overline{C}=\overline{C}_V$ 
   	- Dersom de faste kostnadene er reversible (har en alternativ anvendelse), vil $\overline{C}=\overline{C}_V+\overline{C}_F$ 
 - På lang sikt vil bedriftens tilbudskurve kunne være horisontal (ved konstant skalautbytte) i et (x,p)-diagram på
+
+---
+
+.pull-left[
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+ktilbu <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/ktilbu.png')
+knitr::include_graphics(ktilbu)
+```
+]
+
+.pull-right[
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+ktilbu <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/ktilbu.png')
+knitr::include_graphics(ktilbu)
+```
+]
 
 ---
 
@@ -1028,6 +1115,11 @@ $$
 pf''(N) < 0
 $$
 
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+ktilbu <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/ktilbu.png')
+knitr::include_graphics(ktilbu)
+```
+
 ---
 
 ## Hvor stor skal faktorbruken være (lang sikt)?
@@ -1039,6 +1131,7 @@ $$
 \begin{equation*}
 \text{ Min } C=wN +rK \text{ gitt } x^0=f(K,N) 
 \end{equation*}
+
 
 ---
 
@@ -1062,6 +1155,11 @@ Kombinerer de to første ordens betingelsene gir oss løsningen
 \end{equation*}
 
 Optimal løsning er også her karakterisert ved tangeringspunktet mellom isokvant og isokostlinjen.
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+ktilbu <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/ktilbu.png')
+knitr::include_graphics(ktilbu)
+```
 
 ---
 
