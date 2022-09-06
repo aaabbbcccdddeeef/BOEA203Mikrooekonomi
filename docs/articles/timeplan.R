@@ -136,42 +136,20 @@ df1 <- data.frame(
          	  Timer=ant
 )
 df1
-###########################################################################################################3
-oppgaver <- c(
-	  "1.1,1.2,1.4,1.5,1.7.1.8",
-	  "2.1,2.2,2.3,2.6",
-	  "2.7,2.8,2.9,2.10",
-	  "3.1,3.2,3.3,3.5,3.6",
-	  "3.3,3.4,3.7,3.8,3.9",
-	  "5.1,5.2,5.3,5.8,5.9",
-	  "6.1,6.6,6.7,6.8",
-	  "7.1,7.2,7.8,7.8,7.9",
-	  "8.1,8.3,8.4,8.5,8.7,8.8,8.10",
-	  "11.1,**11.2**,11.5,11.7,11.8,11.9",
-	  "12.1,12.2,**12.3**,12.5, **12.6**,12.7,**12.8**,12.9"
-)
-df2 <- data.frame(Del_av_Pensum=del,Oppgaver_bok=oppgaver)
-#Hei, 
-#
-#Har snakket med Knut Steffen om timeplanen. Han booket rom for hver torsdag mellom kl 12-14. Studentene kan se fra timeplanen om hvor og når oppgaveseminaret holder. Det førstekommende blir på den 01.09 rom 2008.
-#
+ukesem <- setdiff(seq(34,46),ukenr)
+oppgaver
 
-#                                    2022                                   
-#          juli                     august                  september       
-#   ma ti on to fr lø sø      ma ti on to fr lø sø      ma ti on to fr lø sø
-#26              1  2  3   31  1  2  3  4  5  6  7   35           1  2  3  4
-#27  4  5  6  7  8  9 10   32  8  9 10 11 12 13 14   36  5  6  7  8  9 10 11
-#28 11 12 13 14 15 16 17   33 15 16 17 18 19 20 21   37 12 13 14 15 16 17 18
-#29 18 19 20 21 22 23 24   34 22 23 24 25 26 27 28   38 19 20 21 22 23 24 25
-#30 25 26 27 28 29 30 31   35 29 30 31               39 26 27 28 29 30      
-#                                                                           
-#        oktober                   november                  desember       
-#   ma ti on to fr lø sø      ma ti on to fr lø sø      ma ti on to fr lø sø
-#39                 1  2   44     1  2  3  4  5  6   48           1  2  3  4
-#40  3  4  5  6  7  8  9   45  7  8  9 10 11 12 13   49  5  6  7  8  9 10 11
-#41 10 11 12 13 14 15 16   46 14 15 16 17 18 19 20   50 12 13 14 15 16 17 18
-#42 17 18 19 20 21 22 23   47 21 22 23 24 25 26 27   51 19 20 21 22 23 24 25
-#43 24 25 26 27 28 29 30   48 28 29 30               52 26 27 28 29 30 31   
-#44 31                                                                      
+gang1 <- paste(oppgaver[1])
+gang2 <- paste(oppgaver[2],oppgaver[3])
+gang3 <- paste(oppgaver[4])
+gang4 <- paste(oppgaver[5])
+gang5 <- paste(oppgaver[6])
+gang6 <- paste(oppgaver[7])
+gang7 <- paste(oppgaver[8])
+gang8 <- paste(oppgaver[9],oppgaver[10])
+rom <- c(2008,"","","","","","","")
+gang <- c(gang1,gang2,gang3,gang4,gang5,gang6,gang7,gang8)
+delv <- del[c(-2,-3,-4)]
+df2 <- data.frame(Uke_nr=ukesem,Dag='Torsdag',Tidspunkt='12:15-14:00',Del=delv,Oppgaver_bok=gang)
 
-#ukenr <- c("34",rep("36",2),rep("39",1),rep("42",1),rep("45",2))
+

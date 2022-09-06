@@ -35,7 +35,7 @@ library(plotly)
 ```
 
 ```{r eval=FALSE, include=FALSE}
-pathn <- '/inst/forelesningsnotater/presentationsD'
+pathn <- '/inst/forelesningsnotater/presentations'
 xaringan::inf_mr(paste0(rprojroot::find_rstudio_root_file(),pathn,'.Rmd'))
 system(paste0('brave ',rprojroot::find_rstudio_root_file(),pathn,'.html'))
 servr::daemon_stop()
@@ -912,7 +912,7 @@ Kombinerer de to første ordens betingelsene gir oss løsningen
 
 Optimal løsning er her karakterisert ved tangeringspunktet mellom isokvant og isokostlinjen.
 
-```{r, echo=FALSE, out.width="50%", fig.cap=""}
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
 kosmin <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/kosmin.png')
 knitr::include_graphics(kosmin)
 ```
@@ -1060,24 +1060,17 @@ knitr::include_graphics(kgkmfast)
 .pull-left[
 *Uten faste kostnader*
 ```{r, echo=FALSE, out.width="45%", fig.cap=""}
-kgkufast <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/kgkufast.png')
+kgkufast <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/ktilbu.png')
 knitr::include_graphics(kgkufast)
 ```
 ]
 .pull-right[
 *Med faste kostnader*
 ```{r, echo=FALSE, out.width="45%", fig.cap=""}
-kgkmfast <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/kgkmfast.png')
+kgkmfast <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/ktilbm.png')
 knitr::include_graphics(kgkmfast)
 ```
 ]
-
-```{r, echo=FALSE, out.width="50%", fig.cap=""}
-#ktilbu <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/ktilbu.png')
-#knitr::include_graphics(ktilbu)
-#ktilbu <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/ktilbu.png')
-#knitr::include_graphics(ktilbu)
-```
 
 ---
 
@@ -1105,7 +1098,7 @@ $$
 Bruken av arbeidskraften bestemmes der hvor verdien av grenseproduktiviteten er lik det nominelle lønnsnivået.
 
 ```{r, echo=FALSE, out.width="50%", fig.cap=""}
-arbktilp <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/arbktilp.png')
+arbktilp <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/klearb.png')
 knitr::include_graphics(arbktilp)
 ```
 
@@ -1148,11 +1141,9 @@ Kombinerer de to første ordens betingelsene gir oss løsningen
 \lambda w/\lambda r=w/r = \frac{f'_{N}}{f'_{K}} = MTSB
 \end{equation*}
 
----
-
 Optimal løsning er også her karakterisert ved tangeringspunktet mellom isokvant og isokostlinjen.
 
-```{r, echo=FALSE, out.width="50%", fig.cap=""}
+```{r, echo=FALSE, out.width="25%", fig.cap=""}
 kosmin <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/kosmin.png')
 knitr::include_graphics(kosmin)
 ```

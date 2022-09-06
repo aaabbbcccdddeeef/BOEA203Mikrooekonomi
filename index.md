@@ -1,13 +1,14 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-<br> <br> <br> <br> <br>
-
 # Mikroøkonomi med anvendelser (høsten 2022)
 
 ![](man/figures/abc.jpg)
 
 ## Nyheter
+
+-   Slides til forelesningene førstkommende torsdag og fredag er nå
+    publisert.
 
 ### Studietips
 
@@ -34,4 +35,4 @@ Undervisningsansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-09-05 11:31:29**
+**Siste gang oppdatert: 2022-09-06 10:27:56**

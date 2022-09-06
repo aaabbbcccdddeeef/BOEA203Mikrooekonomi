@@ -7,7 +7,7 @@
     <script src="libs/header-attrs-2.14/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x117a5d9a4c34846a2763de9bdfb1d9b","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xb172c9fd59a490980991d933be23f7f","expires":1}</script>
     <script src="libs/himalaya-1.1.0/himalaya.js"></script>
     <script src="libs/js-cookie-3.0.0/js.cookie.js"></script>
     <link href="libs/editable-0.2.6/editable.css" rel="stylesheet" />
@@ -51,7 +51,7 @@ class: center, middle, inverse, title-slide
 ### Jørn I. Halvorsen og Joachim Thøgersen
 ]
 .date[
-### 2021/08/12 (updated: 2022-08-25)
+### 2021/08/12 (updated: 2022-09-06)
 ]
 
 ---
@@ -318,7 +318,7 @@ class: inverse, center, middle
 
 # Kapittel 1: Introduksjon til mikroøkonomi. Overbikk over fulllkomen konkurranse
 
-Oppdatert: 2022-08-25
+Oppdatert: 2022-09-06
 
 ---
 
@@ -464,7 +464,7 @@ Oppdatert: 2022-08-25
 
 ---
 
-## Appendiks (diagramark benyttet under forelesning)
+## Appendiks (alle figurene samlet)
 
 &lt;img src="drawio/oversikt_hele.svg" width="50%" /&gt;
 
@@ -476,7 +476,7 @@ class: inverse, center, middle
 
 # Kapittel 3: En markedsmodell med fullkommen konkurranse
 
-Oppdatert: 2022-08-25
+Oppdatert: 2022-09-06
 
 ---
 
@@ -528,6 +528,7 @@ Oppdatert: 2022-08-25
   - Endringer i prisen på varen fører til bevegelse langs kurven.
   - En endring i konstantene fører til skift i kurven.
 - Fra en bedrifts tilbud til markedstilbud.
+
 &lt;img src="drawio/tkurve.png" width="65%" /&gt;
 
 ---
@@ -553,6 +554,7 @@ Oppdatert: 2022-08-25
 La oss se på noen av disse forholdene.
 
 **Tilbudskurven**
+
 - Ble tegnet for:
 	- gitt teknologi for bedriften,
 	- gitte priser på innsatsfaktorene.
@@ -624,35 +626,867 @@ Produsenten ”sender” nå avgiften til staten, men begge bærer byrden!!
 
 ---
 
-## Appendiks (figurer benyttet under forelesning)
+## Appendiks (alle figurene samlet)
 
 &lt;img src="drawio/markedfullkommen.png" width="55%" /&gt;
 
 
-```r
-knitr::knit_exit()
-```
+
+---
+
+class: inverse, center, middle
+
+# Kapittel 4: Produsentteori:  Produksjon
+
+Oppdatert: 2022-09-06
+
+---
+
+## Innledning
+
+- Produsentene eller bedriftene er en av hovedaktørene i en økonomi.
+- Produsentens rolle: tilby de varer og tjenester som etterspørres i et samfunn. Basert på konsumentens ønsker må produsenten vite hva som skal produseres, mengde og lokalisering.
+- Teknologisk perspektiv: Produsenten bruker innsatsfaktorer til å omforme råvarer til ferdige produkter.
+- Vi forenkler produksjonsbildet ved å anta at produsenten bruker to innsatsfaktorer, `\(N\)` og `\(K\)`, til å produsere ett produkt, `\(x\)`. `\(N\)` er arbeidskraft og `\(K\)` er realkapital.
+
+&lt;img src="drawio/prodbildetf.png" width="65%" /&gt;
+
+- Bedriften må altså velge effektiv produksjonsprosess.
+
+---
+
+- Økonomisk perspektiv: Her består valget i å velge hvor mye bedriften skal produsere og tilby av produktet.
+- For å kunne få størst mulig overskudd må vi kjenne til inntekter og kostnader. Kostnadene er igjen svært avhengig av det teknologiske valget.
+- Vi må derfor sammenkoble elementer fra begge disse perspektivene.
+
+---
+
+## Produksjon og teknologiske forhold
+
+- Vi tar utgangspunkt i produksjonsbildet med to innsatsfaktorer og ett produkt.
+- Produktfunksjonen:
+	- `\(x = f(N, K)\)`
+- Viser, for enhver mulig faktorkombinasjon, det maksimale antall enheter som kan produseres av produktet.
+- `\(f\)` beskriver formen på avhengighetsforholdet mellom produksjonsmengden og innsatsfaktorene. Kan tolkes som forhold (faktorer) som endrer produksjonsmengden uten å endre mengden av innsatsfaktorene `\(N\)` og `\(K\)`.
+
+---
+
+**Talleksempel på en produktfunksjonen**
+
+&lt;table class=" lightable-paper" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;'&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:right;"&gt; Arbeidskraft (N) &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; Kapital (K) &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; Produksjon &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; Grenseprodukt. &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; Gjennomsnittsprod. &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 20 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 10 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; NA &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 10 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 20 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 24 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 14 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 12 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 20 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 39 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 15 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 13 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;font-weight: bold;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:right;font-weight: bold;"&gt; 20 &lt;/td&gt;
+   &lt;td style="text-align:right;font-weight: bold;"&gt; 52 &lt;/td&gt;
+   &lt;td style="text-align:right;font-weight: bold;"&gt; 17 &lt;/td&gt;
+   &lt;td style="text-align:right;font-weight: bold;"&gt; 13 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;font-weight: bold;"&gt; 5 &lt;/td&gt;
+   &lt;td style="text-align:right;font-weight: bold;"&gt; 20 &lt;/td&gt;
+   &lt;td style="text-align:right;font-weight: bold;"&gt; 61 &lt;/td&gt;
+   &lt;td style="text-align:right;font-weight: bold;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:right;font-weight: bold;"&gt; 12 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;font-weight: bold;"&gt; 6 &lt;/td&gt;
+   &lt;td style="text-align:right;font-weight: bold;"&gt; 20 &lt;/td&gt;
+   &lt;td style="text-align:right;font-weight: bold;"&gt; 66 &lt;/td&gt;
+   &lt;td style="text-align:right;font-weight: bold;"&gt; 5 &lt;/td&gt;
+   &lt;td style="text-align:right;font-weight: bold;"&gt; 11 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 7 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 20 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 66 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 9 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 8 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 20 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 64 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; -2 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 8 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 9 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 20 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 56 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; -8 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 6 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 10 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 20 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 44 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; -12 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 4 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+**Forutsetninger om produktfunksjonen**
+
+- For analytiske formål antas funksjonen kontinuerlig og to ganger deriverbar:
+
+.pull-left[
+Arbeidskraft
+
+&lt;img src="drawio/prodkl.png" width="40%" /&gt;
+
+- `\(\frac{\partial f}{\partial N} &gt; 0\)`
+- `\(\frac{\partial^2 f}{\partial N^2} &lt; 0\)`
+
+]
+
+.pull-right[
+Kapital
+
+&lt;img src="drawio/prodkk.png" width="40%" /&gt;
+
+- `\(\frac{\partial f}{\partial K} &gt; 0\)`
+- `\(\frac{\partial^2 f}{\partial K^2} &lt; 0\)`
+
+]
+
+- Positive, men avtagende grenseproduktiviteter.
+- De førsteordens partielle deriverte uttrykker grenseproduktiviteten: hvor mye produsert kvantum endres ved en liten endring i bruken av vedkommende innsatsfaktor.
+- Loven om avtakende utbytte gjelder altså her.
+
+---
+
+## Isokvanter og MTSB for produksjon
+
+- For å representere produktfunksjonen grafisk, skal vi bruke et redskap fra matteboka, nemlig nivåkurver.
+- Nivåkurven kalles her en *isokvant*: viser alle kombinasjoner av N og K som gir samme produserte kvantum.
+
+&lt;img src="drawio/isokvant.png" width="40%" /&gt;
+ 
+- Isokvantens form bygger på følgende prinsipp: jo mer bedriften har av en innsatsfaktor, jo mer kan den bytte for én ekstra enhet av den andre faktoren, gitt at produksjonsmengden skal være den samme.
+- *MTSB (marginale tekniske substiusjonsbrøk)* beskriver helningen på en isokvant for en gitt faktorkombinasjon, dvs. i ett punkt på isokvanten.
+
+---
+
+- Formell utledning av MTSB. Ta utgangspunkt i produktfunksjonen og total differensier.
+
+$$
+\overline{x} = f(K,N)
+$$
+
+Dersom vi totaldifferensierer dette uttrykket får vi 
+
+`\begin{equation*}
+\Delta \overline{x} = f'_{K}(K,N)\Delta K + f'_{N}(K,N)\Delta N = 0 
+\end{equation*}`
+
+Uttrykket ovenfor kan skrives som 
+
+`\begin{equation*}
+f'_{K}(K,N)\Delta K =- f'_{N}(K,N)\Delta N \\
+\frac{\Delta K}{\Delta N} = - \frac{f'_{N}(K,N)}{f'_{K}(K,N)} 
+\end{equation*}`
+
+`\begin{equation*}
+MTSB \equiv -\frac{\Delta K}{\Delta N} =  \frac{f'_{N}(K,N)}{f'_{K}(K,N)}&gt;0
+\end{equation*}`
+
+- Merk: MTSB er gitt ved forholdet mellom grenseproduktivitetene.
+
+---
+
+**Eksempel 4.2 fra pensumbok**
+
+Anta at produktfunksjonen er gitt ved: `\(x = N^{0,7}+K^{0,3}\)` Regn ut MTSB for denne produktfunksjonen.
+
+Grenseproduktiviteten til arbeidskraften er gitt ved $$
+\frac{\partial x}{\partial N} = 0,7N^{0,7-1} =  0,7N^{-0,3} 
+$$
+
+Grenseproduktiviteten til kapitalen er gitt ved $$
+\frac{\partial x}{\partial K} = 0,3K^{0,3-1} =  0,3K^{-0,7} 
+$$
+
+MTSB blir derfor $$
+MTSB \equiv \frac{\Delta K}{\Delta N} = \frac{\frac{\partial x}{\partial N}}{\frac{\partial x}{\partial K}} = \frac{0,7N^{-0,3}}{0,3K^{-0,7}} 
+$$ 
+
+---
+
+## Substitusjonsegenskaper
+
+- Dette sier noe om hvor lett det er å erstatte innsatsfaktorer med hverandre.
+- For eksempel: I noen bransjer er det lettere å erstatte arbeidskraft med kapital enn i andre.
+- Dette kan fremstilles med formen på isokvanten.
+- Ytterkantene: perfekt substitusjon og ingen substitusjon (perfekte komplementer).
+
+.pull-left[
+Linær produksjonsteknologi (perfekte substitutter)
+
+&lt;img src="drawio/linsub.png" width="50%" /&gt;
+]
+
+.pull-right[
+Leontief produksjonsteknologi (ingen substitusjon)
+
+&lt;img src="drawio/lensub.png" width="60%" /&gt;
+]
 
 
 
 
+---
+
+## Skalaegenskaper
+
+- Mens grenseprodukt viser endring i bruken av én innsatsfaktor, viser skalaendringer endringer i bruken av *alle* innsatsfaktorer.
+- Definisjon: Skalaegenskapene sier noe om hvor mye produksjonsmengden endres ved *proporsjonale* endringer i bruken av innsatsfaktorene.
+- Proporsjonale endringer innebærer at forholdet mellom N og K er konstant. 
+- Anta en proporsjonal økning på 100%.
+- Hva skjer med produksjonsmengden (MERK: produksjonsprosesser kan variere i skala)?
+
+---
+
+- i) Konstant skalautbytte
+  - Skalaøkning på y % `\(\Rightarrow\)` økning i produsert kvantum på y %.
+
+&lt;img src="drawio/koskala.png" width="40%" /&gt;
+
+---
+
+- ii) Avtagende skalautbytte
+  - Skalaøkning på y % `\(\Rightarrow\)` økning i produsert kvantum på mindre enn y %.
+
+&lt;img src="drawio/avskala.png" width="40%" /&gt;
+
+---
+
+- iii) Økende skalautbytte
+  - Skalaøkning på y % `\(\Rightarrow\)` økning i produsert kvantum på mer enn y %.
+
+&lt;img src="drawio/okskala.png" width="40%" /&gt;
+
+---
+
+## Appendiks (alle figurene samlet)
+
+&lt;img src="drawio/oversikt_prod_i.png" width="55%" height="30%" /&gt;
+
+---
+
+class: inverse, center, middle
+
+# Kapittel 5: Produsentteori:  Inntekts- og kostnadsteori
+
+Oppdatert: 2022-09-06
+
+---
+
+## Innledning
+- Vi skal starte med å se litt generelt på inntekter, kostnader og ulike kostnadsbegreper.
+- Deretter skal vi se på kostnadslinja, som ser kostnadene i forbindelse med faktorbruk.
+- Vi skiller mellom kort og lang sikt.
+- Til slutt skal vi se på bedriftens optimale tilpasning, hvor vi vil legge til grunn at bedriften har et mål om å maksimere antall produserte enheter under en budsjettbetingelse.
+
+---
+
+## Inntekter på kort og lang sikt 
+
+- Bedriftens inntekter bestemmes av antall enheter den selger, og prisen på disse enhetene.
+- Pris: `\(p\)`. Mengde: `\(x\)`.
+- Inntekt: `\(R=px\)`. Stigende i et `\((x,R)\)`-diagram
+- Grenseinntekt: endring i inntekt ved en marginal endring i solgt kvantum: `\(R'(x)\)`
+- Gjennomsnitsinntekt: inntekt per produsert enhet: `\(\overline{R}\)`.
+
+&lt;img src="drawio/inntf.png" width="50%" /&gt;
+
+---
+
+*Tabelleksempel for salgsinntekter*
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:right;"&gt; Solge enheter &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Pris per enhet &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Salgsinntekt &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Grenseinntekt &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Gjennomsnittsinntekt &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+---
+
+## Kostnader på kort sikt
+- Kostnader: De beløp som påløper som følge av virksomhet.
+- Faste kostnader  `\((C_F)\)` : Kostnader som er uavhengige av produsert kvantum.
+- Variable kostnader `\((C_V\)`): Varierer i takt med produsert kvantum 
+  - `\(CV = CV(x)\)`
+- Totale kostnader `\((C)\)`: Summen av faste og variable kostnader
+  - `\(C = CF + CV\)`
+- Gjennomsnittskostnader (enhetskostnader): Disse finner vi ved å dividere de respektive kostnadene med antall produserte enheter. 
+  - `\(\overline{C}=\frac{CF}{X}+\frac{CV}{X}=\overline{C}_F+\overline{C}_V\)`
+- Grensekostnader ( `\(GK\)` eller `\(C'\)` ): Endringen i bedriftens totale kostnader ved en liten endring i produsert kvantum 
+  - `\(GK=\frac{dC(x)}{dx}=C'(x)\)`
+
+---
+
+**Sammenhengen mellom gjennomsnittskostnad og grensekostnad**
+
+*Tabelleksempel a): med avtagende marginalproduktivitet (mest relevant for dette kurset) og uten faste kostnader*
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:right;"&gt; Produserte enheter &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Lønnskostnader &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Antall arbeidere &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Variable kostnader &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3.1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3100 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Faste kostnader &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Totale kostnader &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Grensekostnader &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Gjennomsnittskostnad &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3100 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1100 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1032 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+*Tabelleksempel b): med økende marginalproduktivitet (mindre relevant) og uten faste kostnader*
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:right;"&gt; Produserte enheter &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Lønnskostnader &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Antall arbeidere &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Variable kostnader &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2.9 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2900 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Faste kostnader &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Totale kostnader &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Grensekostnader &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Gjennomsnittskostnad &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2900 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 900 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 966 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+*Tabelleksempel c): med avtagende marginalproduktivitet og med faste kostnader*
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:right;"&gt; Produserte enheter &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Lønnskostnader &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Antall arbeidere &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Variable kostnader &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3.1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3100 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Faste kostnader &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Totale kostnader &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Grensekostnader &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Gjennomsnittskostnad &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 2000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 3000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 2000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 4000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 2000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 2000 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 5100 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1100 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 1700 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+**Grensekostnad og gjennomsnittskostnad uten faste kostnader**
+
+&lt;img src="drawio/kostku.png" width="50%" /&gt;
+
+**Grensekostnad og gjennomsnittskostnad med faste kostnader**
+
+&lt;img src="drawio/kostkm.png" width="50%" /&gt;
+
+---
+
+## Kostnader på lang sikt
+### Kostnadslinjen og isokostlinja
+- Totale kostnader for bedriften er summen av variable og faste kostnader. La oss nå se bort fra de faste, dette siden vi antar alle faktorer antas å være variable på lang sikt.
+- Vi antar at bedriftens kostnader kan uttrykkes ved summen av utgiftene på de to innsatsfaktorene.
+	- Pris på N: w
+	- Pris på K: r
+- `\(C = wN + rK\)`
+Totale kostnader (C) er da gitt ved:
+$$
+C = wN  +  rK
+$$
+Isokost
+$$
+C^o= wN + rK
+$$
+
+---
+
+Helningen på isokostlinja
+`\begin{equation}
+\Delta C^0= w\Delta N + r\Delta K = 0 \\
+ r\Delta K = -w\Delta N  \\
+\frac{\Delta K}{\Delta N} = - \frac{w}{r} 
+\end{equation}`
+
+Bruker hele budsjettet på arbeidskraft `\(\Rightarrow K=0\)`
+`\begin{equation}
+C^0= wN + r0 = wN \\
+C^0/w = N \\
+N = C^0/w 
+\end{equation}`
+
+Bruke hele budsjettet (kostnaden) på kapital `\(\Rightarrow N=0\)`
+`\begin{equation}
+C^0= w0 + rK = wN \\
+C^0/r = K \\
+K = C^0/r 
+\end{equation}`
+
+---
 
 
 
+## Produktmaksimering for en gitt kostnadsramme (optimal tilpasning)
+- Målsetting er her å maksimere produsert kvantum innenfor en gitt kostnadsramme.
+- Dette kan være typisk for en bedrift i offentlig sektor, der de økonomiske rammebetingelsene utgjøres av en gitt kostnadsramme eller et gitt budsjett som er blitt tildelt over de offentlige budsjetter.
+
+---
+
+- Tar utgangspunkt i produktfunksjonen:
+- `\(x = f(N, K)\)`
+- Helningen er gitt ved MTSB.
+- Tar så utgangspunkt i kostnadslinja:
+- `\(C = wN + rK\)`
+- Kombinerer disse for å finne optimal tilpasning.
+
+Max `\(x=f(K,N)\)` gitt `\(Ĉ^0=wN +rK\)` gitt (beskrankning)
+
+Lagrange metode:
+
+`\begin{equation}
+L = f(K,N) - \lambda(wN+rK-C^0)
+\end{equation}`
+
+Første ordens betingelsen er gitt ved
+
+`\begin{equation}
+\partial L/\partial N = f'_{N} - \lambda w  =0 \\ 
+\partial L/\partial K = f'_{K} - \lambda r =0 
+\end{equation}`
+
+---
+
+Kombinerer de to første ordens betingelsene gir oss løsningen
+
+`\begin{equation}
+\lambda w/\lambda r=w/r = \frac{f'_{N}}{f'_{K}} = MTSB
+\end{equation}`
+
+Optimal løsning er her karakterisert ved tangeringspunktet mellom isokvant og isokostlinjen.
+
+&lt;img src="drawio/kosmin.png" width="40%" /&gt;
+
+---
+
+### Endrede faktorpriser 
+
+**Redusert pris på kapital**
+
+&lt;img src="drawio/kosminkk.png" width="30%" /&gt;
+
+**Redusert pris på arbeidskraft**
+
+&lt;img src="drawio/kosminka.png" width="30%" /&gt;
+
+---
+
+
+## Substitumalen: økonomisk substitusjon
+- Dersom vi tenker oss flere endringer i bedriftens kostnadsramme med tilhørende optimale isokvant, vil vi få frem en rekke tangeringspunkter. 
+
+&lt;img src="drawio/submalen.png" width="30%" /&gt;
+
+- Kurven gjennom disse kalles ekspansjonsveien eller substitumalen.
+- På ethvert punkt på denne kurven kan det leses av produksjonsmengde, tilhørende kostnader og etterspørsel etter innsatsfaktorer.
+- Alle punktene på substitumalen viser tilpasninger der det ikke er mulig å øke produktmengden, uten at kostnadene øker. Det er heller ikke mulig å redusere kostnadene, uten samtidig å redusere produsert kvantum.
+- Dersom bedriften er utenfor substitumalen kan den alltid bedre sin situasjon ved økonomisk substitusjon.
+
+---
+
+
+## Appendiks (alle figurene samlet)
+
+&lt;img src="drawio/oversikt_prod_ii.png" width="45%" /&gt;
+
+---
+
+class: inverse, center, middle
+
+# Kapittel 6: Produsentteori:  Produsentens økonomiske adferd i gode- og arbeidsmarkedet
+
+Oppdatert: 2022-09-06
+
+---
+
+## Fortjenestemaksimering som mål for bedriften
+
+- Vi skal nå legge til grunn at bedriften har som mål å maksimere fortjenesten eller profitten.
+- Vi skal også legge til grunn av bedriften betrakter alle priser som gitte (gode- og faktorpriser).
+- Bedriften tilpasser seg på to markeder: 
+  - godemarkedet
+  - faktormarkedet (arbeidskraft og kapital)
+- På faktormarkedet kjøper bedriften innsatsfaktorer og må velge de kvantum av faktorene som maksimerer fortjenesten. 
+- På godemarkedet må bedriften velge den produksjonsmengden som maksimerer fortjenesten. Altså: to valg!!
+
+---
+
+## Hvor stor skal produksjonen være på kort sikt?
+
+- For å finne svar på dette, lar vi produksjonsmengden være variabel.
+- Hensikten med denne tilnærmingen er å analysere hvordan bedriften varierer produsert kvantum/ antall enheter den produserer, for å oppnå høyest mulig fortjeneste.
+- Produsentens valgvariabel er dermed kvantumet `\(x\)`.
+- En fordel med denne tilnærmingen er at den gir sammenhengen mellom pris og produsert kvantum på en enkel måte. Dette kan så brukes til å utlede bedriftens tilbudskurve, og i neste omgang markedets tilbudskurve.
+
+---
+
+### Fortjenestemaksimering (kort sikt) med variabel produksjonsmengde
+
+- Produksjon: `\(x = f(N)\)`
+- Kostnader: `\(C(x) = CV(x) + CF\)`
+- Salgsinntekt: `\(R = px\)`
+- Maks profitt: `\(F = R – C\)` som gir `\(F=px – CV(x) – CF\)`
+- Bedriften ønsker å maksimere dette uttrykket mhp. bruken av arbeidskraften. Formelt kan vi uttrykke dette som:
+$$
+\underset{x}{\text{Maks }} F=px-C(x)
+$$
+
+---
+
+**Løsning og tolkning**
+
+1.ordensbetingelsen er gitt ved
+$$
+p = C'(x)
+$$
+Produksjonen tilpasser seg der hvor produktprisen er lik grensekostnaden.
+
+2.ordensbetingelsen (som sikrer maksimum) 
+$$
+F''(x)=p-C''(x) &lt; 0 \Rightarrow C''(x) &gt; 0 
+$$
+
+Kostnadsfunksjonen må være konveks (som vi tidligere har sett at kan komme som et resultat av avtagende grenseproduktivitet mhp. bruken av arbeidskraft)
+
+
+.pull-left[
+*Uten faste kostnader*
+&lt;img src="drawio/kgkufast.png" width="45%" /&gt;
+]
+.pull-right[
+*Med faste kostnader*
+&lt;img src="drawio/kgkmfast.png" width="45%" /&gt;
+]
 
 
 
+---
+
+## Hvor stor skal produksjonen være på lang sikt?
+
+- Dersom vi antar *avtagende skalautbytte*, vil denne løsningen også gjelde på lang sikt.
+- For konstant eller økende skalautbytte, vil **ikke** maksimeringen av fortjenesten gjør det mulig å bestemme det optimale nivået på `\(x\)` (2. ordensbetingelsen er ikke oppfylt).
+- Senere i kurset, skal vi se at for dette tilfelle vil det være etterspørselskurven som bestemmer hvor mye som bli produsert i markedet.
+
+---
+
+## Bedriftens tilbud på kort og lang sikt
+
+- Tilbudet til bedriften må bestemmes gjennom profittmaksimering eller kostnadsminimering.  
+- Ettersom dette krever at bedriften er på grensekostnadskurven, vil tilbudskurven være ”den samme” som grensekostnadskurven.
+- På kort vil bedriftens tilbud være stigende i et (x,p)-diagram.
+- Reservasjonsprisen (minsteprisen) vil være der hvor `\(p=\overline{C}\)`
+  	- Dersom de faste kostnadene er irrreversible (har en alternativ anvendelse), vil `\(\overline{C}=\overline{C}_V\)` 
+  	- Dersom de faste kostnadene er reversible (har en alternativ anvendelse), vil `\(\overline{C}=\overline{C}_V+\overline{C}_F\)` 
+- På lang sikt vil bedriftens tilbudskurve kunne være horisontal (ved konstant skalautbytte) i et (x,p)-diagram på
+
+.pull-left[
+*Uten faste kostnader*
+&lt;img src="drawio/ktilbu.png" width="45%" /&gt;
+]
+.pull-right[
+*Med faste kostnader*
+&lt;img src="drawio/ktilbm.png" width="45%" /&gt;
+]
+
+---
+
+## Hvor stor skal faktorbruken være på kort sikt?
+
+- For å finne svar på dette spørsmålet betrakter vi innsatsfaktoren arbeidskraft som variable, og at disse utgjør beslutningsvariablene til bedriften.
+- Bedriften ønsker størst mulig overskudd.
+- Produksjon: `\(x = f(N)\)`
+- Kostnader: `\(C = wN\)`
+- Salgsinntekt: `\(R = px\)`
+- Profitten er gitt som inntekter (R) minus kostnader (C): `\(F = R – C\)`
+- Bedriften ønsker å maksimere dette uttrykket mhp. bruken av arbeidskraften. Formelt kan vi uttrykke dette som:
+$$
+\underset{N}{\text{Maks }} F=pf(N, K)-wN
+$$
+
+---
+
+**Løsning og tolkning**
+
+1.ordensbetingelsen er gitt ved
+$$
+pf'(N)=W
+$$
+Bruken av arbeidskraften bestemmes der hvor verdien av grenseproduktiviteten er lik det nominelle lønnsnivået.
+
+&lt;img src="drawio/klearb.png" width="50%" /&gt;
+
+2.ordensbetingelsen (som sikrer optimum) 
+$$
+pf''(N) &lt; 0
+$$
+
+---
+
+## Hvor stor skal faktorbruken være på lang sikt?
+
+- Dersom vi antar avtagende skalautbytte, vil løsningen på forrige side inneholde en ny førsteordensbetingelse som krever at `\(pf'(K,N)=r\)` (dvs. optimalt nivå på kapital tilpasses der hvor verdien av grenseproduktiveteten er lik kapitalkostnaden) 
+- For konstant eller økende skalautbytte, har vi antydet at nivået på `\(x\)` vil være bestemt fra etterspørselssiden For å finne optimal faktorbruk i dette tilfelle kan vi for en gitt produksjons minimere faktorutlegget. 
+- Formelt kan vi skrive dette som 
+
+`\begin{equation*}
+\text{ Min } C=wN +rK \text{ gitt } x^0=f(K,N) 
+\end{equation*}`
 
 
+---
 
+Vi kan løse dette ved bruk av Lagrange metode. Lagrangefunksjonen er her gitt ved:
 
+`\begin{equation}
+L = f(K,N) - \lambda(wN+rK-C^0)
+\end{equation}`
 
+De to første ordens betingelsen er gitt ved
 
+`\begin{equation*}
+\partial L/\partial N = f'_{N,K} - \lambda w  =0 \\ 
+\partial K/\partial K = f'_{N,K} - \lambda w  =0  
+\end{equation*}`
 
+Kombinerer de to første ordens betingelsene gir oss løsningen
 
+`\begin{equation*}
+\lambda w/\lambda r=w/r = \frac{f'_{N}}{f'_{K}} = MTSB
+\end{equation*}`
 
+Optimal løsning er også her karakterisert ved tangeringspunktet mellom isokvant og isokostlinjen.
 
+&lt;img src="drawio/kosmin.png" width="25%" /&gt;
 
+---
+
+## Appendiks (alle figurene samlet)
+
+&lt;img src="drawio/oversikt_prod_iii.png" width="45%" /&gt;
 
 
 

@@ -12,11 +12,6 @@ knitr::opts_chunk$set(
   fig.path = "man/figures/"
 )
 ```
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
 ```{r, eval=F, echo=F}
@@ -61,6 +56,7 @@ git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 ![](man/figures/abc.jpg)
 
 ## Nyheter
+- Slides til forelesningene førstkommende torsdag og fredag er nå publisert.
 
 ### Studietips
 
@@ -94,7 +90,7 @@ knitr::knit_exit()
 inst/forelesningsnotater/presentationsD.Rmd
 Lenker:
 https://www.nrk.no/rogaland/stromkrisen_-bonder-ma-destruere-avlinger-1.16077698
-inst/forelesningsnotater/presentationsD.Rmd
+inst/forelesningsnotater/presentations.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
 https://github.com/joernih/BOEA203Mikrooekonomi.git
