@@ -107,9 +107,9 @@ oppgaver <- c(
 
 undervfor <- c(
 "Zoom", 
-"Auditorium ?", 
-"Auditorium ?", 
-"Auditorium ?", 
+"HGSD2008", 
+"HGSD2008", 
+"HGSD Auditorium D", 
 "Auditorium ?", 
 "Auditorium ?", 
 "Auditorium ?", 
