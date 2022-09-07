@@ -86,7 +86,6 @@ Jørn I. Halvorsen
 # Git relaterte
 knitr::knit_exit()
 ```
-
 inst/forelesningsnotater/presentations.Rmd
 inst/forelesningsnotater/presentations.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
@@ -95,4 +94,3 @@ https://github.com/joernih/BOEA203Mikrooekonomi.git
 
 # Forelesning 2
 inst/forelesningsnotater/drawio/bilder/prodftall.png
-2 Arbeidskrav
