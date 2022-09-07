@@ -9,19 +9,18 @@ source('../inst/forelesningsnotater/timeplan.R')
 
 Forelesning #1: [`r tema[1]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/1-3_introduksjon.pdf)
 
+## Produsentteori: Produsentens økonomiske adferd
+
+Forelesning #2: [`r tema[2]`]()
+<br>
+Forelesning #3: [`r tema[3]`]()
+<br>
+Forelesning #4: [`r tema[4]`]()
+
 ```{r echo=F}
 knitr::knit_exit()
 ```
 
-
-
-## Produsentteori: Produsentens økonomiske adferd
-
-Forelesning #2: [`r tema[2]`](https://github.com/joernih/sfb10816mikrooekonomi/blob/main/inst/forelesningsnotater/4_produsent_teknologi.pdf)
-<br>
-Forelesning #3: [`r tema[3]`](https://github.com/joernih/sfb10816mikrooekonomi/blob/main/inst/forelesningsnotater/5_produsent_innt_kostn.pdf)
-<br>
-Forelesning #4: [`r tema[4]`](https://github.com/joernih/sfb10816mikrooekonomi/blob/main/inst/forelesningsnotater/6_produsent_profittmaksimering.pdf)
 
 ## Konsumentteori: Konsumentens økonomiske adferd
 
