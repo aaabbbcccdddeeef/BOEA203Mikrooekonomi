@@ -29,7 +29,7 @@ magick oversikt_prod_iii.png -crop 260x225+270+120 kgkmfast.png
 magick oversikt_prod_iii.png -crop 1000x450+500+800  klearb.png
 magick oversikt_prod_iii.png -crop 280x450+1+750 lrbtilp.png
 magick oversikt_prod_iii.png -crop 270x225+1+800  ktilbu.png
-magick oversikt_prod_iii.png -crop 270x225+1+800 ktilbm.png
+magick oversikt_prod_iii.png -crop 270x225+250+800 ktilbm.png
 magick oversikt_prod_iii.png -crop 300x225+525+100  klearb.png
 #magick oversikt_prod_iii.png -crop 260x225+525+110 krbtilp.png
 #magick oversikt_prod_iii.png -crop 270x270+1+350 lgkufast.png
