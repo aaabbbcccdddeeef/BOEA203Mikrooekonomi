@@ -57,6 +57,7 @@ git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 
 ## Nyheter
 - Slides til forelesningene førstkommende torsdag og fredag er nå publisert.
+- Vi gjennomgå teorien under forelesningen på torsdag og fredag, men første arbeidskrav er nå gjort tilgjengelig (under fanen arbeidskrav)
 
 ### Studietips
 

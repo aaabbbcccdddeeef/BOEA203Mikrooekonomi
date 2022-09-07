@@ -574,7 +574,7 @@ knitr::include_graphics(iso)
 ```
  
 - Isokvantens form bygger på følgende prinsipp: jo mer bedriften har av en innsatsfaktor, jo mer kan den bytte for én ekstra enhet av den andre faktoren, gitt at produksjonsmengden skal være den samme.
-- *MTSB (marginale tekniske substiusjonsbrøk)* beskriver helningen på en isokvant for en gitt faktorkombinasjon, dvs. i ett punkt på isokvanten.
+- *MTSB (marginale tekniske substiusjonsbrøk)* beskriver *helningen* på en isokvant for en gitt faktorkombinasjon, dvs. i ett punkt på isokvanten.
 
 ---
 
@@ -659,7 +659,7 @@ knitr::include_graphics(fss)
 - Definisjon: Skalaegenskapene sier noe om hvor mye produksjonsmengden endres ved *proporsjonale* endringer i bruken av innsatsfaktorene.
 - Proporsjonale endringer innebærer at forholdet mellom N og K er konstant. 
 - Anta en proporsjonal økning på 100%.
-- Hva skjer med produksjonsmengden (MERK: produksjonsprosesser kan variere i skala)?
+- Hva skjer med produksjonsmengden (merk: produksjonsprosesser kan variere i skala)?
 
 ---
 

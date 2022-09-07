@@ -9,6 +9,9 @@
 
 -   Slides til forelesningene førstkommende torsdag og fredag er nå
     publisert.
+-   Vi gjennomgå teorien under forelesningen på torsdag og fredag, men
+    første arbeidskrav er nå gjort tilgjengelig (under fanen
+    arbeidskrav)
 
 ### Studietips
 
@@ -35,4 +38,4 @@ Undervisningsansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-09-06 10:27:56**
+**Siste gang oppdatert: 2022-09-07 14:07:08**
