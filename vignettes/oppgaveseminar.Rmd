@@ -29,4 +29,4 @@ c_names=c("Uke nr","Dag","Tidspunkt","Del","Fra oppgavebok")
 kableExtra::kbl(timeplan, col.names=c_names) %>% kableExtra::kable_paper(full_width = F) %>% kableExtra::row_spec(forel, bold = T)
 ```
 
-Endringer: Oppgaveseminar i uke 37 går, men til gjengjeld vil det blir seminar både på torsdag og fredag i uke 38. 
+Endringer: Oppgaveseminar i uke 37 utgår, til gjengjeld vil det blir seminar både på torsdag og fredag i uke 38. 
