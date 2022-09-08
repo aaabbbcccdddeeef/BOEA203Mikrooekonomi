@@ -11,11 +11,11 @@ Forelesning #1: [`r tema[1]`](https://github.com/joernih/SFB10816Mikrooekonomi/b
 
 ## Produsentteori: Produsentens økonomiske adferd
 
-Forelesning #2: [`r tema[2]`]()
+Forelesning #2: [`r tema[2]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/4%20Produksjonsteori:Produksjon.pdf)
 <br>
-Forelesning #3: [`r tema[3]`]()
+Forelesning #3: [`r tema[3]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/5%20Produksjonsteori:Inntekter_og_kostnader.pdf)
 <br>
-Forelesning #4: [`r tema[4]`]()
+Forelesning #4: [`r tema[4]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/6_Produsentteori:Produkt_og_faktormarkeder.pdf)
 
 ```{r echo=F}
 knitr::knit_exit()
