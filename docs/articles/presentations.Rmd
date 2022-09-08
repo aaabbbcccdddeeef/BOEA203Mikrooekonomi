@@ -618,7 +618,7 @@ Grenseproduktiviteten til kapitalen er gitt ved $$
 $$
 
 MTSB blir derfor $$
-MTSB \equiv \frac{\Delta K}{\Delta N} = \frac{\frac{\partial x}{\partial N}}{\frac{\partial x}{\partial K}} = \frac{0,7N^{-0,3}}{0,3K^{-0,7}} 
+MTSB \equiv - \frac{\Delta K}{\Delta N} = \frac{\frac{\partial x}{\partial N}}{\frac{\partial x}{\partial K}} = \frac{0,7N^{-0,3}}{0,3K^{-0,7}} 
 $$ 
 
 ---
