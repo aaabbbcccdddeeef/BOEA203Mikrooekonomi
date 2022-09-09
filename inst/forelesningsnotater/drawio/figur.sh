@@ -18,8 +18,8 @@ magick oversikt_prod_ii.png -crop 250x200+1+85 inntf.png
 magick oversikt_prod_ii.png -crop 300x200+250+85 kostku.png
 magick oversikt_prod_ii.png -crop 300x200+525+85 kostkm.png
 magick oversikt_prod_ii.png -crop 200x220+0+375 kosmin.png
-magick oversikt_prod_ii.png -crop 260x240+250+375 kosminkk.png
-magick oversikt_prod_ii.png -crop 260x240+525+375 kosminka.png
+magick oversikt_prod_ii.png -crop 260x240+250+375 kosminka.png
+magick oversikt_prod_ii.png -crop 260x240+525+375 kosminkk.png
 magick oversikt_prod_ii.png -crop 350x600+1+675 submalen.png
 magick oversikt_prod_ii.png -crop 500x600+375+675 skalau.png
 
