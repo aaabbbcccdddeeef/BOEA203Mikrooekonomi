@@ -56,6 +56,7 @@ git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 ![](man/figures/abc.jpg)
 
 ## Nyheter
+- Første arbeidskrav er nå publisert (se under fanen arbeidskrav) med innleveringsfrist 25. september (vil snart åpne luke for dette i Canvas)
 
 ### Studietips
 

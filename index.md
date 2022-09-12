@@ -7,11 +7,9 @@
 
 ## Nyheter
 
--   Slides til forelesningene førstkommende torsdag og fredag er nå
-    publisert.
--   Vi gjennomgå teorien under forelesningen på torsdag og fredag, men
-    første arbeidskrav er nå gjort tilgjengelig (under fanen
-    arbeidskrav)
+-   Første arbeidskrav er nå publisert (se under fanen arbeidskrav) med
+    innleveringsfrist 25. september (vil snart åpne luke for dette i
+    Canvas)
 
 ### Studietips
 
@@ -38,4 +36,4 @@ Undervisningsansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-09-07 14:07:08**
+**Siste gang oppdatert: 2022-09-12 10:27:21**
