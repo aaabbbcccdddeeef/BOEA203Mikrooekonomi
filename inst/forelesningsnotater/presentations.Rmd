@@ -887,7 +887,7 @@ K = C^0/r
 - $C = wN + rK$
 - Kombinerer disse for å finne optimal tilpasning.
 
-Max $x=f(K,N)$ gitt $Ĉ^0=wN +rK$ gitt (beskrankning)
+Max $x=f(K,N)$ gitt $C^0=wN +rK$ gitt (beskrankning)
 
 Lagrange metode:
 
@@ -923,36 +923,35 @@ knitr::include_graphics(kosmin)
 
 **Redusert pris på kapital**
 
-```{r, echo=FALSE, out.width="30%", fig.cap=""}
+```{r, echo=FALSE, out.width="25%", fig.cap=""}
 kosminkk <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/kosminkk.png')
 knitr::include_graphics(kosminkk)
 ```
 
 **Redusert pris på arbeidskraft**
 
-```{r, echo=FALSE, out.width="30%", fig.cap=""}
+```{r, echo=FALSE, out.width="25%", fig.cap=""}
 kosminka <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/kosminka.png')
 knitr::include_graphics(kosminka)
 ```
+
+Kjøper mer (mindre) av den innsatsfaktoren som har blitt billigere (dyrere).
 
 ---
 
 
 ## Substitumalen: økonomisk substitusjon
 - Dersom vi tenker oss flere endringer i bedriftens kostnadsramme med tilhørende optimale isokvant, vil vi få frem en rekke tangeringspunkter. 
-
 ```{r, echo=FALSE, out.width="30%", fig.cap=""}
 submalen <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/submalen.png')
 knitr::include_graphics(submalen)
 ```
-
 - Kurven gjennom alle disse punktene kalles *ekspansjonsveien* eller *substitumalen*.
 - På ethvert punkt på denne kurven kan det leses av produksjonsmengde, tilhørende kostnader og etterspørsel etter innsatsfaktorer.
 - Alle punktene på substitumalen viser tilpasninger der det ikke er mulig å øke produktmengden, uten at kostnadene øker. Det er heller ikke mulig å redusere kostnadene, uten samtidig å redusere produsert kvantum.
 - Dersom bedriften er utenfor substitumalen kan den alltid bedre sin situasjon ved økonomisk substitusjon.
 
 ---
-
 
 ## Appendiks (alle figurene samlet)
 
@@ -1143,7 +1142,7 @@ Kombinerer de to første ordens betingelsene gir oss løsningen
 
 Optimal løsning er også her karakterisert ved tangeringspunktet mellom isokvant og isokostlinjen.
 
-```{r, echo=FALSE, out.width="25%", fig.cap=""}
+```{r, echo=FALSE, out.width="20%", fig.cap=""}
 kosmin <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/kosmin.png')
 knitr::include_graphics(kosmin)
 ```
@@ -1155,6 +1154,7 @@ knitr::include_graphics(kosmin)
 ```{r, echo=FALSE, out.width="45%", fig.cap=""}
 knitr::include_graphics("drawio/oversikt_prod_iii.png")
 ```
+
 ```{r, echo=F, eval=T}
 # Git relaterte
 knitr::knit_exit()
@@ -1631,6 +1631,11 @@ knitr::include_graphics("drawio/oversikt_kons_ii.png")
 ```
 
 ---
+
+```{r}
+knitr::knit_exit()
+```
+
 
 class: inverse, center, middle
 

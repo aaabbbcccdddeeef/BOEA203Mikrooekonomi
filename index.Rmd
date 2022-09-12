@@ -1,5 +1,5 @@
 --- 
-qitle: ""
+title: ""
 output: github_document
 ---
 
@@ -56,8 +56,6 @@ git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 ![](man/figures/abc.jpg)
 
 ## Nyheter
-- Slides til forelesningene førstkommende torsdag og fredag er nå publisert.
-- Vi gjennomgå teorien under forelesningen på torsdag og fredag, men første arbeidskrav er nå gjort tilgjengelig (under fanen arbeidskrav)
 
 ### Studietips
 
@@ -89,7 +87,7 @@ knitr::knit_exit()
 ```
 
 inst/forelesningsnotater/presentations.Rmd
-inst/forelesningsnotater/presentations.Rmd
+inst/forelesningsnotater/presentationsF.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
 https://github.com/joernih/BOEA203Mikrooekonomi.git

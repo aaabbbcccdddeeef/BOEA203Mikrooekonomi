@@ -3,4 +3,4 @@ title: ""
 output: github_document
 ---
 
-
+9.9-12.9: Fikset noen feil og endret litt på notasjonen på noen av figurene som inngår i forelesningenotatene.

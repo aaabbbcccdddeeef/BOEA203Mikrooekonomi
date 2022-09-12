@@ -83,7 +83,7 @@ length(dag)
 literatur <- c( "Hele kapittel 1. Kapittel 3.1-3.7, 3.9", 
 "Kapittel 4.1-4.7, 4.9", 
 "Kapittel 5.1-5.5, appendiks 5.1, 5.2", 
-"Kapittel 6.1-6.3, 6.5-6.6", 
+"Kapittel 6.1-6.3, 6.5 (tatt ut av pensum), 6.6", 
 "Kapittel 7 (hele, inkulsiv appendiks)", 
 "Kapittel 8.1-8.3, 8.7. Appendiks 8.1, 8.2", 
 "Kapittel 3 og 9", 
