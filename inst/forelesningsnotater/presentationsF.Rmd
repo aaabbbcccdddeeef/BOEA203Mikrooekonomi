@@ -35,7 +35,7 @@ library(plotly)
 ```
 
 ```{r eval=FALSE, include=FALSE}
-pathn <- '/inst/forelesningsnotater/presentations'
+pathn <- '/inst/forelesningsnotater/presentationsF'
 xaringan::inf_mr(paste0(rprojroot::find_rstudio_root_file(),pathn,'.Rmd'))
 system(paste0('brave ',rprojroot::find_rstudio_root_file(),pathn,'.html'))
 servr::daemon_stop()
@@ -1153,11 +1153,6 @@ knitr::include_graphics(kosmin)
 
 ```{r, echo=FALSE, out.width="45%", fig.cap=""}
 knitr::include_graphics("drawio/oversikt_prod_iii.png")
-```
-
-```{r, echo=F, eval=T}
-# Git relaterte
-knitr::knit_exit()
 ```
 
 ---
