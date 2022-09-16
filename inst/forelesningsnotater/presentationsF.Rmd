@@ -3,21 +3,21 @@ title: "Mikroøkonomi (SFB10816)"
 subtitle: "Forelesningsnotater (shift+o for oversiksbilde)"
 author: "Jørn I. Halvorsen og Joachim Thøgersen"
 date: "2021/08/12 (updated: `r Sys.Date()`)"
-output:
-  xaringan::moon_reader:
-    includes:
-      in_header: "mathjax-equation-numbers.html"
-    lib_dir: libs
-    nature:
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
-#bibliography: pensum.bib
 #output:
-#  html_document:
-##    css: "abc.css"
-#    toc: true
-#    toc_depth: 5
+#  xaringan::moon_reader:
+#    includes:
+#      in_header: "mathjax-equation-numbers.html"
+#    lib_dir: libs
+#    nature:
+#      highlightStyle: github
+#      highlightLines: true
+#      countIncrementalSlides: false
+#bibliography: pensum.bib
+#    css: "abc.css"
+output:
+  html_document:
+    toc: true
+    toc_depth: 5
 ---
 
 ```{r xaringan-tile-view, echo=FALSE, message=F, warning=F}
@@ -39,7 +39,7 @@ pathn <- '/inst/forelesningsnotater/presentationsF'
 xaringan::inf_mr(paste0(rprojroot::find_rstudio_root_file(),pathn,'.Rmd'))
 system(paste0('brave ',rprojroot::find_rstudio_root_file(),pathn,'.html'))
 servr::daemon_stop()
-rmarkdown::render(paste0(rprojroot::find_rstudio_root_file(),pathn))
+rmarkdown::render(paste0(rprojroot::find_rstudio_root_file(),pathn,'.html'))
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
@@ -1175,7 +1175,7 @@ class: inverse, center, middle
 
 ---
 
-##Nytteteori
+## Nytteteori
 
 - Vi kan dele nytteteori i to:
   - Kardinal nytte:

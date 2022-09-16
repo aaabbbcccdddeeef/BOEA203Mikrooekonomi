@@ -8,8 +8,9 @@
 ## Nyheter
 
 -   Første arbeidskrav er nå publisert (se under fanen arbeidskrav) med
-    innleveringsfrist 25. september (vil snart åpne luke for dette i
-    Canvas)
+    innleveringsfrist ([lenke
+    her](https://hvl.instructure.com/courses/23179/groups)) 25.
+    september.
 
 ### Studietips
 
@@ -36,4 +37,4 @@ Undervisningsansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-09-12 10:27:21**
+**Siste gang oppdatert: 2022-09-16 11:32:18**

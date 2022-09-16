@@ -56,7 +56,7 @@ git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 ![](man/figures/abc.jpg)
 
 ## Nyheter
-- Første arbeidskrav er nå publisert (se under fanen arbeidskrav) med innleveringsfrist 25. september (vil snart åpne luke for dette i Canvas)
+- Første arbeidskrav er nå publisert (se under fanen arbeidskrav) med innleveringsfrist ([lenke her](https://hvl.instructure.com/courses/23179/groups)) 25. september.
 
 ### Studietips
 
@@ -86,8 +86,6 @@ Jørn I. Halvorsen
 # Git relaterte
 knitr::knit_exit()
 ```
-
-inst/forelesningsnotater/presentations.Rmd
 inst/forelesningsnotater/presentationsF.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
@@ -95,3 +93,27 @@ https://github.com/joernih/BOEA203Mikrooekonomi.git
 
 # Forelesning 2
 inst/forelesningsnotater/drawio/bilder/prodftall.png
+
+Kunngjøring:
+- Arbeidskrav er publisert (under lenken) og leveres under grupper (dere kan være fra én til 4) 25.9
+- Kan få hjelp til dette og andre anbfalte oppgaver neste uke hvor det er seminar både på torsdag og fredag
+- Publisering av notater til Modul II vil komme på mandag 26.9, jeg er tilbake på Campus Haugesund 29.9 og 30.9
+Med ønske om en riktig god helg!
+Jørn.
+
+https://hvl.instructure.com/courses/23179/groups#tab-12900
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
