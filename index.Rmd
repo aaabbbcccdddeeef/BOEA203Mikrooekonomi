@@ -56,7 +56,9 @@ git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 ![](man/figures/abc.jpg)
 
 ## Nyheter
-- Første arbeidskrav er nå publisert (se under fanen arbeidskrav) med innleveringsfrist ([lenke her](https://hvl.instructure.com/courses/23179/groups)) 25. september.
+- Arbeidskrav med frist **25.9**
+  - Gruppe opprettes her (fra én til maks 4 personer) [Lenke her](https://hvl.instructure.com/courses/23179/groups)
+  - Oppgave leveres her [Lenke her](https://hvl.instructure.com/courses/23179/assignments/58706)
 
 ### Studietips
 
@@ -98,7 +100,9 @@ Hei,
 
 En oppdatering på veien videre i kurset.
 
-- Arbeidskrav med frist 25.9 kan leveres ( [Lenke her](https://hvl.instructure.com/courses/23179/groups) individuelt eller som gruppe (maks 4 person).
+- Arbeidskrav med frist 25.9
+  - Gruppe opprettes her (fra én til maks 4 personer) [Lenke her](https://hvl.instructure.com/courses/23179/groups)
+  - Oppgave leveres her [Lenke her](https://hvl.instructure.com/courses/23179/assignments/58706)
 - Trenger du hjelp til arbeidskrav og andre anbefalte oppgaver, arrangeres det oppgaveseminar med Akbar Osman både
   på torsdag (12:15-16:00) og fredag (10:15-14:00) denne uken.
 - Jeg er tilbake med fysisk undervisning på torsdag og fredag neste uke. Forelesningsnotatene tilknyttet dette publiseres i forkant på nettsiden for kurset i løpet av mandagen.

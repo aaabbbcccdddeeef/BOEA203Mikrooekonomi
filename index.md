@@ -7,10 +7,11 @@
 
 ## Nyheter
 
--   Første arbeidskrav er nå publisert (se under fanen arbeidskrav) med
-    innleveringsfrist ([lenke
-    her](https://hvl.instructure.com/courses/23179/groups)) 25.
-    september.
+-   Arbeidskrav med frist **25.9**
+    -   Gruppe opprettes her (fra én til maks 4 personer) [Lenke
+        her](https://hvl.instructure.com/courses/23179/groups)
+    -   Oppgave leveres her [Lenke
+        her](https://hvl.instructure.com/courses/23179/assignments/58706)
 
 ### Studietips
 
@@ -37,4 +38,4 @@ Undervisningsansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-09-20 09:22:19**
+**Siste gang oppdatert: 2022-09-22 13:22:15**
