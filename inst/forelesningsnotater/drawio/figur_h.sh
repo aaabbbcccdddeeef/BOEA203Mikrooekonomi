@@ -12,10 +12,10 @@ magick oversikt_kons_i.png -crop 1000x250+520+1 subsnorm.png
 magick oversikt_kons_i.png -crop 1000x250+520+1 subsingen.png
 
 ## Markedet
-magick oversikt_kons_ii.png -crop 1000x600+1+1   egenel.png
-magick oversikt_kons_ii.png -crop 1000x250+520+1 kryssel.png
-magick oversikt_kons_ii.png -crop 1000x250+520+1 inntel.png
-magick oversikt_kons_ii.png -crop 1000x250+520+1 utletter.png
-magick oversikt_kons_ii.png -crop 1000x250+520+1 utltilbud.png
-magick oversikt_kons_ii.png -crop 1000x250+520+1 ekonsum.png
-magick oversikt_kons_ii.png -crop 1000x250+520+1 tarbeid.png
+magick oversikt_kons_ii.png -crop 250x250+1+95   egenel.png # Win
+magick oversikt_kons_ii.png -crop 350x305+200+70 kryssel.png # Win
+magick oversikt_kons_ii.png -crop 1000x250+500+100 inntel.png # Win\n
+magick oversikt_kons_ii.png -crop 300x250+100+440 utletter.png # Win\n
+magick oversikt_kons_ii.png -crop 300x300+400+425 utltilbud.png # Win\n
+magick oversikt_kons_ii.png -crop 300x250+100+780 ekonsum.png # Win\n
+magick oversikt_kons_ii.png -crop 300x250+400+790 tarbeid.png # Wim\n
