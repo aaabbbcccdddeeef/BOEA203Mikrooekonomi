@@ -38,4 +38,4 @@ Undervisningsansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-09-22 13:22:15**
+**Siste gang oppdatert: 2022-09-26 18:41:10**
