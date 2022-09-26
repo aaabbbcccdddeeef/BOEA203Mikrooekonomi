@@ -34,7 +34,7 @@ library(plotly)
 
 ```{r eval=FALSE, include=FALSE}
 #- Eksempel med $U(x_1, x_2) = 10x_1x_2$
-pathn <- '/inst/forelesningsnotater/presentationsF'
+pathn <- '/inst/forelesningsnotater/presentations'
 xaringan::inf_mr(paste0(rprojroot::find_rstudio_root_file(),pathn,'.Rmd'))
 system(paste0('brave ',rprojroot::find_rstudio_root_file(),pathn,'.html'))
 servr::daemon_stop()

@@ -12,10 +12,8 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-#bibliography: pensum.bib
 #output:
 #  html_document:
-##    css: "abc.css"
 #    toc: true
 #    toc_depth: 5
 ---
@@ -35,11 +33,12 @@ library(plotly)
 ```
 
 ```{r eval=FALSE, include=FALSE}
+#- Eksempel med $U(x_1, x_2) = 10x_1x_2$
 pathn <- '/inst/forelesningsnotater/presentations'
 xaringan::inf_mr(paste0(rprojroot::find_rstudio_root_file(),pathn,'.Rmd'))
 system(paste0('brave ',rprojroot::find_rstudio_root_file(),pathn,'.html'))
 servr::daemon_stop()
-rmarkdown::render(paste0(rprojroot::find_rstudio_root_file(),pathn))
+rmarkdown::render(paste0(rprojroot::find_rstudio_root_file(),pathn,'.html'))
 ```
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
@@ -1155,11 +1154,6 @@ knitr::include_graphics(kosmin)
 knitr::include_graphics("drawio/oversikt_prod_iii.png")
 ```
 
-```{r, echo=F, eval=T}
-# Git relaterte
-knitr::knit_exit()
-```
-
 ---
 
 class: inverse, center, middle
@@ -1176,23 +1170,23 @@ class: inverse, center, middle
 - Husholdning: gruppe av individer med samme preferanser.
 - Selvbergingsøkonomi $\Rightarrow$ bytteøkonomi $\Rightarrow$ pengeøkonomi
 - Vi skal anta at konsumenten tilpasser seg slik at nytten ved å forbruke de ulike godene blir størst mulig.
-- Men: konsumenten står ovenfor noen restriksjoner (betingelser).
+- **Men:** konsumenten står ovenfor noen restriksjoner (betingelser).
 
 ---
 
-##Nytteteori
+## Nytteteori
 
 - Vi kan dele nytteteori i to:
-  - Kardinal nytte:
+  1. Kardinal nytte:
     	- Nytten kan måles.
-  - Ordinal nytte:
+  2. Ordinal nytte:
     	- Ikke målbar nytte. Her forutsetter vi at konsumenten kan ordne eller rangere de ulike godekombinasjonene.
   
 ---
 
-## Konsumentens optimale tilpasning
+## Hvilke sentrale faktorer bestemmer etterspørselen etter et gode?
 Vi tar utgangspunkt i følgende spørsmål:
-Hvilke forhold vil være av størst betydning for en konsuments etterspørsel etter et gode?
+Hvilke forhold vil være av *størst* betydning for en konsuments etterspørsel etter et gode?
 - Sentrale faktorer:
  - Konsumentens behovstruktur
  - Konsumentens inntekt
@@ -1213,43 +1207,47 @@ Hvilke forhold vil være av størst betydning for en konsuments etterspørsel et
 
 ---
 
-- Når disse forutsetningene er oppfylt vil det i prinsippet være mulig å uttrykke hvilken nytte konsumenten får av å konsumere de to godene med en nyttefunksjon:
+- Når disse forutsetningene (aksiomene) er oppfylt, vil det i prinsippet være mulig å uttrykke hvilken nytte konsumenten får av å konsumere de to godene med en nyttefunksjon:
 	- $U = u(x_1, x_2)$
 - En nyttefunksjon viser for enhver godekombinasjon den samlede nytte konsumenten oppnår ved å konsumere denne godekombinasjonen.
 - For analytiske formål antas denne funksjonen å være kontinuerlig og to ganger deriverbar.
 
 ---
 
-## Grensenytte
+### Grensenytte
 
 - Grensenytten av et gode uttrykker den endring konsumenten får i sin nytte ved en liten endring i tilgangen på det godet.
  - Vi skal anta at tilleggsnytten er positiv: 
    	-  $u'_{x_{1}}(x_1,x_2)>0$ og  $u'_{x_{2}}(x_1,x_2)>0$
  - Videre skal vi anta at nytteøkningen er avtagende:
    	-  $u''_{x_{1}}(x_1,x_2)<0$ og $u''_{x_{1}}(x_1,x_2)<0$ 
-- Altså: konsumenten har positive, men avtagende grensenytter.
+- **Altså**: konsumenten har positive, men avtagende grensenytter.
+
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+grensenytte <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/grensenytte.png')
+knitr::include_graphics(grensenytte)
+```
+
 
 ---
 
-## Indifferenskurve
+### Indifferenskurve
 
 - Nyttefunksjonen kan representeres grafisk med indifferenskurver.
-- OBS: Merk at nyttefunksjonen har tre ukjente. Vi må derfor operere med et tre-dimensjonalt diagram. Dette vil vi unngå. Ved å sette de uavhengige variablene 
-  ( $x_{1},x_{2}$ ) på aksene i et to-dim. diagram, kan funksjonen illustreres grafisk for gitte verdier på den tredje variabelen, U. Vi får da en nivåkurve.
-- Grafisk illustrasjon på tavla…
-- Indiff.kurven viser altså alle kombinasjoner av de to godene som gir konsumenten samme totale nytte.
+- OBS: Merk at nyttefunksjonen har tre ukjente. Vi må derfor operere med et tre-dimensjonalt diagram. Dette vil vi unngå. Ved å sette de uavhengige variablene ( $x_{1},x_{2}$ ) på aksene i et to-dimensjonalt diagram, kan funksjonen illustreres grafisk for gitte verdier på den tredje variabelen, U.
+
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+indkurve <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/indkurve.png')
+knitr::include_graphics(indkurve)
+```
+- Indifferenskurven viser altså alle kombinasjoner av de to godene som gir konsumenten samme totale nytte.
 
 ---
 
-- Forklaring på indifferenskurvens form og marginal substitusjonsbrøk (MSB)
+### Forklaring på indifferenskurvens form og marginal substitusjonsbrøk (MSB)
 - Kurven heller nedover pga. ikkemetningsaksiomet. Videre ser vi at kurven er konveks mot origo. Det skyldes følgende antagelse:
 - Jo mer du har av $x_1$, jo mindre vil du gi opp av $x_2$ for å få mer av $x_1$.
 	-  Loven om fallende MSB.
-- MSB viser altså antall enheter som en konsument er villig til å gi opp, for å få en ekstra enhet av det andre godet.
-	- Bytteforholdet mellom to goder, gitt et konstant nyttenivå.
-	- For å få frem ulike nyttenivåer må vi således tegne et indifferenskart.
-
----
 
 **Matematisk utledning**
 
@@ -1266,6 +1264,19 @@ MSB\equiv - \frac{\Delta x_{2}}{\Delta x_{1}}  = \frac{u'(x_{1})}{u'(x_{2})}
 
 ---
 
+### Indifferenskart
+
+- MSB viser altså antall enheter som en konsument er villig til å gi opp, for å få én ekstra enhet av det andre godet.
+	- Bytteforholdet mellom to goder, gitt et konstant nyttenivå.
+	- For å få frem ulike nyttenivåer må vi således tegne et indifferenskart.
+
+```{r, echo=FALSE, out.width="35%", fig.cap=""}
+indkart <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/indkart.png')
+knitr::include_graphics(indkart)
+```
+
+---
+
 ## Budsjettlinjen
 
 - Vi har nå sett at konsumenten stadig vil trekke mot indifferenskurver som gir høyere nyttenivå.
@@ -1273,18 +1284,17 @@ MSB\equiv - \frac{\Delta x_{2}}{\Delta x_{1}}  = \frac{u'(x_{1})}{u'(x_{2})}
  -  Fast inntekt: $m$
  -  Pris på gode $x_1: p_1$
  -  Pris på gode $x_2 : p_2$
-- Vi antar at konsumenten bruker hele sin inntekt på
-- kjøp av de to godene:
+- Vi antar at konsumenten bruker hele sin inntekt på kjøp av de to godene:
   - $p_1x_1 + p_2x_2 = m$
 
----
-
-- Grafisk illustrasjon av budsjettlinja
+```{r, echo=FALSE, out.width="30%", fig.cap=""}
+budsjbet <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/budsjbet.png')
+knitr::include_graphics(budsjbet)
+```
 - Budsjettlinja viser alle kombinasjoner av $x_1$ og $x_2$ som konsumenten kan kjøpe, når hele inntekten brukes.
-- Skjæringspunkter og helning.
-- Skift i budsjettlinja, på tavla…
 
 ---
+## Skjæringspunkter og helning.
 
 **Matematisk utledning**
 
@@ -1308,14 +1318,22 @@ x_{1} =m/p_{1}
 
 ---
 
-## Konsumentens valg av godekombinasjon/ konsumentens optimale tilpasning
+## Konsumentens optimale tilpasning
 
 - Mål: tilpasse seg på høyest mulig nyttenivå for en gitt budsjettrestriksjon.
-- Altså: nyttemaksimering.
-- Grafisk og matematisk løsning på tavla.
+- Altså: Nyttemaksimering.
+```{r, echo=FALSE, out.width="35%", fig.cap=""}
+opttilp <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/opttilp.png')
+knitr::include_graphics(opttilp)
+```
 - Resultat:
-- Gossen’s lov: Verdien av den siste krona brukt på det ene godet, skal være lik verdien av den siste krona brukt på det andre godet.
-- Eksempel med $U(x_1, x_2) = 10x_1x_2$
+
+\begin{equation*}
+MSB=\frac{p1}{p2} \\
+u'({x_{1}})/p_{1} = u'({x_{2}})/p_{2}  
+\end{equation*}
+
+- *Gossen’s lov*: Verdien av den siste krona brukt på det ene godet, skal være lik verdien av den siste krona brukt på det andre godet.
 
 ---
 
@@ -1354,7 +1372,7 @@ p_{1}x_{1}+p_{2}x_{2}=m
 
 ---
 
-Som kan omskrives som (Gossens lov)
+Som kan omskrives som (*Gossens lov*)
 
 \begin{equation*}
 u'({x_{1}})/p_{1} = u'({x_{2}})/p_{2}  \\
@@ -1366,27 +1384,44 @@ Den rasjonelle konsument vil fordele utgiftene slik at den siste krone gir den s
 
 **Øvelse**
 
+
 Anta at du har en inntekt på 40 NOK som brukes på to goder. Gode 1 koster 10per enhet, og gode 2 koster 5 per enhet.
 
 Anta at du har en inntekt på 40 NOK som brukes på to goder. Gode 1 koster 10per enhet, og gode 2 koster 5 per enhet.
 - (a) Skriv ned budsjettbetingelsen.
 \begin{equation*}
-10x_{1}+5x_{2}=40
 \end{equation*}
 - (b) Hvor mye kan du kjøpe dersom du bruker all inntekten på gode 1?
 \begin{equation*}
-x_{1} = 40/10 = 4
 \end{equation*}
 - (c) Hvor mye kan du kjøpe dersom du bruker all inntekten på gode 2?
 \begin{equation*}
-x_{2} = 40/5 = 8
 \end{equation*}
 - (d) Tegn budsjettlinja.
-     Se diagramark
 - (e) Anta at prisen på gode 1 faller til 5 NOK. Skriv ned ny budsjettbetingelse. Tegn inn denne i diagrammet du brukte i forrige spørsmål
 \begin{equation*}
-5x_{1}+5x_{2}=40
 \end{equation*}
+
+```{r, echo=F}
+#- (a) Skriv ned budsjettbetingelsen.
+#\begin{equation*}
+#10x_{1}+5x_{2}=40
+#\end{equation*}
+#- (b) Hvor mye kan du kjøpe dersom du bruker all inntekten på gode 1?
+#\begin{equation*}
+#x_{1} = 40/10 = 4
+#\end{equation*}
+#- (c) Hvor mye kan du kjøpe dersom du bruker all inntekten på gode 2?
+#\begin{equation*}
+#x_{2} = 40/5 = 8
+#\end{equation*}
+#- (d) Tegn budsjettlinja.
+#     Se diagramark
+#- (e) Anta at prisen på gode 1 faller til 5 NOK. Skriv ned ny budsjettbetingelse. Tegn inn denne i diagrammet du brukte i forrige spørsmål
+#\begin{equation*}
+#5x_{1}+5x_{2}=40
+#\end{equation*}
+```
 
 ---
 
@@ -1409,7 +1444,9 @@ class: inverse, center, middle
 ## Innledning
 
 - Vi skal nå bruke det analyseapparatet vi har utviklet til å se på hvordan endringer i inntekt og priser vil virke inn på konsumentens konsummønster.
-- Vi skal også se hvordan vi kan bruke denne valghandlingsmodellen til å utlede konsumentens etterspørselskurve.
+- Vi skal også se hvordan vi kan bruke denne valghandlingsmodellen til
+  -  Utlede konsumentens etterspørselskurve etter goder.  
+  -  Utlede konsumentens tilbudskruve etter arbeid.
 
 ---
 
@@ -1422,8 +1459,9 @@ class: inverse, center, middle
 
 ---
 
-- La oss stille følgende spørsmål: Dersom prisen på en vare reduseres med 10 kroner, og etterspurt kvantum øker med 100 enheter, er det mye eller lite?
-	- Det relevante forholdet er %-vis endring i etterspørsel, ved en %-vis endring i pris. Det vil fortelle oss noe om prisfølsomheten.
+La oss stille følgende spørsmål: Dersom prisen på en vare reduseres med 10 kroner, og etterspurt kvantum øker med 100 enheter, er det mye eller lite?
+ 
+- Det relevante forholdet er %-vis endring i etterspørsel, ved en %-vis endring i pris. Det vil fortelle oss noe om prisfølsomheten.
 
 Kvantumsendring i prosent:
 \begin{equation*}
@@ -1442,16 +1480,21 @@ e_{ij} \equiv \frac{\frac{\Delta X_{i}}{X_{1}}}{\frac{\Delta P{j}}{P_{j}}}=\frac
 
 ---
 
-## Egenprisvirkninger
+### Egenprisvirkninger
 
 - Anta at $p_1$ stiger. Hva skjer?
 - Budsjettrommet blir mindre ettersom budsjettlinja vris innover langs den horisontale aksen.
-	- Normaltilfellet: pris og etterspørsel går motsatt vei. Økt pris fører til lavere etterspørsel, og motsatt.
-	- Giffen-tilfellet pris og etterspørsel går samme vei. Økt pris fører til økt etterspørsel, og motsatt.
+  - Normaltilfellet (vist i figur): pris og etterspørsel går motsatt vei. Økt pris fører til lavere etterspørsel, og motsatt.
+  - Giffen-tilfellet pris og etterspørsel går samme vei. Økt pris fører til økt etterspørsel, og motsatt.
+
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+egenel <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/egenel.png')
+knitr::include_graphics(egenel)
+```
 
 ---
 
-### Egenpriselastisitet
+**Egenpriselastisitet**
 
 - Egenpris-/Cournotelastisitet:
    - Viser %-vis endring i etterspørselen etter gode $x_1$ ved en endring i prisen på gode $x_1$. (eventuelt for gode 2)
@@ -1459,53 +1502,61 @@ e_{ij} \equiv \frac{\frac{\Delta X_{i}}{X_{1}}}{\frac{\Delta P{j}}{P_{j}}}=\frac
 \begin{equation*}
 e_{11} \equiv \frac{\frac{\Delta X_{1}}{X_{1}}}{\frac{\Delta P{1}}{P_{1}}}=\frac{\Delta X_{1} P_{1} }{\Delta P_{1} X_{1}}
 \end{equation*}
-  - $e_{11} < -1$: Priselastisk gode
-  - $e_{11} = -1$: Nøytralelastisk
-  - $-1< e_{11}< 0$: prisuelastisk
-  - $e_{11} > 0$: Giffen-tilfellet
+  - $e_{11} < -1$: Priselastisk 
+  - $e_{11} = -1$: Prisnøytralt 
+  - $-1< e_{11}< 0$: Prisuelastisk
+  - $e_{11} > 0$: (Giffen-gode)
 
 ---
 
 
-##  Kryssprisvirkninger
+###  Kryssprisvirkninger
 
-- Hva skjer med etterspørselen etter $x_2$ når prisen på gode $x_1$ øker?? Det kan i utgangspunktet skje tre ting.
-   - i. Etterspørselen etter gode $x_2$ øker. Erstatter bort $x_1$ til fordel for $x_2$. 
-       - $\Rightarrow$ Alternative
-   - ii. Etterspørselen etter gode $x_2$ reduseres. Kjøper altså mer av både $x_1$ og $x_2$. 
-       - $\Rightarrow$ Komplementære goder
-   - iii. Etterspørselen etter gode $x_2$ påvirkes ikke. 
-       - $\Rightarrow$ Godene er uavhengige av hverandre.
-- Pris-konsumkurve/ Cournot-kurven
-	- Viser alle optimale godekombinasjoner for ulike priser.
+Hva skjer med etterspørselen etter $x_2$ når prisen på gode $x_1$ øker? Det kan i utgangspunktet skje tre ting.
+
+1. Etterspørselen etter gode $x_2$ øker. Erstatter bort $x_1$ til fordel for $x_2$.  
+  - $\Rightarrow$ Alternative goder
+1. Etterspørselen etter gode $x_2$ reduseres (vist i figur). Kjøper altså mer av både $x_1$ og $x_2$. 
+  - $\Rightarrow$ Komplementære goder
+1. Etterspørselen etter gode $x_2$ påvirkes ikke. 
+  - $\Rightarrow$ Godene er uavhengige av hverandre
+
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+kryssel <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/kryssel.png')
+knitr::include_graphics(kryssel)
+```
 
 
 ---
 
-### Krysspriselastisitet
+**Krysspriselastisitet**
 
 - Viser %-vis endring i etterspørselen etter gode $x_1$, ved en endring i prisen på gode $x_2$. Eller motsatt.
-- Formelt:
+- Formelt: 
 \begin{equation*}
 e_{12} \equiv \frac{\frac{\Delta X_{1}}{X_{1}}}{\frac{\Delta P{2}}{P_{2}}}=\frac{\Delta X_{1} P_{2} }{\Delta P_{2} X_{1}}
 \end{equation*}
-	- $e_{12} < 0$: Komplementært til $x_2$
-	- $e_{12} > 0$: Alternativ til $x_2$
-	- $e_{12} = 0$: Uavhengig av $x_2$
-
+  - $e_{12} < 0$: Komplementært til $x_2$
+  - $e_{12} > 0$: Alternativ til $x_2$
+  - $e_{12} = 0$: Uavhengig av $x_2$
 
 ---
 
-## Inntektsendringer
+### Inntektsendringer
 
 - En endring i konsumentens inntekt vil føre til at budsjettlinja parallellforskyves.
 - Analyse av en inntektsøkning på tavla.
 - Merk forskjellen mellom normalgoder og mindreverdige goder.
 - Dersom vi trekker en linje gjennom de optimale godekombinasjoner, får vi en kurve som kalles inntekts-forbrukskurven (Engel-kurven).
 
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+inntel <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/inntel.png')
+knitr::include_graphics(inntel)
+```
+
 ---
 
-### Inntektselastisitet
+**Inntektselastisitet**
 - Viser hvor mye etterspørselen endres, ved en liten endring i inntekt.
 - Formelt.
 \begin{equation*}
@@ -1519,7 +1570,7 @@ E_1 \equiv \frac{\frac{\Delta X_{1}}{X_{1}}}{\frac{\Delta Y}{Y}}=\frac{\Delta X_
 
 ---
 
-## Dekomponering av virkningen av prisendringer: Substitusjonsvirkning og inntektsvirkning
+## Dekomponering av virkningen av prisendringer: Substitusjons- og inntektsvirkning
 
 - Vi har sett hvordan prisendringer kan påvirke konsumet. Vi skal nå splitte denne totale priseffekten opp i to virkninger:
 - Substitusjonsvirkning
@@ -1533,7 +1584,11 @@ $\Rightarrow$ Nyttenivået opprettholdes.
 	- Anta nå at vi ser bort i fra inntektskompensasjonen og tar hensyn til at økt $p_1$ vil redusere realinntekten. Den virkningen som oppstår på konsumet som følge av endringen i realinntekt, kalles inntektseffekten. Denne vil parallellforskyve budsjettlinja, uten at helningen endres.
 - Totaleffekten
 	- Substitusjonseffekt + inntektseffekt = Priseffekt
-- Grafisk på tavla.
+
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+utletter <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/utletter.png')
+knitr::include_graphics(utletter)
+```
 
 ---
 
@@ -1541,9 +1596,8 @@ $\Rightarrow$ Nyttenivået opprettholdes.
 
 - Fra teorien over kan vi utlede konsumentens etterspørselsfunksjon og etterspørselskurve.
 - Merk: Fra optimeringsproblemet har vi to betingelser som må være oppfylt: tangeringsbetingelsen og budsjettbetingelsen. Vi har også to ukjent. De kjente størrelsen som bestemmer disse to er prisene og inntekten. Altså blir de to ukjente funksjoner av priser og inntekt. Vi kan dermed skrive etterspørselsfunksjonene som:
-	- $x_1^D=D(p_1,p_2,m)$ 
-	- $x_2^D=D(p_1,p_2,m)$
-
+  - $x_1^D=D(p_1,p_2,m)$ 
+  - $x_2^D=D(p_1,p_2,m)$
 ---
 
 ### Etterspørselskurven
@@ -1554,11 +1608,12 @@ $\Rightarrow$ Nyttenivået opprettholdes.
   x_{1}^{D}=D(p_1)
 \end{equation*}
 - Vi tar utgangspunkt i konsumentens optimale tilpasning, og antar så prisøkninger på gode $x_1$.
-- Kurven har negativ helning: $\frac{dx_1^D}{dp_1}<0$
-- Gjelder alltid, bortsett fra i Giffen-tilfellet.
-- Vi har konstruert etterspørselskurven uten et målbart nyttebegrep.
-- Grafisk utledning av etterspørselskurven på tavla.
 
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+ekonsum <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/ekonsum.png')
+knitr::include_graphics(ekonsum)
+```
+- Kurven har negativ helning: $\frac{dx_1^D}{dp_1}<0$ (gjelder alltid, bortsett fra i Giffen-tilfellet).
 ---
 
 ### Tilbudsfunksjonen etter arbeid 
@@ -1577,6 +1632,38 @@ Nyttefunksjonen består derfor av konsumgode (x) og fritid (L)
 \begin{equation*}
 U=u(x,L) \text{ } u^{'}_{x} >0, u^{''}_{x} <0, u^{'}_{L} >0, u^{''}_{L} <0
 \end{equation*}
+
+---
+
+**Optimal tilpasning**
+
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+#Den optimale løsningen er gitt ved
+utltilbud <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/utltilbud.png')
+knitr::include_graphics(utltilbud)
+```
+
+**Husholdningens tilbud av arbeidskraft**
+
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+#Mens tilbudsfunksjonen fremkommer som
+tarbeid <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/tarbeid.png')
+knitr::include_graphics(tarbeid)
+```
+
+---
+
+## Appendiks (alle figurene samlet)
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+knitr::include_graphics("drawio/oversikt_kons_ii.png")
+```
+
+```{r, echo=F}
+knitr::knit_exit()
+```
+
+---
 
 **Øvelse:** Finn de to førstordensbetingelsene for husholdingens optimale tilpasning og vis den optimale tilpasning grafisk
 
@@ -1621,16 +1708,6 @@ c) For *komplementære goder* vil etterspørselen etter gode reduseres når pris
 \begin{equation*}
 \frac{\partial  x_{1}}{\partial p_{2}} = \frac{1}{2p_1}  > 0 \text{ dvs. alternative goder}
 \end{equation*}
-
----
-
-## Appendiks (alle figurene samlet)
-
-```{r, echo=FALSE, out.width="50%", fig.cap=""}
-knitr::include_graphics("drawio/oversikt_kons_ii.png")
-```
-
----
 
 ```{r}
 knitr::knit_exit()

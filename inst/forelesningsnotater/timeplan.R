@@ -147,7 +147,7 @@ gang7 <- paste(oppgaver[8])
 gang8 <- paste(oppgaver[9],oppgaver[10])
 rom <- c(2008,"","","","","","","")
 gang <- c(gang1,gang2,gang3,gang4,gang5,gang6,gang7,gang8)
-delv <- del[c(-2,-3,-4)]
+delv <- del[c(1,2,3,5,6,7,8,9)]
 dagv <- c('Torsdag','Torsdag','Fredag',rep('Torsdag',5))
 tidv <- c('12:15-14:00','12:15-14:00','10:15-14:00',rep('12:15-14:00',5)) 
 df2 <- data.frame(Uke_nr=ukesem,Dag=dagv,Tidspunkt=tidv,Del=delv,Oppgaver_bok=gang)
