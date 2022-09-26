@@ -1326,7 +1326,11 @@ opttilp <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater
 knitr::include_graphics(opttilp)
 ```
 - Resultat:
-- Gossen’s lov: Verdien av den siste krona brukt på det ene godet, skal være lik verdien av den siste krona brukt på det andre godet.
+$$
+MSB=\frac{p1}{p2} \\
+u'({x_{1}})/p_{1} = u'({x_{2}})/p_{2}  
+$$
+- *Gossen’s lov*: Verdien av den siste krona brukt på det ene godet, skal være lik verdien av den siste krona brukt på det andre godet.
 - Eksempel med $U(x_1, x_2) = 10x_1x_2$
 
 ---
@@ -1421,7 +1425,9 @@ class: inverse, center, middle
 ## Innledning
 
 - Vi skal nå bruke det analyseapparatet vi har utviklet til å se på hvordan endringer i inntekt og priser vil virke inn på konsumentens konsummønster.
-- Vi skal også se hvordan vi kan bruke denne valghandlingsmodellen til å utlede konsumentens etterspørselskurve.
+- Vi skal også se hvordan vi kan bruke denne valghandlingsmodellen til
+  -  Utlede konsumentens etterspørselskurve etter goder.  
+  -  Utlede konsumentens tilbudskruve etter arbeid.
 
 ---
 
@@ -1434,8 +1440,9 @@ class: inverse, center, middle
 
 ---
 
-- La oss stille følgende spørsmål: Dersom prisen på en vare reduseres med 10 kroner, og etterspurt kvantum øker med 100 enheter, er det mye eller lite?
-	- Det relevante forholdet er %-vis endring i etterspørsel, ved en %-vis endring i pris. Det vil fortelle oss noe om prisfølsomheten.
+La oss stille følgende spørsmål: Dersom prisen på en vare reduseres med 10 kroner, og etterspurt kvantum øker med 100 enheter, er det mye eller lite?
+ 
+- Det relevante forholdet er %-vis endring i etterspørsel, ved en %-vis endring i pris. Det vil fortelle oss noe om prisfølsomheten.
 
 Kvantumsendring i prosent:
 \begin{equation*}
