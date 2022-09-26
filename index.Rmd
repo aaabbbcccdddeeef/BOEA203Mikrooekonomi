@@ -88,6 +88,7 @@ Jørn I. Halvorsen
 # Git relaterte
 knitr::knit_exit()
 ```
+inst/forelesningsnotater/tavlefil.Rmd
 inst/forelesningsnotater/presentationsF.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
@@ -123,3 +124,14 @@ Jørn.
 
 https://hvl.instructure.com/courses/23179/groups#tab-12900
 
+
+Innledning
+Nytteteori
+Konsumentens optimale tilpasning
+Konsumentens preferanser og behovsstruktur
+Konsumentens valg av godekombinasjoner
+
+
+
+
+Appendiks
