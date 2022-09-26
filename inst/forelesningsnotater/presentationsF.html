@@ -7,7 +7,7 @@
     <script src="libs/header-attrs-2.14/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"be7bda28f979474780e363fff25840ab","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"bf0506947c414e9e9c958e9479c4ea03","expires":1}</script>
     <script src="libs/himalaya-1.1.0/himalaya.js"></script>
     <script src="libs/js-cookie-3.0.0/js.cookie.js"></script>
     <link href="libs/editable-0.2.6/editable.css" rel="stylesheet" />
@@ -1743,7 +1743,7 @@ Oppdatert: 2022-09-26
 
 - Vi skal nå bruke det analyseapparatet vi har utviklet til å se på hvordan endringer i inntekt og priser vil virke inn på konsumentens konsummønster.
 - Vi skal også se hvordan vi kan bruke denne valghandlingsmodellen til
-  -  Utlede konsumentens etterspørselskurve etter goder.
+  -  Utlede konsumentens etterspørselskurve etter goder.  
   -  Utlede konsumentens tilbudskruve etter arbeid.
 
 ---
@@ -1782,8 +1782,10 @@ e_{ij} \equiv \frac{\frac{\Delta X_{i}}{X_{1}}}{\frac{\Delta P{j}}{P_{j}}}=\frac
 
 - Anta at `\(p_1\)` stiger. Hva skjer?
 - Budsjettrommet blir mindre ettersom budsjettlinja vris innover langs den horisontale aksen.
-	- Normaltilfellet: pris og etterspørsel går motsatt vei. Økt pris fører til lavere etterspørsel, og motsatt.
-	- Giffen-tilfellet pris og etterspørsel går samme vei. Økt pris fører til økt etterspørsel, og motsatt.
+  - Normaltilfellet (vist i figur): pris og etterspørsel går motsatt vei. Økt pris fører til lavere etterspørsel, og motsatt.
+  - Giffen-tilfellet pris og etterspørsel går samme vei. Økt pris fører til økt etterspørsel, og motsatt.
+
+&lt;img src="drawio/egenel.png" width="40%" /&gt;
 
 ---
 
@@ -1795,27 +1797,26 @@ e_{ij} \equiv \frac{\frac{\Delta X_{i}}{X_{1}}}{\frac{\Delta P{j}}{P_{j}}}=\frac
 `\begin{equation*}
 e_{11} \equiv \frac{\frac{\Delta X_{1}}{X_{1}}}{\frac{\Delta P{1}}{P_{1}}}=\frac{\Delta X_{1} P_{1} }{\Delta P_{1} X_{1}}
 \end{equation*}`
-  - `\(e_{11} &lt; -1\)`: Priselastisk gode
-  - `\(e_{11} = -1\)`: Nøytralelastisk
-  - `\(-1&lt; e_{11}&lt; 0\)`: prisuelastisk
-  - `\(e_{11} &gt; 0\)`: Giffen-tilfellet
-
-&lt;img src="drawio/ekurve.png" width="65%" /&gt;
+  - `\(e_{11} &lt; -1\)`: Priselastisk 
+  - `\(e_{11} = -1\)`: Prisnøytralt 
+  - `\(-1&lt; e_{11}&lt; 0\)`: Prisuelastisk
+  - `\(e_{11} &gt; 0\)`: (Giffen-gode)
 
 ---
 
 
 ###  Kryssprisvirkninger
 
-- Hva skjer med etterspørselen etter `\(x_2\)` når prisen på gode `\(x_1\)` øker?? Det kan i utgangspunktet skje tre ting.
-   - i. Etterspørselen etter gode `\(x_2\)` øker. Erstatter bort `\(x_1\)` til fordel for `\(x_2\)`. 
-       - `\(\Rightarrow\)` Alternative
-   - ii. Etterspørselen etter gode `\(x_2\)` reduseres. Kjøper altså mer av både `\(x_1\)` og `\(x_2\)`. 
-       - `\(\Rightarrow\)` Komplementære goder
-   - iii. Etterspørselen etter gode `\(x_2\)` påvirkes ikke. 
-       - `\(\Rightarrow\)` Godene er uavhengige av hverandre.
-- Pris-konsumkurve/ Cournot-kurven
-	- Viser alle optimale godekombinasjoner for ulike priser.
+Hva skjer med etterspørselen etter `\(x_2\)` når prisen på gode `\(x_1\)` øker? Det kan i utgangspunktet skje tre ting.
+
+1. Etterspørselen etter gode `\(x_2\)` øker. Erstatter bort `\(x_1\)` til fordel for `\(x_2\)`.  
+  - `\(\Rightarrow\)` Alternative goder
+1. Etterspørselen etter gode `\(x_2\)` reduseres (vist i figur). Kjøper altså mer av både `\(x_1\)` og `\(x_2\)`. 
+  - `\(\Rightarrow\)` Komplementære goder
+1. Etterspørselen etter gode `\(x_2\)` påvirkes ikke. 
+  - `\(\Rightarrow\)` Godene er uavhengige av hverandre
+
+&lt;img src="drawio/kryssel.png" width="40%" /&gt;
 
 
 ---
@@ -1823,17 +1824,13 @@ e_{11} \equiv \frac{\frac{\Delta X_{1}}{X_{1}}}{\frac{\Delta P{1}}{P_{1}}}=\frac
 **Krysspriselastisitet**
 
 - Viser %-vis endring i etterspørselen etter gode `\(x_1\)`, ved en endring i prisen på gode `\(x_2\)`. Eller motsatt.
-- Formelt:
+- Formelt: 
 `\begin{equation*}
 e_{12} \equiv \frac{\frac{\Delta X_{1}}{X_{1}}}{\frac{\Delta P{2}}{P_{2}}}=\frac{\Delta X_{1} P_{2} }{\Delta P_{2} X_{1}}
 \end{equation*}`
-	- `\(e_{12} &lt; 0\)`: Komplementært til `\(x_2\)`
-	- `\(e_{12} &gt; 0\)`: Alternativ til `\(x_2\)`
-	- `\(e_{12} = 0\)`: Uavhengig av `\(x_2\)`
-
-&lt;img src="drawio/ekurve.png" width="65%" /&gt;
-
-
+  - `\(e_{12} &lt; 0\)`: Komplementært til `\(x_2\)`
+  - `\(e_{12} &gt; 0\)`: Alternativ til `\(x_2\)`
+  - `\(e_{12} = 0\)`: Uavhengig av `\(x_2\)`
 
 ---
 
@@ -1843,6 +1840,8 @@ e_{12} \equiv \frac{\frac{\Delta X_{1}}{X_{1}}}{\frac{\Delta P{2}}{P_{2}}}=\frac
 - Analyse av en inntektsøkning på tavla.
 - Merk forskjellen mellom normalgoder og mindreverdige goder.
 - Dersom vi trekker en linje gjennom de optimale godekombinasjoner, får vi en kurve som kalles inntekts-forbrukskurven (Engel-kurven).
+
+&lt;img src="drawio/inntel.png" width="40%" /&gt;
 
 ---
 
@@ -1857,8 +1856,6 @@ E_1 \equiv \frac{\frac{\Delta X_{1}}{X_{1}}}{\frac{\Delta Y}{Y}}=\frac{\Delta X_
   - `\(0 &lt; E_1 &lt; 1\)`: Inntektsuelastisk gode
   - `\(E_1 &lt; 0\)`: Mindreverdig gode
   - `\(E_1 &gt; 0\)`: Nøytralt gode
-
-&lt;img src="drawio/ekurve.png" width="65%" /&gt;
 
 ---
 
@@ -1876,9 +1873,8 @@ E_1 \equiv \frac{\frac{\Delta X_{1}}{X_{1}}}{\frac{\Delta Y}{Y}}=\frac{\Delta X_
 	- Anta nå at vi ser bort i fra inntektskompensasjonen og tar hensyn til at økt `\(p_1\)` vil redusere realinntekten. Den virkningen som oppstår på konsumet som følge av endringen i realinntekt, kalles inntektseffekten. Denne vil parallellforskyve budsjettlinja, uten at helningen endres.
 - Totaleffekten
 	- Substitusjonseffekt + inntektseffekt = Priseffekt
-- Grafisk på tavla.
 
-&lt;img src="drawio/ekurve.png" width="65%" /&gt;
+&lt;img src="drawio/utletter.png" width="40%" /&gt;
 
 ---
 
@@ -1886,11 +1882,8 @@ E_1 \equiv \frac{\frac{\Delta X_{1}}{X_{1}}}{\frac{\Delta Y}{Y}}=\frac{\Delta X_
 
 - Fra teorien over kan vi utlede konsumentens etterspørselsfunksjon og etterspørselskurve.
 - Merk: Fra optimeringsproblemet har vi to betingelser som må være oppfylt: tangeringsbetingelsen og budsjettbetingelsen. Vi har også to ukjent. De kjente størrelsen som bestemmer disse to er prisene og inntekten. Altså blir de to ukjente funksjoner av priser og inntekt. Vi kan dermed skrive etterspørselsfunksjonene som:
-	- `\(x_1^D=D(p_1,p_2,m)\)` 
-	- `\(x_2^D=D(p_1,p_2,m)\)`
-
-&lt;img src="drawio/ekurve.png" width="65%" /&gt;
-
+  - `\(x_1^D=D(p_1,p_2,m)\)` 
+  - `\(x_2^D=D(p_1,p_2,m)\)`
 ---
 
 ### Etterspørselskurven
@@ -1901,13 +1894,9 @@ E_1 \equiv \frac{\frac{\Delta X_{1}}{X_{1}}}{\frac{\Delta Y}{Y}}=\frac{\Delta X_
   x_{1}^{D}=D(p_1)
 \end{equation*}`
 - Vi tar utgangspunkt i konsumentens optimale tilpasning, og antar så prisøkninger på gode `\(x_1\)`.
-- Kurven har negativ helning: `\(\frac{dx_1^D}{dp_1}&lt;0\)`
-- Gjelder alltid, bortsett fra i Giffen-tilfellet.
-- Vi har konstruert etterspørselskurven uten et målbart nyttebegrep.
-- Grafisk utledning av etterspørselskurven på tavla.
 
-&lt;img src="drawio/ekurve.png" width="65%" /&gt;
-
+&lt;img src="drawio/ekonsum.png" width="40%" /&gt;
+- Kurven har negativ helning: `\(\frac{dx_1^D}{dp_1}&lt;0\)` (gjelder alltid, bortsett fra i Giffen-tilfellet).
 ---
 
 ### Tilbudsfunksjonen etter arbeid 
@@ -1927,50 +1916,15 @@ Nyttefunksjonen består derfor av konsumgode (x) og fritid (L)
 U=u(x,L) \text{ } u^{'}_{x} &gt;0, u^{''}_{x} &lt;0, u^{'}_{L} &gt;0, u^{''}_{L} &lt;0
 \end{equation*}`
 
-
-&lt;img src="drawio/ekurve.png" width="65%" /&gt;
-
-**Øvelse:** Finn de to førstordensbetingelsene for husholdingens optimale tilpasning og vis den optimale tilpasning grafisk
-
 ---
 
-### Oppgave som blir gjennomgått i starten av neste forelesning 
+**Optimal tilpasning**
 
+&lt;img src="drawio/utltilbud.png" width="40%" /&gt;
 
+**Husholdningens tilbud av arbeidskraft**
 
-
-
----
-
-**Løsningsforslag**
-
-Optimal løsning er kjennetegnet ved
-`\begin{equation*}
-MSB = \frac{p_{1}}{p_{2}}\\
-p_{1}x_{1}+p_{2}x_{2}= m 
-\end{equation*}`
-
-Som gir oss
-`\begin{equation*}
-MSB = \frac{U'_{1}}{U'_{2}}= \frac{1+x_{2}}{1+x_{1}} = \frac{p_{1}}{p_{2}}\\
-p_{2}x_{2} =p_1+p_1x_1-p_2 \\ 
-\text{I budsjettbetingelsen kan vi sette inn for } p_{2}x_{2} \\
-R=p_1x_1+p_1+p_1x_1-p_2\\
-2p_{1}x_{1} = R-p_1+p_2 \\
-\text{Som gir oss etterspørselsfunksjonen}  \\
-x_{1} = \frac{R-p_1+p_2}{2p_{1}}   \\ 
-\end{equation*}`
----
-
-b) Med *normalt gode* menes goder hvor etterspørselen øker når inntekten øker. For *mindreverdige goder* gjelder det motsatte.
-`\begin{equation*}
-\frac{\partial  x_{1}}{\partial R} = \frac{1}{2p_1} &gt; 0 \text{ dvs. normal gode}
-\end{equation*}`
- 
-c) For *komplementære goder* vil etterspørselen etter gode reduseres når prisen på det andre goder øker. For *alternative* goder gjelder det motsatte.
-`\begin{equation*}
-\frac{\partial  x_{1}}{\partial p_{2}} = \frac{1}{2p_1}  &gt; 0 \text{ dvs. alternative goder}
-\end{equation*}`
+&lt;img src="drawio/tarbeid.png" width="40%" /&gt;
 
 ---
 
@@ -1978,12 +1932,11 @@ c) For *komplementære goder* vil etterspørselen etter gode reduseres når pris
 
 &lt;img src="drawio/oversikt_kons_ii.png" width="50%" /&gt;
 
----
 
 
-```r
-knitr::knit_exit()
-```
+
+
+
 
 
 
