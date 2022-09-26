@@ -33,6 +33,7 @@ library(plotly)
 ```
 
 ```{r eval=FALSE, include=FALSE}
+#- Eksempel med $U(x_1, x_2) = 10x_1x_2$
 pathn <- '/inst/forelesningsnotater/presentationsF'
 xaringan::inf_mr(paste0(rprojroot::find_rstudio_root_file(),pathn,'.Rmd'))
 system(paste0('brave ',rprojroot::find_rstudio_root_file(),pathn,'.html'))
@@ -1169,7 +1170,7 @@ class: inverse, center, middle
 - Husholdning: gruppe av individer med samme preferanser.
 - Selvbergingsøkonomi $\Rightarrow$ bytteøkonomi $\Rightarrow$ pengeøkonomi
 - Vi skal anta at konsumenten tilpasser seg slik at nytten ved å forbruke de ulike godene blir størst mulig.
-- Men: konsumenten står ovenfor noen restriksjoner (betingelser).
+- **Men:** konsumenten står ovenfor noen restriksjoner (betingelser).
 
 ---
 
@@ -1320,18 +1321,19 @@ x_{1} =m/p_{1}
 ## Konsumentens optimale tilpasning
 
 - Mål: tilpasse seg på høyest mulig nyttenivå for en gitt budsjettrestriksjon.
-- Altså: nyttemaksimering.
+- Altså: Nyttemaksimering.
 ```{r, echo=FALSE, out.width="35%", fig.cap=""}
 opttilp <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/opttilp.png')
 knitr::include_graphics(opttilp)
 ```
 - Resultat:
-$$
+
+\begin{equation*}
 MSB=\frac{p1}{p2} \\
 u'({x_{1}})/p_{1} = u'({x_{2}})/p_{2}  
-$$
+\end{equation*}
+
 - *Gossen’s lov*: Verdien av den siste krona brukt på det ene godet, skal være lik verdien av den siste krona brukt på det andre godet.
-- Eksempel med $U(x_1, x_2) = 10x_1x_2$
 
 ---
 
@@ -1382,27 +1384,44 @@ Den rasjonelle konsument vil fordele utgiftene slik at den siste krone gir den s
 
 **Øvelse**
 
+
 Anta at du har en inntekt på 40 NOK som brukes på to goder. Gode 1 koster 10per enhet, og gode 2 koster 5 per enhet.
 
 Anta at du har en inntekt på 40 NOK som brukes på to goder. Gode 1 koster 10per enhet, og gode 2 koster 5 per enhet.
 - (a) Skriv ned budsjettbetingelsen.
 \begin{equation*}
-10x_{1}+5x_{2}=40
 \end{equation*}
 - (b) Hvor mye kan du kjøpe dersom du bruker all inntekten på gode 1?
 \begin{equation*}
-x_{1} = 40/10 = 4
 \end{equation*}
 - (c) Hvor mye kan du kjøpe dersom du bruker all inntekten på gode 2?
 \begin{equation*}
-x_{2} = 40/5 = 8
 \end{equation*}
 - (d) Tegn budsjettlinja.
-     Se diagramark
 - (e) Anta at prisen på gode 1 faller til 5 NOK. Skriv ned ny budsjettbetingelse. Tegn inn denne i diagrammet du brukte i forrige spørsmål
 \begin{equation*}
-5x_{1}+5x_{2}=40
 \end{equation*}
+
+```{r, echo=F}
+#- (a) Skriv ned budsjettbetingelsen.
+#\begin{equation*}
+#10x_{1}+5x_{2}=40
+#\end{equation*}
+#- (b) Hvor mye kan du kjøpe dersom du bruker all inntekten på gode 1?
+#\begin{equation*}
+#x_{1} = 40/10 = 4
+#\end{equation*}
+#- (c) Hvor mye kan du kjøpe dersom du bruker all inntekten på gode 2?
+#\begin{equation*}
+#x_{2} = 40/5 = 8
+#\end{equation*}
+#- (d) Tegn budsjettlinja.
+#     Se diagramark
+#- (e) Anta at prisen på gode 1 faller til 5 NOK. Skriv ned ny budsjettbetingelse. Tegn inn denne i diagrammet du brukte i forrige spørsmål
+#\begin{equation*}
+#5x_{1}+5x_{2}=40
+#\end{equation*}
+```
 
 ---
 

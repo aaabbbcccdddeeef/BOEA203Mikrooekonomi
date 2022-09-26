@@ -97,41 +97,5 @@ https://github.com/joernih/BOEA203Mikrooekonomi.git
 # Forelesning 2
 inst/forelesningsnotater/drawio/bilder/prodftall.png
 
-Hei,
-
-En oppdatering på veien videre i kurset.
-
-- Arbeidskrav med frist 25.9
-  - Gruppe opprettes her (fra én til maks 4 personer) [Lenke her](https://hvl.instructure.com/courses/23179/groups)
-  - Oppgave leveres her [Lenke her](https://hvl.instructure.com/courses/23179/assignments/58706)
-- Trenger du hjelp til arbeidskrav og andre anbefalte oppgaver, arrangeres det oppgaveseminar med Akbar Osman både
-  på torsdag (12:15-16:00) og fredag (10:15-14:00) denne uken.
-- Jeg er tilbake med fysisk undervisning på torsdag og fredag neste uke. Forelesningsnotatene tilknyttet dette publiseres i forkant på nettsiden for kurset i løpet av mandagen.
-
-Lykke til!
-Jørn
-
-https://hvl.instructure.com/courses/23179/groups
- er publisert (under lenken) og leveres under grupper (dere kan være fra én til 4) 25.9
 
 
-
-Kunngjøring:
-- Kan få hjelp til dette og andre anbfalte oppgaver neste uke hvor det er seminar både på torsdag og fredag
-- Publisering av notater til Modul II vil komme på mandag 26.9, jeg er tilbake på Campus Haugesund 29.9 og 30.9
-Med ønske om en riktig god helg!
-Jørn.
-
-https://hvl.instructure.com/courses/23179/groups#tab-12900
-
-
-Innledning
-Nytteteori
-Konsumentens optimale tilpasning
-Konsumentens preferanser og behovsstruktur
-Konsumentens valg av godekombinasjoner
-
-
-
-
-Appendiks
