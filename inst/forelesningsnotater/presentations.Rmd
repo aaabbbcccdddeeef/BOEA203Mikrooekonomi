@@ -1274,6 +1274,28 @@ MSB\equiv - \frac{\Delta x_{2}}{\Delta x_{1}}  = \frac{u'(x_{1})}{u'(x_{2})}
 indkart <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/indkart.png')
 knitr::include_graphics(indkart)
 ```
+
+---
+
+### Andre former på indifferenskurven
+
+.pull-left[
+Ingen substitusjonsmuligheter
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+subsingen <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/subsingen.png')
+knitr::include_graphics(subsingen)
+```
+] 
+.pull-right[
+Perfekte substitusjonsmuligheter
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+subsperf <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/subsperf.png')
+knitr::include_graphics(subsperf)
+```
+] 
+
 ---
 
 **Øvelse om MSB**
