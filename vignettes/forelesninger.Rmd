@@ -17,17 +17,15 @@ Forelesning #3: [`r tema[3]`](https://github.com/joernih/BOEA203Mikrooekonomi/bl
 <br>
 Forelesning #4: [`r tema[4]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/6_Produsentteori:Produkt_og_faktormarkeder.pdf)
 
+## Konsumentteori: Konsumentens økonomiske adferd
+
+Forelesning #5: [`r tema[5]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/7_Konsumentens_tilpasning.pdf)
+<br>
+Forelesning #6: [`r tema[6]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/8_Konsumentens_adferd.pdf)
+
 ```{r echo=F}
 knitr::knit_exit()
 ```
-
-
-## Konsumentteori: Konsumentens økonomiske adferd
-
-Forelesning #5: [`r tema[5]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/7_konsumentens_tilpasning.pdf)
-<br>
-Forelesning #6: [`r tema[6]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/8_konsumentens_adferd.pdf)
-
 ## Markedsteori
 
 Forelesning #7: [`r tema[7]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/9_markedsform_fullkommen.pdf)
