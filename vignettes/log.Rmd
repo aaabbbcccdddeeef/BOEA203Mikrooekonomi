@@ -6,3 +6,5 @@ output: github_document
 9.9-12.9: Fikset noen feil og endret litt på notasjonen på noen av figurene som inngår i forelesningenotatene.
 
 12.9: Kursansvarlige i Haugesund, Bergen og Sogndal har vedtatt å ta kapittel 6.5 ut av pensum (faktoretterspørsel på lang sikt) 
+
+3.10: Markert i notatene at husholdningens tilbud av arbeidskraft ikke er en del av pensum dette året. 

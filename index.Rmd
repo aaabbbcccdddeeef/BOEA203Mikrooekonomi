@@ -56,7 +56,8 @@ git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 ![](man/figures/abc.jpg)
 
 ## Nyheter
-  - 
+  - Vi gikk langt fram på fredag 30.9. Har snakket med faglærerne i Bergen og Sogndal, og det ble klart for meg at 
+   husholdningens tilbud av arbeidskraft ikke er en del av pensum dette året. 
 
 ### Studietips
 
