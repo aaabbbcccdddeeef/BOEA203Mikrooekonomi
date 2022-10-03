@@ -56,9 +56,7 @@ git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 ![](man/figures/abc.jpg)
 
 ## Nyheter
-- Arbeidskrav med frist **25.9**
-  - Gruppe opprettes her (fra én til maks 4 personer) [Lenke her](https://hvl.instructure.com/courses/23179/groups)
-  - Oppgave leveres her [Lenke her](https://hvl.instructure.com/courses/23179/assignments/58706)
+  - 
 
 ### Studietips
 
@@ -88,6 +86,7 @@ Jørn I. Halvorsen
 # Git relaterte
 knitr::knit_exit()
 ```
+
 vignettes/
 inst/forelesningsnotater/tavlefil.Rmd
 inst/forelesningsnotater/presentations.Rmd
@@ -97,6 +96,4 @@ https://github.com/joernih/BOEA203Mikrooekonomi.git
 
 # Forelesning 2
 inst/forelesningsnotater/drawio/bilder/prodftall.png
-
-
 

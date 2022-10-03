@@ -7,11 +7,7 @@
 
 ## Nyheter
 
--   Arbeidskrav med frist **25.9**
-    -   Gruppe opprettes her (fra én til maks 4 personer) [Lenke
-        her](https://hvl.instructure.com/courses/23179/groups)
-    -   Oppgave leveres her [Lenke
-        her](https://hvl.instructure.com/courses/23179/assignments/58706)
+-   
 
 ### Studietips
 
@@ -38,4 +34,4 @@ Undervisningsansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-09-30 09:24:08**
+**Siste gang oppdatert: 2022-10-03 10:07:49**
