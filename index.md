@@ -7,7 +7,7 @@
 
 ## Nyheter
 
--   Vi gikk langt fram på fredag 30.9. Har snakket med faglærerne i
+-   Vi gikk litt langt fram på fredag 30.9. Har snakket med faglærerne i
     Bergen og Sogndal, og det ble klart for meg at husholdningens tilbud
     av arbeidskraft ikke er en del av pensum dette året.
 
@@ -36,4 +36,4 @@ Undervisningsansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-10-03 10:35:58**
+**Siste gang oppdatert: 2022-10-03 13:33:54**
