@@ -1686,7 +1686,7 @@ knitr::include_graphics(ekonsum)
 - Kurven har negativ helning: $\frac{dx_1^D}{dp_1}<0$ (gjelder alltid, bortsett fra i Giffen-tilfellet).
 ---
 
-### Tilbudsfunksjonen etter arbeid 
+### Tilbudsfunksjonen etter arbeid (ikke pensum, for spesielt intereserte)
 
 Budsjettbetingelsen
 \begin{equation*}

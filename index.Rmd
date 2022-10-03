@@ -84,17 +84,12 @@ Jørn I. Halvorsen
 **Siste gang oppdatert: `r Sys.time()`**
 
 ```{r, eval=T, echo=F}
-# Git relaterte
 knitr::knit_exit()
 ```
-
-vignettes/
 inst/forelesningsnotater/tavlefil.Rmd
 inst/forelesningsnotater/presentations.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
 https://github.com/joernih/BOEA203Mikrooekonomi.git
 
-# Forelesning 2
-inst/forelesningsnotater/drawio/bilder/prodftall.png
 
