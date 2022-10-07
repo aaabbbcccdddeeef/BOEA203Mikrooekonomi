@@ -7,6 +7,8 @@
 
 ## Nyheter
 
+-   Løsningsforlslag til arbeidskrav 1 er nå publisert (se under fanen
+    arbeidskrav)
 -   Vi gikk litt langt fram på fredag 30.9. Har snakket med faglærerne i
     Bergen og Sogndal, og det ble klart for meg at husholdningens tilbud
     av arbeidskraft ikke er en del av pensum dette året.
@@ -36,4 +38,4 @@ Undervisningsansvarlig (jornih at hvl.no)
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-10-07 11:42:08**
+**Siste gang oppdatert: 2022-10-07 11:53:03**
