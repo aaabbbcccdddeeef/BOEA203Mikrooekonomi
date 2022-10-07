@@ -1,7 +1,9 @@
 ---
-title: "Regneverksted #1"
+title: "Arbeidskrav 1 (løsningsforslag)"
 output: html_document
 ---
+
+Versjon 1.0
 
 # Tema: Bedriftens tilpasning
 
@@ -201,6 +203,12 @@ c.  Hva er sammenhengen mellom grensekostnadene og grenseproduktet til en produk
 **Løsning:**
 
 **Grenseproduktet er definert som økning i produksjon når man øker innsatsfaktoren med en enhet. Økende grenseproduktivitet innebærer dermed at hver enhet av den variable innsatsfaktoren (f.eks hver ny arbeider) produserer flere enheter enn den forrige. Hun bruker dermed mindre arbeidstid per produsert enhet. Med samme lønnssats per tidsenhet, innebærer det at arbeidskostnadene per produsert enhet (grensekostnadene) blir lavere for den siste arbeideren enn for den forrige. Tilsvarende argument gjelder den andre veien. Avtagende grenseproduktivitet innebærer dermed at hver enhet av den variable innsatsfaktoren (f.eks hver ny arbeider) produserer færre enheter enn den forrige. Hun brukerdermed mer arbeidstid per produsert enhet. Med samme lønnssats per tidsenhet, innebærer det at arbeidskostnadene per produsert enhet (grensekostnadene) blir høyere for den siste arbeideren enn for den forrige.** **Vi har dermed at høyere grenseproduktivitet innebærer lavere grensekostnader og vice versa.**
+
+```{r}
+knitr::knit_exit()
+```
+
+
 
 ```{r eval=F, include=F}
 getwd()

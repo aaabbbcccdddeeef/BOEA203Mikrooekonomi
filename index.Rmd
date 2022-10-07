@@ -86,6 +86,9 @@ Jørn I. Halvorsen
 ```{r, eval=T, echo=F}
 knitr::knit_exit()
 ```
+
+inst/arbeidskrav/regneverksted#1_losning.Rmd
+
 inst/forelesningsnotater/tavlefil.Rmd
 inst/forelesningsnotater/presentationsF.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
