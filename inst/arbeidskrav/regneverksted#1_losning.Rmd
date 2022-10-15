@@ -207,15 +207,11 @@ c.  Hva er sammenhengen mellom grensekostnadene og grenseproduktet til en produk
 ```{r}
 knitr::knit_exit()
 ```
-
-
-
 ```{r eval=F, include=F}
 getwd()
 rmarkdown::render("Oppgavesett_1_losning.Rmd")
 system('brave Oppgavesett_1_losning.html')
 ```
-
 a) isokvant
 b) grenseproduktet
 c) mtsb
@@ -226,20 +222,7 @@ g) regning
 h) substitmalen
 i) x
 j) c(x)
-
 a) gk og gj
 b) isolert 
 c) sammenhengen
-
-
-
-
-
-
-
-
-
-
-
-
 

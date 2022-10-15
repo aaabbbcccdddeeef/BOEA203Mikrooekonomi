@@ -1,6 +1,6 @@
 ---
 title: "Mikroøkonomi (SFB10816)"
-subtitle: "Forelesningsnotater (shift+o for oversiksbilde)"
+#subtitle: "Forelesningsnotater (shift+o for oversiksbilde)"
 author: "Jørn I. Halvorsen og Joachim Thøgersen"
 date: "2021/08/12 (updated: `r Sys.Date()`)"
 output:
@@ -12,8 +12,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-#output:
-#  html_document:
+#output: html_document
 #    toc: true
 #    toc_depth: 5
 ---
@@ -1686,7 +1685,7 @@ knitr::include_graphics(ekonsum)
 - Kurven har negativ helning: $\frac{dx_1^D}{dp_1}<0$ (gjelder alltid, bortsett fra i Giffen-tilfellet).
 ---
 
-### Tilbudsfunksjonen etter arbeid (ikke pensum, for spesielt intereserte)
+### Tilbudsfunksjonen etter arbeid (ikke pensum, for de spesielt intereserte)
 
 Budsjettbetingelsen
 \begin{equation*}
@@ -1729,60 +1728,40 @@ knitr::include_graphics(tarbeid)
 knitr::include_graphics("drawio/oversikt_kons_ii.png")
 ```
 
-```{r, echo=F}
+```{r, echo=T, eval=F}
 knitr::knit_exit()
+# **Løsningsforslag**
+#
+#Optimal løsning er kjennetegnet ved
+#\begin{equation*}
+#MSB = \frac{p_{1}}{p_{2}}\\
+#p_{1}x_{1}+p_{2}x_{2}= m 
+#\end{equation*}
+#
+#Som gir oss
+#\begin{equation*}
+#MSB = \frac{U'_{1}}{U'_{2}}= \frac{1+x_{2}}{1+x_{1}} = \frac{p_{1}}{p_{2}}\\
+#p_{2}x_{2} =p_1+p_1x_1-p_2 \\ 
+#\text{I budsjettbetingelsen kan vi sette inn for } p_{2}x_{2} \\
+#R=p_1x_1+p_1+p_1x_1-p_2\\
+#2p_{1}x_{1} = R-p_1+p_2 \\
+#\text{Som gir oss etterspørselsfunksjonen}  \\
+#x_{1} = \frac{R-p_1+p_2}{2p_{1}}   \\ 
+#\end{equation*}
+#---
+#
+#b) Med *normalt gode* menes goder hvor etterspørselen øker når inntekten øker. For *mindreverdige goder* gjelder det motsatte.
+#\begin{equation*}
+#\frac{\partial  x_{1}}{\partial R} = \frac{1}{2p_1} > 0 \text{ dvs. normal gode}
+#\end{equation*}
+# 
+#c) For *komplementære goder* vil etterspørselen etter gode reduseres når prisen på det andre goder øker. For *alternative* goder gjelder det motsatte.
+#\begin{equation*}
+#\frac{\partial  x_{1}}{\partial p_{2}} = \frac{1}{2p_1}  > 0 \text{ dvs. alternative goder}
+#\end{equation*}
 ```
 
 ---
-
-**Øvelse:** Finn de to førstordensbetingelsene for husholdingens optimale tilpasning og vis den optimale tilpasning grafisk
-
----
-
-### Oppgave som blir gjennomgått i starten av neste forelesning 
-
-
-
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
-#knitr::include_graphics("drawio/o8_2.png")
-```
-
----
-
-**Løsningsforslag**
-
-Optimal løsning er kjennetegnet ved
-\begin{equation*}
-MSB = \frac{p_{1}}{p_{2}}\\
-p_{1}x_{1}+p_{2}x_{2}= m 
-\end{equation*}
-
-Som gir oss
-\begin{equation*}
-MSB = \frac{U'_{1}}{U'_{2}}= \frac{1+x_{2}}{1+x_{1}} = \frac{p_{1}}{p_{2}}\\
-p_{2}x_{2} =p_1+p_1x_1-p_2 \\ 
-\text{I budsjettbetingelsen kan vi sette inn for } p_{2}x_{2} \\
-R=p_1x_1+p_1+p_1x_1-p_2\\
-2p_{1}x_{1} = R-p_1+p_2 \\
-\text{Som gir oss etterspørselsfunksjonen}  \\
-x_{1} = \frac{R-p_1+p_2}{2p_{1}}   \\ 
-\end{equation*}
----
-
-b) Med *normalt gode* menes goder hvor etterspørselen øker når inntekten øker. For *mindreverdige goder* gjelder det motsatte.
-\begin{equation*}
-\frac{\partial  x_{1}}{\partial R} = \frac{1}{2p_1} > 0 \text{ dvs. normal gode}
-\end{equation*}
- 
-c) For *komplementære goder* vil etterspørselen etter gode reduseres når prisen på det andre goder øker. For *alternative* goder gjelder det motsatte.
-\begin{equation*}
-\frac{\partial  x_{1}}{\partial p_{2}} = \frac{1}{2p_1}  > 0 \text{ dvs. alternative goder}
-\end{equation*}
-
-```{r}
-knitr::knit_exit()
-```
-
 
 class: inverse, center, middle
 
@@ -1803,7 +1782,7 @@ class: inverse, center, middle
 
 ---
 
-## Forutsetninger
+### Forutsetninger
 1. Mange aktører på tilbudssiden og etterspørselssiden. Kan ikke alene påvirke prisene. Betraktes derfor som gitt.
 1. Prisene blir bestemt i et samspill mellom tilbydere og etterspørrere.
 1. Homogene (identiske) varer.
@@ -1813,7 +1792,7 @@ class: inverse, center, middle
 
 ---
 
-## Markedslikevekt
+### Markedslikevekt
 - Markedstilbud: vi har allerede sett hvordan tilbudskurven er stigende i et pris-mengde diagram. 
   - MERK: Vi nå kan forklare dette med stigende grensekostnadskurve.
 - Markedsetterspørsel: som vi har sett er etterspørselskurven fallende i et pris-mengde diagram. 
@@ -1845,6 +1824,11 @@ $\Rightarrow B(X)$
 - Videre vet vi at etterspørselskurven viser hvor mange enheter konsumenten er villig til å kjøpe ved ulike priser. Dvs. at på kurven måles endring i etterspørsel ved liten endring i pris. Dette må sammenfalle med marginal betalingsvillighet.
 - Betalingsvilligheten blir da området under E-kurven.
 
+```{r, echo=FALSE, out.width="65%", fig.cap=""}
+konso <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/konso.png')
+knitr::include_graphics(konso)
+```
+
 ---
 
 ### Sammenhengen mellom betalingsvillighet og konsumentoverskuddet
@@ -1857,6 +1841,7 @@ $\Rightarrow B(X)$
 KO’(X) = B’(X) – p = 0 \Leftrightarrow B’(X) = p
 \end{equation*}
 - Denne betingelsen bestemmer optimal $X$. Altså: når det konsumenten betaler for siste enhet, er lik det konsumenten ønsker å betale for denne enheten.
+
 ---
 
 ## Produsentoverskudd
@@ -2006,7 +1991,7 @@ DT =((15-12)\cdot 1)/2 =  3/2 = 1,5
 ## Appendiks I (diagramark benyttet under forelesning)
 
 ```{r, echo=FALSE, out.width="35%", fig.cap=""}
-knitr::include_graphics("drawio/markedfullkommenanalyse.png")
+knitr::include_graphics("drawio/def.png")
 ```
 ---
 
@@ -2206,702 +2191,11 @@ Se løsningsforslag s. 119
 knitr::include_graphics("drawio/markedmonopolanalyse.png")
 ```
 
----
 
-class: inverse, center, middle
-
-# Kapittel 10: `r paste(substring(del[7],4),tema[9])`
-
-`r paste("Oppdatert:",Sys.Date())`
-
-
----
-
-## Innledning
-
-- Dersom vi nå legger til grunn et marked med få store produsenter.
-	- I et slikt tilfelle vil det være fristende for produsentene å forbedre resultatet ved å redusere konkurransen seg i mellom.
-- Det er utviklet en rekke ulike modeller for å beskrive slike situasjoner.
-- Vi skal i dette kapittelet se nærmere på
-	- Kartell
-	- Duo- og oligopol (Cournot-, Stackelberg- og Bertrand-modellen)
-	- Monopolistisk konkurranse
-- For alle disse modellene vil etterspørselssiden av økonomien være den samme. 
-
----
-
-## Kartell
-
-- Vi har tidligere vist at for en produsent vil fortjenesten under et monopol er større enn fortjenesten under fullkommen konkurranse.
-- Dette resultatet gir insentiver til at produsenter som konkurrerer med hverandre i et marked, har interesse av å danne et **salgskartell**.
-- En slik situasjon vil gi redusert velferd (gjennom lavere samfunnsøkonomisk overskudd) og uheldige fordelingsvirkninger.
-- For å forhindre dette, har mange land etablert lover som forbyr dannelsen av karteller.
-- Et kartelldannelse viser seg typisk ikke å vedvare over tid. Noe som kan tilskrives
-	- Kartellets **indre** fiender: de som deltar i kartellet har insentiver til å bryte sammarbeidet, gitt at de andre sammarbeider.
-	- Kartellets **ytre** fiender: de som står utenfor kartellet har insentiver til å øke produksjonen i det kartellet påvirker prisen oppover.
----
-
-## Duopol og oligopol
-
-Etterspørselen (MBV) er gitt ved 
-\begin{equation*}
-p=60-X
-\end{equation*}
-
-Total produksjon framkommer som
-\begin{equation*}
-X=X_1+X_2
-\end{equation*}
-
-Inntekt 
-\begin{equation*}
-R_1(X_1)=pX_1=(60-X)X_1=60X_1-X_1^2-X_1X_2  \\
-R_2(X_2)=pX_2=(60-X)X_2=60X_2-X_2^2-X_2X_1 
-\end{equation*}
-
----
-
-### Cournot
-
-Passer i en situasjon der produsentene ikke er vesentlig forskjellig i størrelse og økonomisk styrke.
-
-- For enkelthetens skyld antar vi at grensekostnadene er den samme for de to produsentene og lik null.
-- Optimal produksjon av de to godene finner vi derfor ved å sette grenseinntekten lik null for de produsentene.
-- Vi omtaler dette som de to reaksjonslikningene. 
-   - Reaksjonsligningen til produsent 1:
-\begin{equation*}
-X_1 = 30-\frac{1}{2}X_2
-\end{equation*}
-   - Reaksjonsligningen til produsent 2:
-\begin{equation*}
-X_2 = 30-\frac{1}{2}X_1
-\end{equation*}
-
----
-
-Likevekt i Cournotmodellen har vi der hvor begge reaksjonsligningene er oppfylt samtidig.
-\begin{equation*}
-X_2 = 30-\frac{1}{2}(30-\frac{1}{2}X_2) \Rightarrow
-X_1=X_2=20
-\end{equation*}
-
-Med tihørende markedspris.
-\begin{equation*}
-p=60-(20+20) = 20
-\end{equation*}
-
----
-
-#### Økning i antall tilbydere (oligopol)
-
-På generell form
-
-\begin{equation*}
-p=a-bX\\
-C'=C'
-\end{equation*}
-
-Dersom vi innfører en størrelse $S$ som vi definerer som
-\begin{equation*}
-S=\frac{a-C'}{b}=60
-\end{equation*}
-
-Det kan vises at (med identiske produsenter) utvikler markedsprisen i cournotmodellen seg slik når antall tilbydere endres.
-\begin{equation*}
-P=C'+\frac{S}{n+1}
-\end{equation*}
-
-I vårt eksempel
-\begin{equation*}
-P=C'+\frac{60}{2+1}=0+\frac{60}{3}=20
-\end{equation*}
-
-Vi ser at når $n\rightarrow \infty$ så vil $P= C'$
-
----
-
-### Stackelberg
-
-Passer i en situasjon der en av produsentene er dominerende i markedet.
-
-Den dominerende maksimerere fortjeneste. Fortjenesten er som tidligere gitt ved:
-\begin{equation*}
-R_1(X_1)=pX_1=(60-X)X_1=60X_1-X_1^2-X_1X_2  \\
-\end{equation*}
-
-I stackelbermodellen vet produsent 1 hvordan den andre produsenten tilpasser seg, og tar derfor hensyn til dette når egen inntekt beregnes ved å sette inn produsents
-\begin{equation*}
-R_1(X_1)=60X_1-X_1^2-X_1(30-\frac{1}{2}X_1
-)  \\
-\end{equation*}
-
----
-
-Maksimal fortjeneste får vi ved å sette grenseinntekten  lik null
-\begin{equation*}
-R_1'(X_1)=30-X_1=0 \\
-X_1 = 30 \\
-X_2=30-\frac{1}{2}X_1=30-\frac{1}{2}30=15 
-\end{equation*}
-
-Hvor prisen er gitt ved:
-\begin{equation*}
-p_1=p_2=p=60-X=60-30-15=15
-\end{equation*}
-
-
----
-
-### Bertrand
-
-Her benyttes ikke lengre *produsert mengde* som konkurranseparameter, men *produsert pris*.
-
-- Priskonkurranse innebærer at den som tilbyr varen til lavest pris, får hele etterspørselen rettet mot seg. 
-- Tilbyr de to produsentene samme pris, vil de får etterspørselen delt mellom seg.
-- Markedsløsningen (som er SO) vil derfor inntre der hvor $p_1=p_2=C'(X_1)=C'(X_2)$
-	- Ligger pris *over* grensekostnad, vil den ene produsentene sikre seg hele markedet ved å redusere produsentprisene.
-	- Ligger pris *under* grensekostnad, vil produsentene overleve i markedet (dvs. unngår negativ profitt) kun ved å øke prisene.
----
-
-## Monopolistisk konkurranse
-
-En produsent under monopolistisk konkurranse står, tilsvarende som for en monopolist, fallene etterspørselskurve.
-Godene er ikke lengre *homogene*, men *differensierte.*.
-Videre vil produsenten, som under fullkommen konkurranse, konkurrere med *mange produsenter* i et marked med *ubegrenset markedsadgang*.
-
-- Kort sikt
-	- Produsenten vil tilpasse seg der hvor grenseinntekt er lik grensekostnad.
-	- Hvor stor markedsmakten er vil avhenge av elastisk etterspørselen er
-- Lang sikt
-	- Uten adgangsbegrensninnger, så vil positiv fortjeneste lokke nye produsenter inn i markedet.
-	- Det fører til redusert etterspørsel etter det produktet som vi ser på, helt inntil fortjenesten er redusert til null.
-
----
-
-## Appendiks (diagramark benyttet under forelesning)
-
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/markedufullkommenanalyse.png")
-#system('drawio drawio/markedufullkommenanalyse.drawio')
-#system('drawio drawio/markedufullkommenanalyse.png')
-```
-
-[Examples Cournot](https://www.quora.com/What-are-some-real-life-examples-of-the-Cournot-Duopoly-Model?share=1)
-
----
-
-class: inverse, center, middle
-
-# Kapittel 12, 15 og 18:
-
-#`r paste(substring(del[7],4),substring(tema[10],25,42))`
-
-#`r paste(substring(del[11],3,16),substring(tema[10],45,100))`
-
-`r paste("Oppdatert:",Sys.Date())`
-
----
-
-## DEL 4: MARKEDSTEORI: Prisdiskriminering
-
-## Prisdiskriminering
-
-Istedenfor samme pris fra alle konsumenter. er det mulig å tenke seg at man kan ta ulik pris fra forskjellige konsumenter. 
-
--   Vi har *prisdiskriminering* i et marked når en produsent har en fordel (dvs. kan få økt sin fortjeneste) ved å ta ulik pris til forskjellige etterspørrere.
-
-Betingelser som må være oppfylt for å kunne utføre prisdiskriminering i et marked:
-
--   Forskjellige etterspørrere (eller gruppe av etterspørre) må ha ulik marginal betalingsvillighet (MBV).
--   Produsentene må mulighet til å *skille* de forskjellige etterspørrere fra hverandre.
--   Videresalg mellom gruppene (dvs. fra konsumenter til konsumenter) er ikke mulig, alternativt kostbart å utføre.
-
----
-
-## Første grads prisdiskriminering
-
-- Produsentene selger enhetene til forskjellige konsumenter til ulik pris. Prisen hver enkelt konsument betaler er nøyaktig lik det som konsumenten maksimalt er villig til å betale. 
-	- Det innebærer at konsumentoverskuddet er lik null, mens produsenten sitter igjen med et produsentoverskudd som nøyaktig lik det samfunnsøkonomiske overskuddet.
-
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/1_grads.png")
-```
-
----
-
-## Andre grads prisdiskriminering
-
-- Konsumentene deler seg her inn i ulike grupper basert på *selvsortering*. 
-- Produsenten tilbyr en meny av kontrakter (eks. en kontrakt til de som kjøper lite kvanta, og en annen kontrakt til de som kjøper store kvanta) til de ulike konsumentgruppene. 
-
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/2_grads.png")
-```
-
----
-
-## Tredje grads Prisdiskriminering
-
-- Produsent selger ett gode til forskjellige priser ovenfor nærmest avgrensede konsumenter eller konsumentgrupper. Eks. kan en slik avgrensning foretas på ulike alderstrinn.
-
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/3_grads.png")
-```
-
----
-
-- Som vist i diagrammet nedenfor, konsumenten vil her oppnå større produsentoverskudd som monopolist ved avgrensning enn dersom en bare forholdt seg til én konsumentgruppe.
-
-```{r, echo=FALSE, out.width="100%", fig.cap=""}
-knitr::include_graphics("drawio/3_grads_mon.png")
-```
-
----
-
-## DEL 5: ANDRE EMNER: Litt om arbeidsmarkedet
-
-### Et arbeidsmarked med fullkommen konkurranse (15.2)
-
-- Etterspørselsfunksjonen i arbeidsmarkedet framkommer ved å summere de ulike bedrifters etterspøresl på de ulike lønnsnivåene.
-- Tilbudsfunksjonen i arbeidsmarkedet framkommer ved å summere de ulike husholdningers tilbud på ulike lønnsnivåene..
-- Lønnsdannelsen under fullkommen konkurranse skjer i skjæringsinspunktet mellom tilbuds- og etterspørselsfunksjonen, hvor markedsmekanismen for å komme dette er analogt med hva som gjelder i produktmarkedet.  
-- Endring i andre faktorer enn lønn som påvirker enten etterspørsel- eller tilbudsfunksjonen vil påkalle skift i kurvene.
-
-```{r, echo=FALSE, out.width="75%", fig.cap=""}
-knitr::include_graphics("drawio/arbeidsmarkedet.png")
-```
-
----
-
-## DEL 5: ANDRE EMNER: Tilpasninger over tid
-
-### Konsumentens fordeling av konsum over tid
-
-**Den intertemporale nyttefunksjonen er gitt ved**
-
-$$
-U = u(c_1,c_2) \text{ hvor } u'(c_1) \text{ og } u'(c_2) >0
-$$
-
-Hvor $c_1$ er konsum i periode 1, og $c_2$ er konsum i periode 2
-
-```{r, echo=FALSE, out.width="35%", fig.cap=""}
-knitr::include_graphics("drawio/int_nytte.png")
-```
-
----
-
-**Den intertemporale budsjettlinjen**
-
-- Starter med å la utgifter i de to periodene være gitt ved
-$$
-c_1=p_1x_1 \text{ og } c_2=p_2x_2
-$$
-
-- Videre lar vi de to prisene være uendret mellom de to perioden:
-$$
-p_1=p_2=1 \Leftrightarrow  p_1/p_2 = 1
-$$
-
-- Inntektene i de to periodene er gitt ved hhv. $m_1$ og $m_2$
-	- I første periode vil vi derfor ha at sparing ( $s_1$ ) er gitt som
-$$
-s_1 = m_1 -c_1 \\
-$$
-	- Mens utgiftene i periode 2 er gitt ved
-$$
-c_2 = m_2 + s_1(1+i) \\
-$$
-
-Hvor $i$ utgjør rentenivået
-
----
-
-- Vurdert fra periode 1, kan den intertemporale budsjettbetingelsen skrives som 
-$$
-c_1(1+i)+ c_2 = m_1(1+i)+ m_2  \\
-$$ 
-
-- Mens vurdert fra periode 2, kan skrives som 
-$$
-c_1+ c_2/(1+i) = m_1+ m_2/(1+i)  
-$$
-
-```{r, echo=FALSE, out.width="35%", fig.cap=""}
-knitr::include_graphics("drawio/int_budsj.png")
-```
-
----
-
-### Optimal tilpasning over tid
-
-\begin{equation*}
-\text{ Maks } U = u(c_1,c_2) \text{ gitt at } c_1(1+i)+ c_2 = m_1(1+i)+ m_2 
-\end{equation*}
-
-Hvor løsningen er gitt ved:
-
-\begin{equation*}
-MSB = \frac{u'(c_1)}{u'(c_2)} = (1+i) \\
-c_1(1+i)+ c_2 = m_1(1+i)+ m_2 
-\end{equation*}
-
-```{r, echo=FALSE, out.width="55%", fig.cap=""}
-knitr::include_graphics("drawio/opt_tilpasning.png")
-```
-
----
-
-### Komparativ statikk: Renteøkning
-
-```{r, echo=FALSE, out.width="55%", fig.cap=""}
-knitr::include_graphics("drawio/int_tilpasning_renteokning.png")
-```
-
-### Komparativ statikk: Nedgang i framtidig inntekt
-
-```{r, echo=FALSE, out.width="35%", fig.cap=""}
-knitr::include_graphics("drawio/int_tilpasning_inntnedgang.png")
-```
-
----
-
-## Appendiks (diagramark benyttet under forelesning)
-
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/prisdiskriminering.png")
-```
-
----
-
-class: inverse, center, middle
-
-# Kapittel 13
-
-#`r paste(substring(del[11],3,16),tema[11])`
-
-`r paste("Oppdatert:",Sys.Date())`
-
----
-
-## Effektivitet og velferdsøkonomi
-
-- **Allokering**: 
-	- Forteller oss hvordan ressursene blir fordelt
-
-- **Paretoeffektivitet:**
-	- Kriterium for samfunnsøkonomisk effektivitet
-
----
-
-- Definisjon av *paretoeffektivitet*
-
-> En allokering er *paretoeffektiv* dersom det for a) gitt ressurser, b) teknologi og c)
-organisatorisk kunnskapsnivå ikke er mulig å frembringe en annen måte å allokere ressursene på som gjør at noen konsumenter får det bedre (økt nytte) uten at andre konsumenter får det værre (redusert nytte).
-
-- Definisjon av *paretoforbedring*:
-
-> En endring i allokering av gode som fører til at noen får det bedre (økt nytte) uten at andre får det værre (redusert nytte) .
-
-- For å få dette til må tre hovedkategorier være oppfylt:
-	1. *Produksjonseffektivitet*: $MTSB$ være like for alle produsenter
-	1. *Bytteeffektivitet*: $MSB$ skal være lik for alle konsumenter
-	1. *Sammensetningseffektivitet*: $MTSB=MSB$
-
----
-
-### Produksjonseffektivitet
-
-- Produksjonseffektivitet
-  - $MTSB_1=MTSB_2=\overline{MTSB}$
-
-```{r, echo=FALSE, out.width="35%", fig.cap=""}
-knitr::include_graphics(c("drawio/produ_eff.png","drawio/produ_eff_m.png")[1])
-```
-
-- Markedsøkonomi
-  - $\overline{MTSB}=\frac{w}{r}$
-
-```{r, echo=FALSE, out.width="35%", fig.cap=""}
-knitr::include_graphics(c("drawio/produ_eff.png","drawio/produ_eff_m.png")[2])
-```
-
----
-
-### Bytteeffektivitet 
-
-- Bytteeffektivitet
-  - $MSB_a=MSB_b=\overline{MSB}$
-
-```{r, echo=FALSE, out.width="35%", fig.cap=""}
-knitr::include_graphics(c("drawio/bytte_eff.png","drawio/bytte_eff_m.png")[1])
-```
-
-- Markedsøkonomi
-  - $\overline{MSB}=\frac{P_1}{P_2}$
-
-```{r, echo=FALSE, out.width="35%", fig.cap=""}
-knitr::include_graphics(c("drawio/bytte_eff.png","drawio/bytte_eff_m.png")[2])
-```
-
-
----
-
-### Sammensetningseffektivitet (av produksjon og konsumgodet)
-
-- Sammensetningseffektivitet
-  - $\overline{MSB}=\overline{MTB}=\frac{C'_1}{C'_2}$
-
-```{r, echo=FALSE, out.width="30%", fig.cap=""}
-knitr::include_graphics(c("drawio/samm_eff.png","drawio/samm_eff_m.png")[1])
-```
-
-- Markedsøkonomi
-  - $\overline{MSB}=\overline{MTB}=\frac{C'_1}{C'_2}=\frac{P_1}{P_2}$
-
-```{r, echo=FALSE, out.width="30%", fig.cap=""}
-knitr::include_graphics(c("drawio/samm_eff.png","drawio/samm_eff_m.png")[2])
-```
-
-[Israeli company converts passenger planes to cargo](https://www.i24news.tv/en/news/israel/economy/1645636837-israeli-company-converts-passenger-planes-to-cargo)
-
----
-
-**Velferdsøkonomiens første hovedteorem:**
-
-> Frikonkurranselikevekten er paretooptimal/paretoeffektiv.
-
-**Velferdsøkonomiens andre hovedteorem:**
-
-> Ved å foreta passende endringer av intialbeholdningene, kan enhver paretfordeling av ressursene kan realiseres som en likevekt under fullkommen konkurranse.
-
----
-
-## Markedssvikt
-
-Avvik fra forutsetningene om fullkommen konkurranse
-
-Vi skal se nærmere på fem årsaker:
-
-1. Ufullkommen konkurranse og anvendelse av markedsmakt (10-12)
-1. Eksterne virkninger
-1. Kollektive goder
-1. Formyndergoder
-1. Ufullstendig informasjon
-
----
-
-### Markedssvikt #1: Ufullkommen konkurranse og anvendelse av markedsmakt 
-
-- Se forelesning #8-#10 (kapittel 10-12)
-
-#### Mulige løsninger
-
-- Lover og regler
-- Institusjoner og tilsyn
----
-
-### Markedssvikt #2:Eksterne virkninger
-
-Er *bivirkninger* av andres konsum eller produksjon som den som forårsaker bivirkninger ikke tar hensyn til når man skal fatte beslutningen om hvor mye man skal produsere eller konsumere.
-
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics(c("drawio/eks_ill.png","drawio/eks_dia.png"))
-```
-
----
-
-**Negative eksternaliteter**
-
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/eks_neg.png")
-```
-
-**Positive eksternaliteter**
-
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/eks_pos.png")
-```
-
----
-
-#### Mulige løsninger
-
-- Offentlige myndigheter
-  - **Avgifter og subsidier**<br>
-```{r, echo=FALSE, out.width="35%", fig.cap=""}
-knitr::include_graphics(c("drawio/eks_avg.png"))
-```
-  - **Direkte reguleringer**<br>
-```{r, echo=FALSE, out.width="35%", fig.cap=""}
-knitr::include_graphics(c("drawio/eks_kvo.png"))
-```
-
----
-
-#### Mulige løsninger
-
-- Private aktører
-  - **Internalisering av eksternaliteten**<br>
-  En av aktørene vokser seg så stor at den eksterne virkningene skjer innenfor den samme enheten.<br>
-  - **Etablere eiendomsrettigheter (Coase teorem)**<br>
-  Forutsetter:<br>
-    	- Aktørene kan gjennomføre forhandlinger/møter med lave transaksjonskostnader
-    	- Det må kunne tildeles klare definerte eiendomsrettigheter
-
-```{r, echo=FALSE, out.width="35%", fig.cap=""}
-knitr::include_graphics(c("drawio/eks_int.png"))
-```
-
----
-
-### Markedssvikt #3: Kollektive goder
-
-- Kollektive goder er innen samfunnsøkonomi en betegnelse på goder som kjennetegnes ved at de er *ikke-rivaliserende* og *ikke-ekskluderende*
-	- *Ikke-rivaliserende*: Godet blir ikke brukt opp
-	- *Ikke-ekskluerende*: Man kan ikke stenge noen ute fra å benytte godet
-	- Eks. Fyrtårn
-
----
-
-- Matematisk finner man etterspørselen ved vertikal summering av den enkelte konsuments etterspørselsfunksjon.
-- Siden man ikke kan stenge noen fra å benytte godet, er det vanskelig å ta betalt for bruken, noe som gjør at det blir produsert for lite i privat regi.
-- Det offentlige blir produsere helt opp til der hvor *summen* av den marginale betalingsvilligheten er lik grensekostnaden.
-
-```{r, echo=FALSE, out.width="25%", fig.cap=""}
-knitr::include_graphics(c("drawio/eks_mbv.png"))
-```
-
----
-
-### Markedssvikt #4:  Formyndergoder 
-
-Forutsetning om konsumentsuverenitet gjelder ikke lengre.
-
-- *Merit goods*
-	- Folk innser ikke den sanne nytten av godet
-	- Disse godene har vanligvis positive eksternaliteter
-
-- *Merit bads*
- - Godene skader forbrukeren
- - Disse godene har vanligvis negative eksternaliteter
-
-#### Mulige løsninger
-
-+ Økt skatt $\Rightarrow$ *reduserer* produksjonen
-+ Redusert skatt $\Rightarrow$ *øker* produksjonen
-
----
-
-### Markedssvikt #5: Ufullstendig informasjon
-
-To typer ufullstendig informasjon
-
-1. Assymetrisk informasjon:<br>
-Informasjonsfordelingen mellom aktøren er skjev.
-
-2. Ufullstendig informasjon som påviker konsumentens beslutningsgrunnlag
-  - Mangelfull informasjon om goders eksistens
-  - Ufullstendig informasjon om egenskapene til gode
-  - Mangelfull prisinformasjon
-  
----
-
-## Appendiks (diagramark fra forelesningen)
-
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/andre_emner.png")
-```
-
----
-
-## Appendiks (Covid-19 og offentlige reguleringer)
-
-Du skal spille den tidligere helseministeren i Nederland som heter Hugo. Så har du en rekke parametre du kan tweake for å håndtere pandemien i Nederland.... uansett så taper du `r emo::ji("smile")`
-
-[Hugo](https://beterdanhugo.nl/)
-
-```{r, echo=FALSE, out.width="75%", fig.cap=""}
-knitr::include_graphics("drawio/hugo_b.png")
-```
-
----
-
-```{r, echo=FALSE, out.width="100%", fig.cap=""}
-knitr::include_graphics("drawio/cost_ben.jpeg")
-```
-
-
----
-
-class: inverse, center, middle
-
-# Kapittel 14
-
-#`r paste(substring(del[11],3,15),'',substring(tema[12],1,15))`
-
-`r paste("Oppdatert:",Sys.Date())`
-
----
-
-## Spillteori
-
-Situasjoner der aktørene påvirker hverandres tilpasningsforhold.
-
-**To sentrale konsepter**
-
-- *Nash-likevekter*
-> En situasjon hvor ingen aktør har interesse av å endre egen tilpasning, gitt den andres tilpasning 
-- *Dominante strategier*
-> Dersom aktøren kommer best ut ved å velge denne strategien uavhengig av hva den andre aktøren gjør. 
-
----
-
-# Eksempel 1: Fangens dilemma
-
-```{r, echo=FALSE, out.width="100%", fig.cap=""}
-knitr::include_graphics("drawio/tabell_14.1.png")
-```
-
-- Aktørene ønsker seg lavest mulig fengselsstraff.
-
----
-
-# Eksempel 2: Kartellsammarbeid
-
-```{r, echo=FALSE, out.width="100%", fig.cap=""}
-knitr::include_graphics("drawio/tabell_14.2.png")
-```
-
-- Aktørene ønsker seg høyest mulig overskudd.
-
----
-
-# Eksempel 3: Reklamekampanje
-
-```{r, echo=FALSE, out.width="100%", fig.cap=""}
-knitr::include_graphics("drawio/tabell_14.3.png")
-```
-
-- Aktørene ønsker seg høyest mulig overskudd.
-
----
-
-## Appendiks (diagramark benyttet under forelesning)
-
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/spillteori.png")
-```
-
-
-```{r, eval=T, echo=F}
-# Git relaterte
+```{r}
 knitr::knit_exit()
 ```
 
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
-system('drawio drawio/spillteori.drawio')
-system('drawio drawio/andre_emner.drawio')
-```
 
-https://www.nrk.no/rogaland/stromkrisen_-bonder-ma-destruere-avlinger-1.16077698
+
+

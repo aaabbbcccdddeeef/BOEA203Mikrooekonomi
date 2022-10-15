@@ -1783,7 +1783,6 @@ c) For *komplementære goder* vil etterspørselen etter gode reduseres når pris
 knitr::knit_exit()
 ```
 
-
 class: inverse, center, middle
 
 # Kapittel 9: `r paste(substring(del[7],4),tema[7])`
