@@ -1830,8 +1830,8 @@ $\Rightarrow B(X)$
 - Betalingsvilligheten blir da området under E-kurven.
 
 ```{r, echo=FALSE, out.width="65%", fig.cap=""}
-konso <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/konso.png')
-knitr::include_graphics(konso)
+monoe <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monoe.png')
+knitr::include_graphics(monoe)
 ```
 
 ---
@@ -1899,7 +1899,7 @@ SO’(X) = KO’(X) + PO’(X) = 0 \\
 	- *Fullkommen konkurranse gir altså maksimalt samfunnsøkonomisk overskudd*.
 
 
-```{r, echo=FALSE, out.width="65%", fig.cap=""}
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
 planl <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/planl.png')
 knitr::include_graphics(planl)
 ```
@@ -1910,7 +1910,7 @@ knitr::include_graphics(planl)
 - Hva skjer med det samfunnsøkonomiske overskuddet ved innføring av en avgift?
 - Vi har allerede sett at avgiften fører til en "glippe" eller en "kile" mellom den prisen som produsenten mottar, og den prisen som konsumenten betaler.
 
-```{r, echo=FALSE, out.width="65%", fig.cap=""}
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
 avgfk <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/avgfk.png')
 knitr::include_graphics(avgfk)
 ```
@@ -2082,6 +2082,12 @@ class: inverse, center, middle
 ## Monopolistens tilpasning: grafisk forklaring 
 - For å kunne illustrere tilpasningen grafisk trenger vi 3 kurver. Det er etterspørselskurven, grensekostnadene og grenseinntektene.
 - Det kan vises at dersom etterspørselskurven er fallende og lineær, vil $R’(X)$-kurven skjære prisaksen i samme punkt som etterspørselskurven, og være dobbelt så bratt. Neste side viser dette matematisk.
+
+```{r, echo=FALSE, out.width="65%", fig.cap=""}
+konso <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/konso.png')
+knitr::include_graphics(konso)
+```
+
 ---
 
 - Anta at etterspørselen er gitt ved $p = a - bX$, der $a$ og $b$ er positive konstanter.
@@ -2092,18 +2098,11 @@ class: inverse, center, middle
 - Vi ser da at stigningstallet til etterspørselskurven er
 	- $–b$, mens stigningstallet til $R’(X) er -2b$. Altså er $R’(X)$
 	- dobbelt så bratt.
-
-```{r, echo=FALSE, out.width="65%", fig.cap=""}
-konso <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/konso.png')
-knitr::include_graphics(konso)
-```
-
----
-
 - Fra skjæringspunktet (mellom $R’(X) og C’(X)$) i figuren kan vi lese av optimalt kvantum for monopolisten på X-aksen, $X_1$.
 - Selve betingelsen, nemlig at $R’(X) = C’(X)$, som er uttrykt i kroner, leser vi av på loddrett akse.
 - For å finne monopolprisen går vi fra skjæringspunktet og opp til etterspørselskurven, og inntil p-aksen. Der kan lese vi av monopolprisen som $p_1$.
 - Merk fra figuren av $p_1 > C’(X)$. Dette betyr at monopolisten tar en pris for siste produserte enhet som er større enn kostnaden ved å produsere denne enheten. Dette er en viktig forskjell fra fullkommen konkurranse.
+
 ---
 
 ## Monopolistens tilpasning: matematisk forklaring
@@ -2120,8 +2119,8 @@ knitr::include_graphics(konso)
 - Virker rimelig at produsentoverskuddet er større. Enn ved fullkommen konkurranse. Men: er PO såpass stort at det oppveier for de ekstra kostnadene som konsumenten påføres???
 
 ```{r, echo=FALSE, out.width="65%", fig.cap=""}
-konso <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/konso.png')
-knitr::include_graphics(konso)
+monop <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monop.png')
+knitr::include_graphics(monop)
 ```
 
 ---
