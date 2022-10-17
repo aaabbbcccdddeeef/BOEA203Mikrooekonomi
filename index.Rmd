@@ -57,8 +57,7 @@ git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 
 ## Nyheter
   - Løsningsforlslag til arbeidskrav 1 er nå publisert (se under fanen arbeidskrav)
-  - Vi gikk litt langt fram på fredag 30.9. Har snakket med faglærerne i Bergen og Sogndal, og det ble klart for meg at 
-   husholdningens tilbud av arbeidskraft ikke er en del av pensum dette året. 
+  - Vi gikk litt langt fram på fredag 30.9. Har snakket med faglærerne i Bergen og Sogndal, og det ble klart for meg at husholdningens tilbud av arbeidskraft ikke er en del av pensum dette året. 
 
 ### Studietips
 
@@ -95,8 +94,7 @@ https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
 https://github.com/joernih/BOEA203Mikrooekonomi.git
 
-
-# Fk fire
+# FK fire
 1. Innledning
 1. Velferd og SO
 1. FK og SO
