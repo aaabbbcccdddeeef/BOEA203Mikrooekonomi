@@ -7,7 +7,7 @@
     <script src="libs/header-attrs-2.14/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"xc2bfd293a8b428d97b5577f9020a6b2","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x06ec79fdc2b480b9611eb99cceb6908","expires":1}</script>
     <script src="libs/himalaya-1.1.0/himalaya.js"></script>
     <script src="libs/js-cookie-3.0.0/js.cookie.js"></script>
     <link href="libs/editable-0.2.6/editable.css" rel="stylesheet" />
@@ -2006,29 +2006,291 @@ knitr::knit_exit()
 
 
 
+---
+
+class: inverse, center, middle
+
+# Kapittel 9: Markedsteori: Fullkommen konkurranse
+
+Oppdatert: 2022-10-17
+
+---
+
+## Innledning 
+- Vi begynte dette kurset med å se på markedsformen fullkommen konkurranse. Vi skal nå se nærmere på denne.
+- Spesielt skal vi se på:
+ - Forutsetningene som markedsformen bygger på.
+ - Samfunnsøkonomisk overskudd (lønnsomhet) i forbindelse med denne måten å organisere markedet på.
+- Gjennom de foregående kapitlene har vi lært masse om konsumenter og produsenter hver for seg. Poenget i markedsteorien er å studere hvordan disse aktørene opptrer på en markedsplass.
+- Vi skal anta at interaksjonen skjer på et varemarked der konsumentene etterspør varer, og produsentene tilbyr varer.
+- Det finnes flere måter å organisere en markedsøkonomi på. Avhenger av varen som omsettes, antall aktører med mer.
+
+---
+
+### Forutsetninger
+1. Mange aktører på tilbudssiden og etterspørselssiden. Kan ikke alene påvirke prisene. Betraktes derfor som gitt.
+1. Prisene blir bestemt i et samspill mellom tilbydere og etterspørrere.
+1. Homogene (identiske) varer.
+1. Rasjonelle aktører: Konsumentene maksimerer nytte og produsentene maksimerer fortjeneste.
+1. Full informasjon om alle relevante forhold.
+1. Alle kan kostnadsfritt gå inn og ut av markedet.
+
+---
+
+### Markedslikevekt
+- Markedstilbud: vi har allerede sett hvordan tilbudskurven er stigende i et pris-mengde diagram. 
+  - MERK: Vi nå kan forklare dette med stigende grensekostnadskurve.
+- Markedsetterspørsel: som vi har sett er etterspørselskurven fallende i et pris-mengde diagram. 
+  - MERK: at vi nå kan forklare det med utgangspunkt i konsumentens optimale tilpasning på varemarkedet.
+
+&lt;img src="drawio/markl.png" width="45%" /&gt;
+
+---
+
+## Velferdsøkonomi og samfunnsøkonomisk overskudd
+- I samfunnsøkonomi er vi naturlig nok opptatt av å vurdere om et marked eller et prosjekt eller politikkforslag er samfunnsøkonomisk lønnsomt. Når alt kommer til alt er det jo høyest mulig velferd for individene i samfunnet som er målet.
+- For å vurdere velferden brukes begrepet samfunnsøkonomisk overskudd (SO).
+- Dette består av konsumentoverskudd (KO) og produsentoverskudd (PO)
+- Vi har derfor at:
+`\begin{equation*}
+SO=PO+KO
+\end{equation*}`
+
+---
+
+## Konsumentoverskudd
+### Betalingsvillighet
+- I konsumentteorien var vi opptatt av å maksimere nytte. Men hvordan måle nytte? Hvor mye du er villig til å betale for en vare kan fortelle noe om nytten du oppnår. Det kalles:
+	- Betalingsvillighet: `\(B\)`
+- Betalingsvilligheten avhenger av hvor mye du har i utgangspunktet:
+`\(\Rightarrow B(X)\)`
+---
+
+### Den marginale betalingsvillighet
+- For å finne et uttrykk for hvor mye du vil betale for en ekstra enhet kan vi derivere `\(B\)`. Det gir: `\(B’(X)\)`, som kalles den marginal betalingsvillighet. Merk: Avhenger også av `\(X\)`.
+- Videre vet vi at etterspørselskurven viser hvor mange enheter konsumenten er villig til å kjøpe ved ulike priser. Dvs. at på kurven måles endring i etterspørsel ved liten endring i pris. Dette må sammenfalle med marginal betalingsvillighet.
+- Betalingsvilligheten blir da området under E-kurven.
+
+&lt;img src="drawio/konso.png" width="65%" /&gt;
+
+---
+
+### Sammenhengen mellom betalingsvillighet og konsumentoverskuddet
+
+- Det et imidlertid forskjell på det konsumenten er villig til å betale, og det han faktisk betaler. Det er denne differensen som er konsumentoverskuddet:
+	- `\(\Rightarrow KO(X) = B(X) – pX\)`
+- Merk at `\(B(X)\)` her viser betalingsvillighet for `\(X\)` enheter. Det konsumentene faktisk må betale for dette antallet er `\(pX\)`. Ettersom begge disse leddene avhenger av `\(X\)`, må også konsumentoverskuddet gjøre det, `\(KO(X)\)`.
+- Optimal tilpasning for konsumenten viser det optimale antall enheter konsumenten vil kjøpe dersom han/hun maksimerer konsumentoverskuddet. Finner 1.ordensbetingelsen:
+`\begin{equation*}
+KO’(X) = B’(X) – p = 0 \Leftrightarrow B’(X) = p
+\end{equation*}`
+- Denne betingelsen bestemmer optimal `\(X\)`. Altså: når det konsumenten betaler for siste enhet, er lik det konsumenten ønsker å betale for denne enheten.
+
+---
+
+## Produsentoverskudd
+- I produksjonsteorien var vi blant annet opptatte av at bedriftene maksimerer fortjeneste. Dette er enkelt å måle som differensen mellom inntekter og utgifter.
+- Produsentoverskudd defineres som summen av den ekstrainntekten som produsenten får, av å selge til en pris som er høyere enn den laveste de ville vært villige til å akseptere.
+- Det vil si: differensen mellom produsentens samlede salgsinntekter og variable kostnader.
+
+
+&lt;img src="drawio/prodo.png" width="65%" /&gt;
+
+---
+
+### Sammenhengen mellom salgsinntekt og produsentoverskudd
+
+- Altså:
+`\begin{equation*}
+PO(X) = pX – CV(X)
+\end{equation*}`
+- Naturlig nok vil produsentene maksimere PO. Vi finner 1.ordensbetingelsen:
+`\begin{equation*}
+PO’(X) = p – C’(X) = 0 \Leftrightarrow p = C’(X)
+\end{equation*}`
+- De tilpasser kvantumet slik at kostnaden ved siste produserte enhet er lik prisen.
+- Grafisk fremstilling av PO: tar utgangspunkt i tilbudskurven. Tilbudskurven viser hvor mange enheter som vil tilbys dersom prisen f.eks. er `\(p_1\)`.
+- For en gitt pris kan vi lese av inntekten og samlet merkostnad.
+- PO fremkommer som området mellom prislinja og tilbudskurven.
+---
+
+## Samfunnsøkonomisk overskudd og fullkommen konkurranse
+- Vi har nå sett at konsumentene velger sitt konsum slik at `\(B’(X) = p\)`, og produsentene velger sitt produksjonskvantum slik at `\(p = C’(X)\)`.
+- Maksimalt SO finner vi ved 
+`\begin{equation*}
+\underset{X}{\text{Maks}SO}=PO+KO=(pX-CV(x))+(B(x)-pX)
+\end{equation*}`
+Som gir oss følgende 1.ordensbetingelse: 
+`\begin{equation*}
+SO’(X) = KO’(X) + PO’(X) = 0 \\
+\Rightarrow SO’(X) = B’(X) – p + p – C’(X) = 0\\
+\Rightarrow SO’(X) = B’(X) – C’(X) = 0 \\
+\Leftrightarrow B’(X) = C’(X)
+\end{equation*}`
+---
+
+- Er denne betingelsen tilfredsstilt i fullkommen konkurranse?
+	- JA!
+- Ettersom konsumenter og produsenter tilpasser seg de samme prisene, altså p = p. Vi ser da at `\(B’(X) = C’(X)\)`, som er kravet til maksimalt SO.
+	- *Fullkommen konkurranse gir altså maksimalt samfunnsøkonomisk overskudd*.
+
+
+&lt;img src="drawio/planl.png" width="50%" /&gt;
+
+---
+
+## Avgift og velferd
+- Hva skjer med det samfunnsøkonomiske overskuddet ved innføring av en avgift?
+- Vi har allerede sett at avgiften fører til en "glippe" eller en "kile" mellom den prisen som produsenten mottar, og den prisen som konsumenten betaler.
+
+&lt;img src="drawio/avgfk.png" width="50%" /&gt;
+
+---
+
+- Av analysen kommer det frem at tapet til konsumenten og produsenten er større enn gevinsten til myndighetene. Denne reduksjonen i det samfunnsøkonomiske overskuddet kalles for dødvektstap eller effektivitetstap.
+
+---
+
+**Øvelse**
+- Etterspørsel (MBV): `\(P = 20 – X\)`. Tilbud (GK): `\(P = 2 + 2X\)`
+  - a) Finn likevektspris, omsatt kvantum og vis tilpasningen grafisk.
+  - b) Regn ut KO, PO og SO.
+  - c) Det innføres en skatt på 3 kroner per produserte enhet. Sett opp ny tilbudsfunksjon og regn ut PP, PK og omsatt kvantum.
+  - d) Hva blir KO, PO og SO nå?
+  - e) Regn ut avgiftsinntekten for staten og effektivitetstapet.
 
 
 
 
+---
+
+## Appendiks I (diagramark benyttet under forelesning) 
+
+&lt;img src="drawio/markedfullkommenanalyse.png" width="50%" /&gt;
+---
+
+## Appendiks II (Friedman om prismekanismen)
+
+[Friedman om prismekanismen (kort versjon)](https://www.youtube.com/watch?v=R5Gppi-O3a8)
+
+[Friedman om prismekanismen (lengre versjon)](https://www.youtube.com/watch?v=4ERbC7JyCfU&amp;t=3s)
+
+---
+
+class: inverse, center, middle
+
+# Kapittel 9: Markedsteori: Ufulkommen konkurranse: monopol
+
+Oppdatert: 2022-10-17
+
+---
+
+## Innledning
+- Vi skal her se nærmere på følgende:
+	1. Årsaker til monopol
+	1. Monopolistens tilpasning
+	1. Samfunnsøkonomisk overskudd under monopol
+- Ved monopol antas det fremdeles mange kjøpere, men bare én tilbyder.
+- Det å være en gir bedriften økt kontroll mht. pris og produksjonsmengde.
+- Merk imidlertid at bedriften må ta hensyn til konsumentenes etterspørsel, slik at helt fritt kan den ikke tilpasse seg.
+- Begrensningen for monopolisten ligger altså i hva folk ønsker seg, og hvor mye de er villige til å betale.
+- Men konkurranse fra andre (tilbydere) slipper monopolisten (pr. definisjon).
+---
+
+## Årsaker til monopol
+- For at et monopol skal kunne opprettholdes over tid, må det eksistere en form for etableringshinder i markedet.
+- Ved et monopol har produsenten større kontroll over prisen (prislager eller «pricemaker»), dette skaper en genuin profittmulighet.
+- Profittmuligheten vil i utgangspunktet trekke til seg andre konkurrenter, men markedshindrene gjør dette umulig.
+- Merk at dette skiller monopolet fra den enkelte bedrift i fullkommen konkurranse, som sies å være pristaker (pricetaker).
+---
+
+## Etableringshindre
+- Forbud mot nyetableringer: postverket, vinmonopolet.
+- Patentrettigheter: eksklusiv rettighet på produkt eller produksjonsteknikk.
+- Kontroll over sentrale produksjonsfaktorer/råvarer.
+- Lokale markeder: butikker som ligger i betydelig avstand til konkurrenter.
+- Stordriftsfordeler. Innebærer fallende enhetskostnader: jernbane (NSB).
+---
+
+## Monopolistens tilpasning: intuitiv forklaring 
+- Det er naturlig å anta at monopolisten vil maksimere fortjenesten. Spørsmålet er hvilket kvantum som gir maksimal fortjeneste.
+- Svaret er: bedriften vil produsere inntil inntekten ved å produsere en ekstra enhet er lik kostnaden ved å produsere en enhet til.
+- Inntekten (merk at det står inntekt og ikke profitt) bedriften får ved å produsere og selge en enhet til kalles grenseinntekten, R’(X).
+- Kostnaden ved å produsere en enhet til kjenner vi som grensekostnaden, C’(X).
+---
+
+- Altså blir betingelsen for optimal produksjon:
+- `\(R’(X) = C’(X)\)`
+- Du kan lettere se at det må være slik dersom du prøver deg med å anta at betingelsen ikke er oppfylt.
+	- Hvis `\(R’(X) &gt; C’(X)\)` vil overskuddet øke ved økt produksjon og salg.
+	- Hvis `\(R’(X) &lt; C’(X)\)` vil overskuddet øke ved redusert produksjon og salg.
+---
+
+## Monopolistens tilpasning: grafisk forklaring 
+- For å kunne illustrere tilpasningen grafisk trenger vi 3 kurver. Det er etterspørselskurven, grensekostnadene og grenseinntektene.
+- Det kan vises at dersom etterspørselskurven er fallende og lineær, vil `\(R’(X)\)`-kurven skjære prisaksen i samme punkt som etterspørselskurven, og være dobbelt så bratt. Neste side viser dette matematisk.
+
+&lt;img src="drawio/monoe.png" width="65%" /&gt;
+
+---
+
+- Anta at etterspørselen er gitt ved `\(p = a - bX\)`, der `\(a\)` og `\(b\)` er positive konstanter.
+- Inntekten ( `\(R\)` ) er som vanlig pris multiplisert med mengde. Prisen `\(p\)` er gitt ved etterspørselsfunksjonen over. Det vil si:
+- `\(R(X) = pX = (a - bX)X = aX – b\cdot X^2\)`
+- Grenseinntekten er gitt ved:
+- `\(R’(X) = a – 2bX\)`
+- Vi ser da at stigningstallet til etterspørselskurven er
+	- `\(–b\)`, mens stigningstallet til `\(R’(X) er -2b\)`. Altså er `\(R’(X)\)`
+	- dobbelt så bratt.
+- Fra skjæringspunktet (mellom `\(R’(X) og C’(X)\)`) i figuren kan vi lese av optimalt kvantum for monopolisten på X-aksen, `\(X_1\)`.
+- Selve betingelsen, nemlig at `\(R’(X) = C’(X)\)`, som er uttrykt i kroner, leser vi av på loddrett akse.
+- For å finne monopolprisen går vi fra skjæringspunktet og opp til etterspørselskurven, og inntil p-aksen. Der kan lese vi av monopolprisen som `\(p_1\)`.
+- Merk fra figuren av `\(p_1 &gt; C’(X)\)`. Dette betyr at monopolisten tar en pris for siste produserte enhet som er større enn kostnaden ved å produsere denne enheten. Dette er en viktig forskjell fra fullkommen konkurranse.
+
+---
+
+## Monopolistens tilpasning: matematisk forklaring
+- Det første du må bli fortrolig med i denne forklaringen er at prisen ikke er konstant, men avhenger av kvantumet.
+- Du kan tenke på det slik: monopolisten bestemmer sin produksjonsmengde, og deretter bestemmes prisen av konsumentenes betalingsvillighet.
+- Altså er `\(p\)` avhengig av `\(X\)`. Matematisk:
+- `\(p = p(X)\)`
+- Utledning på tavla.
+---
+
+## Samfunnsøkonomisk overskudd ved monopol
+- Vi har allerede sett at produsenten ved monopol tar en pris som er større enn grensekostnaden.
+- Dette betyr at prisen er større ved monopol enn ved fullkommen konkurranse.
+- Virker rimelig at produsentoverskuddet er større. Enn ved fullkommen konkurranse. Men: er PO såpass stort at det oppveier for de ekstra kostnadene som konsumenten påføres???
+
+&lt;img src="drawio/monop.png" width="65%" /&gt;
+
+---
+
+## Sammenligning av monopol og fullkommen konkurranse
+- Ser at:
+	- `\(p_M &gt; p_{FK}\)` og `\(X_{M} &lt; X_{FK}\)`
+- Analyse av effektivitet: Grafisk framstilling på tavla.
+  - Hva skjer med det samfunnsøkonomiske overskuddet?
+  - Redusert KO og økt PO. Omfordeling. Men hva med
+- effektivitet?
+  - Økningen i PO er mindre enn nedgangen i KO. Dvs.
+- Redusert SO!
+ - Skyldes at `\(B’(X) &gt; C’(X)\)`. Monopolisten begrenser tilbudet
+- for å presse prisen oppover.
+
+---
+
+**Øvelse**
+
+&lt;img src="drawio/10.2.png" width="75%" /&gt;
 
 
 
+---
 
+## Appendiks (diagramark benyttet under forelesning)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+&lt;img src="drawio/markedmonopolanalyse.png" width="35%" /&gt;
 
 
 

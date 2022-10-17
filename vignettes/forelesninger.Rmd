@@ -6,10 +6,11 @@ output: github_document
 ```{r, eval=T, echo=F}
 source('../inst/forelesningsnotater/timeplan.R')
 ```
+## Del 1: Innledning
 
 Forelesning #1: [`r tema[1]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/1-3_introduksjon.pdf)
 
-## Produsentteori: Produsentens økonomiske adferd
+## Del 2 Produsentteori: Produsentens økonomiske adferd
 
 Forelesning #2: [`r tema[2]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/4%20Produksjonsteori:Produksjon.pdf)
 <br>
@@ -17,11 +18,17 @@ Forelesning #3: [`r tema[3]`](https://github.com/joernih/BOEA203Mikrooekonomi/bl
 <br>
 Forelesning #4: [`r tema[4]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/6_Produsentteori:Produkt_og_faktormarkeder.pdf)
 
-## Konsumentteori: Konsumentens økonomiske adferd
+## Del 3 Konsumentteori: Konsumentens økonomiske adferd
 
 Forelesning #5: [`r tema[5]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/7_Konsumentens_tilpasning.pdf)
 <br>
 Forelesning #6: [`r tema[6]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/8_Konsumentens_adferd.pdf)
+
+## Del 4 Markedsteori
+
+Forelesning #7: [`r tema[7]`]()
+<br>
+Forelesning #8: [`r tema[8]`]()
 
 ```{r echo=F}
 knitr::knit_exit()
