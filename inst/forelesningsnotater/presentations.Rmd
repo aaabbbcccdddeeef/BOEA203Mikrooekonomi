@@ -1802,7 +1802,7 @@ class: inverse, center, middle
 - Markedsetterspørsel: som vi har sett er etterspørselskurven fallende i et pris-mengde diagram. 
   - MERK: at vi nå kan forklare det med utgangspunkt i konsumentens optimale tilpasning på varemarkedet.
 
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
 markl <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/markl.png')
 knitr::include_graphics(markl)
 ```
@@ -1833,7 +1833,7 @@ $\Rightarrow B(X)$
 - Videre vet vi at etterspørselskurven viser hvor mange enheter konsumenten er villig til å kjøpe ved ulike priser. Dvs. at på kurven måles endring i etterspørsel ved liten endring i pris. Dette må sammenfalle med marginal betalingsvillighet.
 - Betalingsvilligheten blir da området under E-kurven.
 
-```{r, echo=FALSE, out.width="65%", fig.cap=""}
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
 konso <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/konso.png')
 knitr::include_graphics(konso)
 ```
@@ -1859,7 +1859,7 @@ KO’(X) = B’(X) – p = 0 \Leftrightarrow B’(X) = p
 - Det vil si: differensen mellom produsentens samlede salgsinntekter og variable kostnader.
 
 
-```{r, echo=FALSE, out.width="65%", fig.cap=""}
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
 prodo <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/prodo.png')
 knitr::include_graphics(prodo)
 ```
@@ -1903,7 +1903,7 @@ SO’(X) = KO’(X) + PO’(X) = 0 \\
 	- *Fullkommen konkurranse gir altså maksimalt samfunnsøkonomisk overskudd*.
 
 
-```{r, echo=FALSE, out.width="50%", fig.cap=""}
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
 planl <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/planl.png')
 knitr::include_graphics(planl)
 ```
