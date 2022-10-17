@@ -1729,7 +1729,6 @@ knitr::include_graphics("drawio/oversikt_kons_ii.png")
 ```
 
 ```{r, echo=T, eval=F}
-knitr::knit_exit()
 # **Løsningsforslag**
 #
 #Optimal løsning er kjennetegnet ved
@@ -1759,10 +1758,6 @@ knitr::knit_exit()
 #\begin{equation*}
 #\frac{\partial  x_{1}}{\partial p_{2}} = \frac{1}{2p_1}  > 0 \text{ dvs. alternative goder}
 #\end{equation*}
-```
-
-```{r, echo=F, eval=F}
-knitr::knit_exit()
 ```
 
 ---
@@ -1897,16 +1892,27 @@ SO’(X) = KO’(X) + PO’(X) = 0 \\
 \end{equation*}
 ---
 
-- Er denne betingelsen tilfredsstilt i fullkommen konkurranse?
-	- JA!
-- Ettersom konsumenter og produsenter tilpasser seg de samme prisene, altså p = p. Vi ser da at $B’(X) = C’(X)$, som er kravet til maksimalt SO.
-	- *Fullkommen konkurranse gir altså maksimalt samfunnsøkonomisk overskudd*.
+- Er denne betingelsen tilfredsstilt i fullkommen konkurranse? JA!
 
+.pull-left[
+*Sosial planlegger*
 
-```{r, echo=FALSE, out.width="40%", fig.cap=""}
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
 planl <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/planl.png')
 knitr::include_graphics(planl)
 ```
+]
+.pull-right[
+*Fullkommen konkurranse*
+
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+markl <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/markl.png')
+knitr::include_graphics(markl)
+```
+]
+
+- Ettersom konsumenter og produsenter tilpasser seg de samme prisene, altså p = p. Vi ser da at $B’(X) = C’(X)$, som er kravet til maksimalt SO.
+  - Fullkommen konkurranse gir altså maksimalt samfunnsøkonomisk overskudd.
 
 ---
 
@@ -1914,12 +1920,10 @@ knitr::include_graphics(planl)
 - Hva skjer med det samfunnsøkonomiske overskuddet ved innføring av en avgift?
 - Vi har allerede sett at avgiften fører til en "glippe" eller en "kile" mellom den prisen som produsenten mottar, og den prisen som konsumenten betaler.
 
-```{r, echo=FALSE, out.width="50%", fig.cap=""}
+```{r, echo=FALSE, out.width="35%", fig.cap=""}
 avgfk <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/avgfk.png')
 knitr::include_graphics(avgfk)
 ```
-
----
 
 - Av analysen kommer det frem at tapet til konsumenten og produsenten er større enn gevinsten til myndighetene. Denne reduksjonen i det samfunnsøkonomiske overskuddet kalles for dødvektstap eller effektivitetstap.
 
@@ -2019,7 +2023,7 @@ knitr::include_graphics(avgfk)
 
 ---
 
-## Appendiks I (diagramark benyttet under forelesning) 
+## Appendiks (alle figurene samlet)
 
 ```{r, echo=FALSE, out.width="50%", fig.cap=""}
 knitr::include_graphics("drawio/markedfullkommenanalyse.png")
@@ -2055,7 +2059,7 @@ class: inverse, center, middle
 ---
 
 ## Årsaker til monopol
-- For at et monopol skal kunne opprettholdes over tid, må det eksistere en form for etableringshinder i markedet.
+- For at et monopol skal kunne opprettholdes over tid, må det eksistere en form for *etableringshinder* i markedet.
 - Ved et monopol har produsenten større kontroll over prisen (prislager eller «pricemaker»), dette skaper en genuin profittmulighet.
 - Profittmuligheten vil i utgangspunktet trekke til seg andre konkurrenter, men markedshindrene gjør dette umulig.
 - Merk at dette skiller monopolet fra den enkelte bedrift i fullkommen konkurranse, som sies å være pristaker (pricetaker).
@@ -2087,7 +2091,7 @@ class: inverse, center, middle
 - For å kunne illustrere tilpasningen grafisk trenger vi 3 kurver. Det er etterspørselskurven, grensekostnadene og grenseinntektene.
 - Det kan vises at dersom etterspørselskurven er fallende og lineær, vil $R’(X)$-kurven skjære prisaksen i samme punkt som etterspørselskurven, og være dobbelt så bratt. Neste side viser dette matematisk.
 
-```{r, echo=FALSE, out.width="65%", fig.cap=""}
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
 monoe <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monoe.png')
 knitr::include_graphics(monoe)
 ```
@@ -2114,7 +2118,6 @@ knitr::include_graphics(monoe)
 - Du kan tenke på det slik: monopolisten bestemmer sin produksjonsmengde, og deretter bestemmes prisen av konsumentenes betalingsvillighet.
 - Altså er $p$ avhengig av $X$. Matematisk:
 - $p = p(X)$
-- Utledning på tavla.
 ---
 
 ## Samfunnsøkonomisk overskudd ved monopol
