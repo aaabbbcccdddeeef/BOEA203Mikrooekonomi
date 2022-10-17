@@ -6,6 +6,9 @@ output: github_document
 ```{r, eval=T, echo=F}
 source('../inst/forelesningsnotater/timeplan.R')
 ```
+
+# Slides fra forelesningene
+
 ## Del 1: Innledning
 
 Forelesning #1: [`r tema[1]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/1-3_introduksjon.pdf)
@@ -30,9 +33,19 @@ Forelesning #7: [`r tema[7]`]()
 <br>
 Forelesning #8: [`r tema[8]`]()
 
+# Tidligere eksamensoppgaver
+
+[Eksamen, høst 2020](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/eksamensoppgaver/Eksamen_B%C3%98A203%20(Mikro%C3%B8konomi%201)_H%C3%B8st%202021.pdf)
+
+[Eksamen, høst 2021](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/eksamensoppgaver/Eksamen_B%C3%98A203%20(Mikro%C3%B8konomi%201)_H%C3%B8st%202020.pdf)
+
 ```{r echo=F}
 knitr::knit_exit()
 ```
+
+ (https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/8_Konsumentens_adferd.pdf)
+ (https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/8_Konsumentens_adferd.pdf)
+
 ## Markedsteori
 
 Forelesning #7: [`r tema[7]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/9_markedsform_fullkommen.pdf)
@@ -42,6 +55,8 @@ Forelesning #8: [`r tema[8]`](https://github.com/joernih/SFB10816Mikrooekonomi/b
 Forelesning #9: [`r tema[9]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/11_markedsform_ufullkommen.pdf)
 <br>
 Forelesning #10: [`r tema[10]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/12_prisdiskriminering.pdf)
+
+# Forelesningsslides
 
 ## Andre Emner
 
