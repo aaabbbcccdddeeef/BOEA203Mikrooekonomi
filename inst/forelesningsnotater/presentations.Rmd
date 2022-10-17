@@ -2118,17 +2118,13 @@ knitr::include_graphics(monoe)
 - Du kan tenke på det slik: monopolisten bestemmer sin produksjonsmengde, og deretter bestemmes prisen av konsumentenes betalingsvillighet.
 - Altså er $p$ avhengig av $X$. Matematisk:
 - $p = p(X)$
+
 ---
 
 ## Samfunnsøkonomisk overskudd ved monopol
 - Vi har allerede sett at produsenten ved monopol tar en pris som er større enn grensekostnaden.
 - Dette betyr at prisen er større ved monopol enn ved fullkommen konkurranse.
 - Virker rimelig at produsentoverskuddet er større. Enn ved fullkommen konkurranse. Men: er PO såpass stort at det oppveier for de ekstra kostnadene som konsumenten påføres???
-
-```{r, echo=FALSE, out.width="65%", fig.cap=""}
-monop <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monop.png')
-knitr::include_graphics(monop)
-```
 
 ---
 
@@ -2143,6 +2139,11 @@ knitr::include_graphics(monop)
 - Redusert SO!
  - Skyldes at $B’(X) > C’(X)$. Monopolisten begrenser tilbudet
 - for å presse prisen oppover.
+
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+monop <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monop.png')
+knitr::include_graphics(monop)
+```
 
 ---
 
@@ -2225,16 +2226,13 @@ knitr::include_graphics("drawio/10.2.png")
 
 ---
 
-## Appendiks (diagramark benyttet under forelesning)
+## Appendiks (alle figurene samlet)
 
-```{r, echo=FALSE, out.width="35%", fig.cap=""}
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
 knitr::include_graphics("drawio/markedmonopolanalyse.png")
 ```
 
 ```{r, echo=F}
 knitr::knit_exit()
 ```
-
-
-
 
