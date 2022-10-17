@@ -1761,6 +1761,10 @@ knitr::knit_exit()
 #\end{equation*}
 ```
 
+```{r, echo=F}
+knitr::knit_exit()
+```
+
 ---
 
 class: inverse, center, middle
@@ -1830,8 +1834,8 @@ $\Rightarrow B(X)$
 - Betalingsvilligheten blir da området under E-kurven.
 
 ```{r, echo=FALSE, out.width="65%", fig.cap=""}
-monoe <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monoe.png')
-knitr::include_graphics(monoe)
+konso <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/konso.png')
+knitr::include_graphics(konso)
 ```
 
 ---
@@ -2084,8 +2088,8 @@ class: inverse, center, middle
 - Det kan vises at dersom etterspørselskurven er fallende og lineær, vil $R’(X)$-kurven skjære prisaksen i samme punkt som etterspørselskurven, og være dobbelt så bratt. Neste side viser dette matematisk.
 
 ```{r, echo=FALSE, out.width="65%", fig.cap=""}
-konso <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/konso.png')
-knitr::include_graphics(konso)
+monoe <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monoe.png')
+knitr::include_graphics(monoe)
 ```
 
 ---
