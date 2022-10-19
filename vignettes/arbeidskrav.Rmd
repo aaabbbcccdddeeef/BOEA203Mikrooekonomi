@@ -32,7 +32,7 @@ Innleveringsfrist: **30. oktober**
 
 [Eksamen, høst 2020](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/eksamensoppgaver/Eksamen_B%C3%98A203%20(Mikro%C3%B8konomi%201)_H%C3%B8st%202021.pdf)
 <br>
-[Eksamen, høst 2020 (løsningsforslag)]()
+[Eksamen, høst 2020 (løsningsforslag)](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/eksamensoppgaver/Sensorveiledning%20-%20eksamen%20B%C3%98A203%20(Mikro%C3%B8konomi%201)_h%C3%B8sten%202020.pdf)
 <br>
 <br>
 [Eksamen, høst 2021](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/eksamensoppgaver/Eksamen_B%C3%98A203%20(Mikro%C3%B8konomi%201)_H%C3%B8st%202020.pdf)
