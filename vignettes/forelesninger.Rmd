@@ -33,11 +33,6 @@ Forelesning #7: [`r tema[7]`]()
 <br>
 Forelesning #8: [`r tema[8]`]()
 
-# Tidligere eksamensoppgaver
-
-[Eksamen, høst 2020](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/eksamensoppgaver/Eksamen_B%C3%98A203%20(Mikro%C3%B8konomi%201)_H%C3%B8st%202021.pdf)
-
-[Eksamen, høst 2021](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/eksamensoppgaver/Eksamen_B%C3%98A203%20(Mikro%C3%B8konomi%201)_H%C3%B8st%202020.pdf)
 
 ```{r echo=F}
 knitr::knit_exit()
