@@ -34,8 +34,12 @@ Thøgersen)](https://www.cappelendammundervisning.no/_innforing-i-mikrookonomi-o
 [Emneplan for
 kurset](https://www.hvl.no/studier/studieprogram/emne/41/b%C3%B8a203)
 
-Undervisningsansvarlig (jornih at hvl.no)
+**Undervisningsansvarlig (jornih at hvl.no)**
 
 Jørn I. Halvorsen
 
-**Siste gang oppdatert: 2022-10-17 14:31:31**
+**Referansegruppe:**
+
+Knut Andre Vedøy
+
+**Siste gang oppdatert: 2022-10-20 10:10:06**
