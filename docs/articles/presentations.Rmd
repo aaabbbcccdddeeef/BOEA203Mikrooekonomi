@@ -2020,6 +2020,27 @@ knitr::include_graphics(avgfk)
 #\end{equation*}
 #
 ```
+---
+
+## Elastisiteter, avgifter og velferdsøkonomi
+
+- En mer horisontal (vertikal) etterspørselkurve innebærer en mer prisfølsom/elastisk (uelastisk) etterspørsel.
+- Ved skiftanalsye
+  - Større (mindre) effekt på produksjonen
+- Ved en avgift, vil dette innebære at:
+  - Dødvektstap blir større (mindre)
+  - En større (mindre) andel av avgiftsinntektene blir betalt av produsenten
+
+- En mer horisontal (vertikal) tilbudskurve innebærer en mer prisfølsom/elastisk (uelastisk) tilbud.
+- Ved skiftanalsye
+  - Større (mindre) effekt på produksjonen
+- Ved en avgift, vil dette innebære at:
+  - Dødvektstap blir større (mindre)
+  - En større (mindre) andel av avgiftsinntektene blir betalt av konsumenten.
+
+
+**Øvelse**
+- Forsøk å illustrer disse resultatene grafisk ved bruk av diagrammer.
 
 ---
 
