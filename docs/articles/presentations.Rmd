@@ -1933,93 +1933,103 @@ knitr::include_graphics(avgfk)
 - Etterspørsel (MBV): $P = 20 – X$. Tilbud (GK): $P = 2 + 2X$
   - a) Finn likevektspris, omsatt kvantum og vis tilpasningen grafisk.
   - b) Regn ut KO, PO og SO.
-  - c) Det innføres en skatt på 3 kroner per produserte enhet. Sett opp ny tilbudsfunksjon og regn ut PP, PK og omsatt kvantum.
+  - c) Det innføres en skatt på 3 kroner per produserte enhet. Sett opp ny tilbudsfunksjon og regn ut $P_K$ (pris til konsument), $P_P$ (pris til produsent) og omsatt kvantum $X$.
   - d) Hva blir KO, PO og SO nå?
   - e) Regn ut avgiftsinntekten for staten og effektivitetstapet.
 
+---
 
-```{r, echo=F}
-#**Løsningsforslag**
-#a)
-#Vi starter med omsatt kvantum. I fullkommen  vil løsningen være karakterisert ved
-#at MBV=GK, det gir oss
-#
-#\begin{equation*}
-#20-x=2+2x \\
-#-x-2x =2-20 \\
-#3x   =18 \\
-#x^{fk}=x =\frac{18}{3} = 6
-#\end{equation*}
-#
-#
-#Setter vi dette kvantumet inn i enten etterspørs- eller tilbudskurven vil vi finne produktprisen
-#\begin{equation*}
-#x = 6 \\
-#MBV: P = 20-6=14 \\
-#(GK: P = 2+26 = 14)
-#\end{equation*}
-#
-#---
-#
-#b)
-#
-#Konsumentoverskuddet er gitt ved arealet til trekanten
-#
-#\begin{equation*}
-#KO = (6-0)\cdot(20-14)/2 = 18
-#\end{equation*}
-#
-#Mens produsentoverskudet er gitt ved
-#
-#\begin{equation*}
-#PO = (6-0)(14-2)/2 = 36
-#\end{equation*}
-#
-#
-#Samfunnsøkonomisk overskudd blir derfor (dersom vi ser bort fra skatteinntektene) 
-#
-#\begin{equation*}
-#SO = PO+KO =36+18=54
-#\end{equation*}
-#
-#---
-#
-#c)
-#Skatt per enhet gjør at tilbudskurven kan skrives som
-#
-#\begin{equation*}
-#P = 2+2x + 3 \\
-#20-x=2+2x+3 \\
-#3x   =15 \\
-#x = 5
-#\end{equation*}
-#
-#Prisen blir derfor 
-#\begin{equation*}
-#P = 20 - 5 = 15
-#\end{equation*}
-#og for
-#\begin{equation*}
-#P=2+2\cdot5 = 2+10 = 12
-#\end{equation*}
-#
-#Konsument- , produsentoverskudd og samfunnsøkonomisk overskudd er nått gitt ved
-#\begin{equation*}
-#KO = (5\cdot (20-15))/2 = 12.5\\
-#PO = (5\cdot (12-2))/2 = 25\\
-#SO = 12.5+25 + tX=  37.5 + tX
-#\end{equation*}
-#
-#e) Staten
-#
-#Avgiftsinntekten (SI) og Dødvektstapet (DT):
-#
-#\begin{equation*}
-#SI = (15-12)(5-0) = 15 \\
-#DT =((15-12)\cdot 1)/2 =  3/2 = 1,5
-#\end{equation*}
-#
-```
+**Løsningsforslag**
+
+
+a)
+Vi starter med omsatt kvantum. I fullkommen  vil løsningen være karakterisert ved
+at MBV=GK, det gir oss
+
+\begin{equation*}
+20-x=2+2x \\
+-x-2x =2-20 \\
+3x   =18 \\
+x^{FK}=x =\frac{18}{3} = 6
+\end{equation*}
+
+
+Setter vi dette kvantumet inn i enten etterspørs- eller tilbudskurven vil vi finne produktprisen
+\begin{equation*}
+x = 6 \\
+MBV: P = 20-6=14 \\
+(GK: P = 2+26 = 14)
+\end{equation*}
+
+---
+
+b)
+
+Konsumentoverskuddet er gitt ved arealet til trekanten
+
+\begin{equation*}
+KO = (6-0)\cdot(20-14)/2 = 18
+\end{equation*}
+
+Mens produsentoverskudet er gitt ved
+
+\begin{equation*}
+PO = (6-0)(14-2)/2 = 36
+\end{equation*}
+
+
+Samfunnsøkonomisk overskudd blir derfor 
+
+\begin{equation*}
+SO = PO+KO =36+18=54
+\end{equation*}
+
+
+
+c)
+Skatt per enhet gjør at tilbudskurven kan skrives som
+
+\begin{equation*}
+P = 2+2x + 3 \\
+20-x=2+2x+3 \\
+3x   =15 \\
+x = 5
+\end{equation*}
+
+Prisen til konsument blir derfor 
+\begin{equation*}
+P_k = 20 - 5 = 15
+\end{equation*}
+
+---
+
+Mens pris til produsent blir
+\begin{equation*}
+P_p=2+2\cdot5 = 2+10 = 12
+\end{equation*}
+
+
+Konsument- , produsentoverskudd og samfunnsøkonomisk overskudd er nått gitt ved
+
+\begin{equation*}
+KO = \frac{(5\cdot (20-15))}{2}  = 12.5\\
+PO = (5\cdot (12-2))/2 = 25\\
+SO (\text{uten skatteinntektene}) = 12.5+25 =  37.5 
+\end{equation*}
+
+---
+
+
+e) Staten
+
+Avgiftsinntekten (SI) og Dødvektstapet (DT):
+
+\begin{equation*}
+SI = (5-0)(15-12)= 15 \\
+DT =((15-12)\cdot 1)/2 =  3/2 = 1.5 \\
+SO (\text{med tilbakebetaling av SI til KO og PO})= 12.5+25 =  37.5 + 15 = 52.5
+\end{equation*}
+
 ---
 
 ## Elastisiteter, avgifter og velferdsøkonomi
@@ -2038,8 +2048,10 @@ knitr::include_graphics(avgfk)
   - Dødvektstap blir større (mindre)
   - En større (mindre) andel av avgiftsinntektene blir betalt av konsumenten.
 
+---
 
 **Øvelse**
+
 - Forsøk å illustrer disse resultatene grafisk ved bruk av diagrammer.
 
 ---
@@ -2158,8 +2170,7 @@ knitr::include_graphics(monoe)
 - effektivitet?
   - Økningen i PO er mindre enn nedgangen i KO. Dvs.
 - Redusert SO!
- - Skyldes at $B’(X) > C’(X)$. Monopolisten begrenser tilbudet
-- for å presse prisen oppover.
+ - Skyldes at $B’(X) > C’(X)$. Monopolisten begrenser tilbudet for å presse prisen oppover.
 
 ```{r, echo=FALSE, out.width="40%", fig.cap=""}
 monop <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monop.png')
@@ -2174,7 +2185,21 @@ knitr::include_graphics(monop)
 knitr::include_graphics("drawio/10.2.png")
 ```
 
+---
+
+
+## Appendiks (alle figurene samlet)
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+knitr::include_graphics("drawio/markedmonopolanalyse.png")
+```
+
 ```{r, echo=F}
+knitr::knit_exit()
+```
+
+
+```{r}
 #**Svar**
 #Vi noterer først at den marginale betalingsvilligheten er gitt ved
 #\begin{equation*}
@@ -2192,8 +2217,6 @@ knitr::include_graphics("drawio/10.2.png")
 #\begin{equation*}
 #C'(x) = 100+4x
 #\end{equation*}
-#
-#---
 #
 #**a)**<bR>
 #Optimum er karakterisert ved at $R'(X)=C'(X)$:
@@ -2220,12 +2243,12 @@ knitr::include_graphics("drawio/10.2.png")
 #\begin{equation*}
 #e_p = -0.5\frac{400}{50} = -4
 #\end{equation*}
-#---
 #**c)**<bR>
 #Forholdet mellom pris og grensekostnad:
 #\begin{equation*}
-#\frac{P}{C(X)}= \frac{400}{100+4X}=\frac{400}{100+4\cdot 50}=\frac{400}{300}=1.33
+#\frac{P}{C'(X)}= \frac{400}{100+4X}=\frac{400}{100+4\cdot 50}=\frac{400}{300}=1.33
 #\end{equation*}
+#---
 #**d)**<bR>
 #Vi har at sammenhengen mellom pris, grensekostnad og priselastisitet er gitt ved
 #\begin{equation*}
@@ -2238,14 +2261,14 @@ knitr::include_graphics("drawio/10.2.png")
 #\end{equation*}
 #**e)**<bR>
 #Mark-up eller påslag er relativt lite (25%). Dette skyldes at markedsmakten blir begrenset siden etterspørselen er svært elastisk.
-#---
-#**f)**<bR>
 #Se løsningsforslag s. 119
-#knitr::include_graphics("drawio/10.2_I.png")
-#knitr::include_graphics("drawio/10.2_II.png")
-```
-
+#knitr::include_graphics("drawio/10.2_losnI.jpeg")
+#knitr::include_graphics("drawio/10.2_losnII.jpeg")
 ---
+
+```{r, echo=F}
+knitr::knit_exit()
+```
 
 ## Appendiks (alle figurene samlet)
 

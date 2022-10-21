@@ -7,12 +7,6 @@
 
 ## Nyheter
 
--   Løsningsforlslag til arbeidskrav 1 er nå publisert (se under fanen
-    arbeidskrav)
--   Vi gikk litt langt fram på fredag 30.9. Har snakket med faglærerne i
-    Bergen og Sogndal, og det ble klart for meg at husholdningens tilbud
-    av arbeidskraft ikke er en del av pensum dette året.
-
 ### Studietips
 
 [Generelle studietips\_ System framfor
@@ -42,4 +36,4 @@ Jørn I. Halvorsen
 
 Knut Andre Vedøy
 
-**Siste gang oppdatert: 2022-10-20 10:10:06**
+**Siste gang oppdatert: 2022-10-21 16:10:00**
