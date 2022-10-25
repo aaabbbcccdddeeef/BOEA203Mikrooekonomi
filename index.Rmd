@@ -92,7 +92,7 @@ knitr::knit_exit()
 
 inst/arbeidskrav/regneverksted#1_losning.Rmd
 inst/forelesningsnotater/tavlefil.Rmd
-inst/forelesningsnotater/presentations.Rmd
+inst/forelesningsnotater/presentationsF.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
 https://github.com/joernih/BOEA203Mikrooekonomi.git
@@ -122,3 +122,5 @@ Minner dessuten om arbeidskrav 2 har frist 30.10, og kan leveres (lenke her) ind
 Sees snart!
 Jørn
 
+# Knut Andre Vedøy
+# Julie G. Lund
