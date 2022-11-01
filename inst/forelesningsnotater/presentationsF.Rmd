@@ -2196,7 +2196,7 @@ knitr::include_graphics("drawio/markedmonopolanalyse.png")
 
 
 ```{r, eval=F,echo=F}
-#knitr::knit_exit()
+knitr::knit_exit()
 ```
 
 ---
