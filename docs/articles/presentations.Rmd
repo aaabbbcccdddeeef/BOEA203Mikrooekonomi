@@ -2279,4 +2279,75 @@ knitr::include_graphics("drawio/markedmonopolanalyse.png")
 ```{r, echo=F}
 knitr::knit_exit()
 ```
+```{r, echo=F}
+#**Svar**
+#Vi noterer først at den marginale betalingsvilligheten er gitt ved
+#\begin{equation*}
+#MBV(X) = P = 500 -2x
+#\end{equation*}
+#Det gjør at inntekten framkommer som
+#\begin{equation*}
+#R(X)=PX=(500-2X)X=500X-2X^2
+#\end{equation*}
+#Mens grenseinntekten er gitt ved
+#\begin{equation*}
+#R'(X)=500-4X
+#\end{equation*}
+#Grensekostnadsfunksjonen er gitt ved
+#\begin{equation*}
+#C'(x) = 100+4x
+#\end{equation*}
+#
+#---
+#
+#**a)**<bR>
+#Optimum er karakterisert ved at $R'(X)=C'(X)$:
+#\begin{equation*}
+#500-4X = 100+4X \\ 
+#8X = 400 \\
+#X = 50
+#\end{equation*}
+#Som gjør at prisen er gitt ved
+#\begin{equation*}
+#P= 500-2\cdot 50 = 400
+#\end{equation*}
+#**b)**<bR>
+#Priselastisiteten er definert som:
+#\begin{equation*}
+#e_p = \frac{\Delta X}{\Delta P}\frac{P}{X}
+#\end{equation*}
+#Vi har at MBV løse mhp. X gir
+#\begin{equation*}
+#X=250-\frac{1}{2}P \Rightarrow 
+#\frac{\Delta X}{\Delta P} = -\frac{1}{2}
+#\end{equation*}
+#Som gir
+#\begin{equation*}
+#e_p = -0.5\frac{400}{50} = -4
+#\end{equation*}
+#---
+#**c)**<bR>
+#Forholdet mellom pris og grensekostnad:
+#\begin{equation*}
+#\frac{P}{C(X)}= \frac{400}{100+4X}=\frac{400}{100+4\cdot 50}=\frac{400}{300}=1.33
+#\end{equation*}
+#**d)**<bR>
+#Vi har at sammenhengen mellom pris, grensekostnad og priselastisitet er gitt ved
+#\begin{equation*}
+#P(1+\frac{1}{\epsilon})=C' \\
+#\frac{P}{C'}=\frac{1}{1+\frac{1}{\epsilon}}=\frac{1}{1-\frac{1}{4}}=1.33
+#\end{equation*}
+#Eller
+#\begin{equation*}
+#\frac{P-C'}{C'}=\frac{1}{-e}=\frac{400-300}{300}=0.25=\frac{1}{4}
+#\end{equation*}
+#**e)**<bR>
+#Mark-up eller påslag er relativt lite (25%). Dette skyldes at markedsmakten blir begrenset siden etterspørselen er svært elastisk.
+#---
+#**f)**<bR>
+#Se løsningsforslag s. 119
+#knitr::include_graphics("drawio/10.2_I.png")
+#knitr::include_graphics("drawio/10.2_II.png")
+```
+
 

@@ -2187,6 +2187,84 @@ knitr::include_graphics("drawio/10.2.png")
 
 ---
 
+**Løsningsforslag 10.2**
+
+Vi noterer først at den marginale betalingsvilligheten er gitt ved
+\begin{equation*}
+MBV(X) = P = 500 -2x
+\end{equation*}
+Det gjør at inntektsfunksjonen er gitt ved
+\begin{equation*}
+R(X)=PX=(500-2X)X=500X-2X^2
+\end{equation*}
+Grenseinntekten finner vi ved å derivere inntektsfunksjoen mhp. X
+\begin{equation*}
+R'(X)=500-4X
+\end{equation*}
+Grensekostnadsfunksjonen (tilbudsfunksjone) finner vi ved å derivere kostnadsfunksjoen mhp. X
+\begin{equation*}
+C'(x) = 100+4x
+\end{equation*}
+---
+**a)**<bR>
+Optimum er karakterisert ved at $R'(X)=C'(X)$:
+\begin{equation*}
+500-4X = 100+4X \\ 
+8X = 400 \\
+X^{M} = 50
+\end{equation*}
+Ved å sette dette kvantumet inn i etterspørselfunksjonen finner vi at monopolprisen er gitt ved
+\begin{equation*}
+p^{M}= 500-2\cdot 50 = 400
+\end{equation*}
+
+```{r, echo=FALSE, out.width="30%", fig.cap=""}
+mp102 <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/10.2_mp.png')
+knitr::include_graphics(mp102)
+```
+
+---
+
+**b)**<bR>
+Priselastisiteten er definert som:
+\begin{equation*}
+e_p = \frac{\Delta X}{\Delta P}\frac{P}{X}
+\end{equation*}
+Vi har at MBV løse mhp. X gir
+\begin{equation*}
+X=250-\frac{1}{2}P \Rightarrow 
+\frac{\Delta X}{\Delta P} = -\frac{1}{2}
+\end{equation*}
+Som gir
+\begin{equation*}
+e_p = -0.5\frac{400}{50} = -4
+\end{equation*}
+
+---
+
+**c)**<bR>
+Forholdet mellom pris og grensekostnad:
+\begin{equation*}
+\frac{P}{C(X)}= \frac{400}{100+4X}=\frac{400}{100+4\cdot 50}=\frac{400}{300}=1.33
+\end{equation*}
+**d)**<bR>
+Vi har at sammenhengen mellom pris, grensekostnad og priselastisitet er gitt ved
+\begin{equation*}
+P(1+\frac{1}{\epsilon})=C' \\
+\frac{P}{C'}=\frac{1}{1+\frac{1}{\epsilon}}=\frac{1}{1-\frac{1}{4}}=1.33
+\end{equation*}
+Eller
+\begin{equation*}
+\frac{P-C'}{C'}=\frac{1}{-e}=\frac{400-300}{300}=0.25=\frac{1}{4}
+\end{equation*}
+**e)**<bR>
+Mark-up eller påslag er relativt lite (25%). Dette skyldes at markedsmakten blir begrenset siden etterspørselen er svært elastisk.
+
+**f)**<bR>
+Se løsningsforslag s. 119
+
+---
+
 
 ## Appendiks (alle figurene samlet)
 
