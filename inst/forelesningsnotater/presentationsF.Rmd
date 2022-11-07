@@ -2290,14 +2290,10 @@ class: inverse, center, middle
 
 ## Innledning
 
-- Dersom vi nå legger til grunn et marked med få store produsenter.
-	- I et slikt tilfelle vil det være fristende for produsentene å forbedre resultatet ved å redusere konkurransen seg i mellom.
-- Det er utviklet en rekke ulike modeller for å beskrive slike situasjoner.
-- Vi skal i dette kapittelet se nærmere på
-	- Kartell
-	- Duo- og oligopol (Cournot-, Stackelberg- og Bertrand-modellen)
-	- Monopolistisk konkurranse
-- For alle disse modellene vil etterspørselssiden av økonomien være den samme. 
+```{r, echo=FALSE, out.width="30%", fig.cap=""}
+markedsformer <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/markedsformer.png')
+knitr::include_graphics(markedsformer)
+```
 
 ---
 
@@ -2314,11 +2310,21 @@ Videre vil produsenten, som under fullkommen konkurranse, konkurrere med *mange 
 	- Produsenten vil tilpasse seg der hvor grenseinntekt er lik grensekostnad.
 	- Hvor stor markedsmakten er vil avhenge av elastisk etterspørselen er
 
+```{r, echo=FALSE, out.width="30%", fig.cap=""}
+monk_ks <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monk_ks.png')
+knitr::include_graphics(monk_ks)
+```
+
 ---
 
 - Lang sikt
 	- Uten adgangsbegrensninnger, så vil positiv fortjeneste lokke nye produsenter inn i markedet.
 	- Det fører til redusert etterspørsel etter det produktet som vi ser på, helt inntil fortjenesten er redusert til null.
+
+```{r, echo=FALSE, out.width="30%", fig.cap=""}
+monk_ls <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monk_ls.png')
+knitr::include_graphics(monk_ks)
+```
 
 ---
 
@@ -2423,13 +2429,11 @@ class: inverse, center, middle
 Avvik fra forutsetningene om fullkommen konkurranse
 
 
-1. Ufullkommen konkurranse og anvendelse av markedsmakt (10-12)
-1. **Eksterne virkninger**
+1. **Ufullkommen konkurranse og anvendelse av markedsmakt** (sett på tidligere)
+1. **Eksterne virkninger** (se på nå)
 1. Kollektive goder
 1. Formyndergoder
 1. Ufullstendig informasjon
-
-Vi skal se nærmere på fem årsaker:
 
 ---
 
