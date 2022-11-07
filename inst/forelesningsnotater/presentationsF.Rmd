@@ -2529,6 +2529,14 @@ knitr::include_graphics("drawio/3_grads_mon.png")
 
 ---
 
+## Appendiks (diagramark fra forelesningen)
+
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+knitr::include_graphics("drawio/prisdiskalle.png")
+```
+
+---
+
 class: inverse, center, middle
 
 # Kapittel 13
@@ -2769,9 +2777,4 @@ knitr::include_graphics("drawio/andre_emner.png")
 ```
 
 ---
-
-
-
-
-
 
