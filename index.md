@@ -36,4 +36,4 @@ Jørn I. Halvorsen
 
 Knut Andre Vedøy
 
-**Siste gang oppdatert: 2022-10-21 16:10:00**
+**Siste gang oppdatert: 2022-11-08 14:24:47**
