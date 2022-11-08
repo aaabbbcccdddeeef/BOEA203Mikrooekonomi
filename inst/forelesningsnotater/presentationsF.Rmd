@@ -2290,9 +2290,9 @@ class: inverse, center, middle
 
 ## Innledning
 
-```{r, echo=FALSE, out.width="30%", fig.cap=""}
-#markedsformer <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/markedsformer.png')
-#knitr::include_graphics(markedsformer)
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+markedsformer <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/markedsformer.png')
+knitr::include_graphics(markedsformer)
 ```
 
 ---
@@ -2305,14 +2305,13 @@ Videre vil produsenten, som under fullkommen konkurranse, konkurrere med *mange 
 
 ---
 
-
 - Kort sikt
 	- Produsenten vil tilpasse seg der hvor grenseinntekt er lik grensekostnad.
 	- Hvor stor markedsmakten er vil avhenge av elastisk etterspørselen er
 
 ```{r, echo=FALSE, out.width="30%", fig.cap=""}
-#monk_ks <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monk_ks.png')
-#knitr::include_graphics(monk_ks)
+monk_ks <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monk_ks.png')
+knitr::include_graphics(monk_ks)
 ```
 
 ---
@@ -2322,8 +2321,8 @@ Videre vil produsenten, som under fullkommen konkurranse, konkurrere med *mange 
 	- Det fører til redusert etterspørsel etter det produktet som vi ser på, helt inntil fortjenesten er redusert til null.
 
 ```{r, echo=FALSE, out.width="30%", fig.cap=""}
-#monk_ls <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monk_ls.png')
-#knitr::include_graphics(monk_ks)
+monk_ls <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monk_ls.png')
+knitr::include_graphics(monk_ks)
 ```
 
 ---
@@ -2372,7 +2371,8 @@ Betingelser som må være oppfylt for å kunne utføre prisdiskriminering i et m
 	- Det innebærer at konsumentoverskuddet er lik null, mens produsenten sitter igjen med et produsentoverskudd som nøyaktig lik det samfunnsøkonomiske overskuddet.
 
 ```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/1_grads.png")
+f_grads <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/1_grads.png')
+knitr::include_graphics(f_grads)
 ```
 
 ---
@@ -2383,7 +2383,8 @@ knitr::include_graphics("drawio/1_grads.png")
 - Produsenten tilbyr en meny av kontrakter (eks. en kontrakt til de som kjøper lite kvanta, og en annen kontrakt til de som kjøper store kvanta) til de ulike konsumentgruppene. 
 
 ```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/2_grads.png")
+a_grads <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/2_grads.png')
+knitr::include_graphics(a_grads)
 ```
 
 ---
@@ -2393,15 +2394,18 @@ knitr::include_graphics("drawio/2_grads.png")
 - Produsent selger ett gode til forskjellige priser ovenfor nærmest avgrensede konsumenter eller konsumentgrupper. Eks. kan en slik avgrensning foretas på ulike alderstrinn.
 
 ```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics("drawio/3_grads.png")
+t_grads <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/3_grads.png')
+knitr::include_graphics(t_grads)
 ```
+
 
 ---
 
 - Som vist i diagrammet nedenfor, konsumenten vil her oppnå større produsentoverskudd som monopolist ved avgrensning enn dersom en bare forholdt seg til én konsumentgruppe.
 
 ```{r, echo=FALSE, out.width="100%", fig.cap=""}
-knitr::include_graphics("drawio/3_grads_mon.png")
+t_grads_kl <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/3_gradskl.png')
+knitr::include_graphics(t_grads_kl)
 ```
 
 ---
@@ -2430,7 +2434,7 @@ Avvik fra forutsetningene om fullkommen konkurranse
 
 
 1. **Ufullkommen konkurranse og anvendelse av markedsmakt** (sett på tidligere)
-1. **Eksterne virkninger** (se på nå)
+1. **Eksterne virkninger** (ser på nå)
 1. Kollektive goder
 1. Formyndergoder
 1. Ufullstendig informasjon
