@@ -2187,88 +2187,84 @@ knitr::include_graphics("drawio/10.2.png")
 
 ---
 
+**Løsningsforslag 10.2**
 
-## Appendiks (alle figurene samlet)
+Vi noterer først at den marginale betalingsvilligheten er gitt ved
+\begin{equation*}
+MBV(X) = P = 500 -2x
+\end{equation*}
+Det gjør at inntektsfunksjonen er gitt ved
+\begin{equation*}
+R(X)=PX=(500-2X)X=500X-2X^2
+\end{equation*}
+Grenseinntekten finner vi ved å derivere inntektsfunksjoen mhp. X
+\begin{equation*}
+R'(X)=500-4X
+\end{equation*}
+Grensekostnadsfunksjonen (tilbudsfunksjone) finner vi ved å derivere kostnadsfunksjoen mhp. X
+\begin{equation*}
+C'(x) = 100+4x
+\end{equation*}
+---
+**a)**<bR>
+Optimum er karakterisert ved at $R'(X)=C'(X)$:
+\begin{equation*}
+500-4X = 100+4X \\ 
+8X = 400 \\
+X^{M} = 50
+\end{equation*}
+Ved å sette dette kvantumet inn i etterspørselfunksjonen finner vi at monopolprisen er gitt ved
+\begin{equation*}
+p^{M}= 500-2\cdot 50 = 400
+\end{equation*}
 
-```{r, echo=FALSE, out.width="50%", fig.cap=""}
-knitr::include_graphics("drawio/markedmonopolanalyse.png")
+```{r, echo=FALSE, out.width="30%", fig.cap=""}
+mp102 <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/10.2_mp.png')
+knitr::include_graphics(mp102)
 ```
 
-```{r, echo=F}
-knitr::knit_exit()
-```
-
-
-```{r}
-#**Svar**
-#Vi noterer først at den marginale betalingsvilligheten er gitt ved
-#\begin{equation*}
-#MBV(X) = P = 500 -2x
-#\end{equation*}
-#Det gjør at inntekten framkommer som
-#\begin{equation*}
-#R(X)=PX=(500-2X)X=500X-2X^2
-#\end{equation*}
-#Mens grenseinntekten er gitt ved
-#\begin{equation*}
-#R'(X)=500-4X
-#\end{equation*}
-#Grensekostnadsfunksjonen er gitt ved
-#\begin{equation*}
-#C'(x) = 100+4x
-#\end{equation*}
-#
-#**a)**<bR>
-#Optimum er karakterisert ved at $R'(X)=C'(X)$:
-#\begin{equation*}
-#500-4X = 100+4X \\ 
-#8X = 400 \\
-#X = 50
-#\end{equation*}
-#Som gjør at prisen er gitt ved
-#\begin{equation*}
-#P= 500-2\cdot 50 = 400
-#\end{equation*}
-#**b)**<bR>
-#Priselastisiteten er definert som:
-#\begin{equation*}
-#e_p = \frac{\Delta X}{\Delta P}\frac{P}{X}
-#\end{equation*}
-#Vi har at MBV løse mhp. X gir
-#\begin{equation*}
-#X=250-\frac{1}{2}P \Rightarrow 
-#\frac{\Delta X}{\Delta P} = -\frac{1}{2}
-#\end{equation*}
-#Som gir
-#\begin{equation*}
-#e_p = -0.5\frac{400}{50} = -4
-#\end{equation*}
-#**c)**<bR>
-#Forholdet mellom pris og grensekostnad:
-#\begin{equation*}
-#\frac{P}{C'(X)}= \frac{400}{100+4X}=\frac{400}{100+4\cdot 50}=\frac{400}{300}=1.33
-#\end{equation*}
-#---
-#**d)**<bR>
-#Vi har at sammenhengen mellom pris, grensekostnad og priselastisitet er gitt ved
-#\begin{equation*}
-#P(1+\frac{1}{\epsilon})=C' \\
-#\frac{P}{C'}=\frac{1}{1+\frac{1}{\epsilon}}=\frac{1}{1-\frac{1}{4}}=1.33
-#\end{equation*}
-#Eller
-#\begin{equation*}
-#\frac{P-C'}{C'}=\frac{1}{-e}=\frac{400-300}{300}=0.25=\frac{1}{4}
-#\end{equation*}
-#**e)**<bR>
-#Mark-up eller påslag er relativt lite (25%). Dette skyldes at markedsmakten blir begrenset siden etterspørselen er svært elastisk.
-#Se løsningsforslag s. 119
-#knitr::include_graphics("drawio/10.2_losnI.jpeg")
-#knitr::include_graphics("drawio/10.2_losnII.jpeg")
 ---
 
-```{r, echo=F}
-knitr::knit_exit()
-```
+**b)**<bR>
+Priselastisiteten er definert som:
+\begin{equation*}
+e_p = \frac{\Delta X}{\Delta P}\frac{P}{X}
+\end{equation*}
+Vi har at MBV løse mhp. X gir
+\begin{equation*}
+X=250-\frac{1}{2}P \Rightarrow 
+\frac{\Delta X}{\Delta P} = -\frac{1}{2}
+\end{equation*}
+Som gir
+\begin{equation*}
+e_p = -0.5\frac{400}{50} = -4
+\end{equation*}
+
+---
+
+**c)**<bR>
+Forholdet mellom pris og grensekostnad:
+\begin{equation*}
+\frac{P}{C(X)}= \frac{400}{100+4X}=\frac{400}{100+4\cdot 50}=\frac{400}{300}=1.33
+\end{equation*}
+**d)**<bR>
+Vi har at sammenhengen mellom pris, grensekostnad og priselastisitet er gitt ved
+\begin{equation*}
+P(1+\frac{1}{\epsilon})=C' \\
+\frac{P}{C'}=\frac{1}{1+\frac{1}{\epsilon}}=\frac{1}{1-\frac{1}{4}}=1.33
+\end{equation*}
+Eller
+\begin{equation*}
+\frac{P-C'}{C'}=\frac{1}{-e}=\frac{400-300}{300}=0.25=\frac{1}{4}
+\end{equation*}
+**e)**<bR>
+Mark-up eller påslag er relativt lite (25%). Dette skyldes at markedsmakten blir begrenset siden etterspørselen er svært elastisk.
+
+**f)**<bR>
+Se løsningsforslag s. 119
+
+---
+
 
 ## Appendiks (alle figurene samlet)
 
@@ -2276,78 +2272,255 @@ knitr::knit_exit()
 knitr::include_graphics("drawio/markedmonopolanalyse.png")
 ```
 
-```{r, echo=F}
+
+```{r, eval=F,echo=F}
 knitr::knit_exit()
 ```
-```{r, echo=F}
-#**Svar**
-#Vi noterer først at den marginale betalingsvilligheten er gitt ved
-#\begin{equation*}
-#MBV(X) = P = 500 -2x
-#\end{equation*}
-#Det gjør at inntekten framkommer som
-#\begin{equation*}
-#R(X)=PX=(500-2X)X=500X-2X^2
-#\end{equation*}
-#Mens grenseinntekten er gitt ved
-#\begin{equation*}
-#R'(X)=500-4X
-#\end{equation*}
-#Grensekostnadsfunksjonen er gitt ved
-#\begin{equation*}
-#C'(x) = 100+4x
-#\end{equation*}
-#
-#---
-#
-#**a)**<bR>
-#Optimum er karakterisert ved at $R'(X)=C'(X)$:
-#\begin{equation*}
-#500-4X = 100+4X \\ 
-#8X = 400 \\
-#X = 50
-#\end{equation*}
-#Som gjør at prisen er gitt ved
-#\begin{equation*}
-#P= 500-2\cdot 50 = 400
-#\end{equation*}
-#**b)**<bR>
-#Priselastisiteten er definert som:
-#\begin{equation*}
-#e_p = \frac{\Delta X}{\Delta P}\frac{P}{X}
-#\end{equation*}
-#Vi har at MBV løse mhp. X gir
-#\begin{equation*}
-#X=250-\frac{1}{2}P \Rightarrow 
-#\frac{\Delta X}{\Delta P} = -\frac{1}{2}
-#\end{equation*}
-#Som gir
-#\begin{equation*}
-#e_p = -0.5\frac{400}{50} = -4
-#\end{equation*}
-#---
-#**c)**<bR>
-#Forholdet mellom pris og grensekostnad:
-#\begin{equation*}
-#\frac{P}{C(X)}= \frac{400}{100+4X}=\frac{400}{100+4\cdot 50}=\frac{400}{300}=1.33
-#\end{equation*}
-#**d)**<bR>
-#Vi har at sammenhengen mellom pris, grensekostnad og priselastisitet er gitt ved
-#\begin{equation*}
-#P(1+\frac{1}{\epsilon})=C' \\
-#\frac{P}{C'}=\frac{1}{1+\frac{1}{\epsilon}}=\frac{1}{1-\frac{1}{4}}=1.33
-#\end{equation*}
-#Eller
-#\begin{equation*}
-#\frac{P-C'}{C'}=\frac{1}{-e}=\frac{400-300}{300}=0.25=\frac{1}{4}
-#\end{equation*}
-#**e)**<bR>
-#Mark-up eller påslag er relativt lite (25%). Dette skyldes at markedsmakten blir begrenset siden etterspørselen er svært elastisk.
-#---
-#**f)**<bR>
-#Se løsningsforslag s. 119
-#knitr::include_graphics("drawio/10.2_I.png")
-#knitr::include_graphics("drawio/10.2_II.png")
+
+---
+
+class: inverse, center, middle
+
+# Kapittel 11: `r paste(substring(del[7],4),tema[9])`
+
+`r paste("Oppdatert:",Sys.Date())`
+
+
+---
+
+## Innledning
+
+- I praksis vil de fleste produkter hverken bli omsatt i et marked preget av (1) fullkommen konkurranse eller (2) monopol. 
+- Det er spesielt to forhold som kan variere.
+  1. Produktene er differensierte
+  1. Antall konkurrenter kan endre seg over tid. Spesielt hvis det er lønnsomt og tre inn og ut av markedet.
+
+---
+
+- Tar vi høyde for variasjonsmulighetene for disse to faktorene, kan vi plassere de ulike markedsformene som inngår i dette kapittelet ved bruk av følgende diagram.
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+markedsformer <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/markedsformer.png')
+knitr::include_graphics(markedsformer)
+```
+
+- I dette kurset har vi spesielt ønske om å studere markedsformen *monopolistisk konkurranse* nærmere.
+
+---
+
+## Monopolistisk konkurranse
+
+En produsent under monopolistisk konkurranse står, tilsvarende som for en monopolist, fallene etterspørselskurve.
+Godene er ikke lengre *homogene*, men *differensierte.*.
+Videre vil produsenten, som under fullkommen konkurranse, konkurrere med *mange produsenter* i et marked med *ubegrenset markedsadgang*.
+
+---
+
+- Kort sikt
+	- Produsenten vil tilpasse seg der hvor grenseinntekt er lik grensekostnad.
+	- Hvor stor markedsmakten er vil avhenge av elastisk etterspørselen er
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+monk_ks <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monk_ks.png')
+knitr::include_graphics(monk_ks)
+```
+
+---
+
+- Lang sikt
+	- Uten adgangsbegrensninnger, så vil positiv fortjeneste lokke nye produsenter inn i markedet.
+	- Det fører til redusert etterspørsel etter det produktet som vi ser på, helt inntil fortjenesten er redusert til tilnærmet lik null.
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+monk_ls <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/monk_ls.png')
+knitr::include_graphics(monk_ls)
+```
+
+---
+
+## Appendiks (diagramark benyttet under forelesning)
+
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+knitr::include_graphics("drawio/markedufullkommenanalyse.png")
+```
+
+---
+
+class: inverse, center, middle
+
+# Kapittel 12:
+
+#`r paste(substring(del[7],4),substring(tema[10],25,42))`
+
+#`r paste(substring(del[11],3,16),substring(tema[10],45,100))`
+
+`r paste("Oppdatert:",Sys.Date())`
+
+---
+
+## DEL 4: MARKEDSTEORI: Prisdiskriminering
+
+## Prisdiskriminering
+
+Istedenfor samme pris fra alle konsumenter. er det mulig å tenke seg at man kan ta ulik pris fra forskjellige konsumenter. 
+
+-   Vi har *prisdiskriminering* i et marked når en produsent har en fordel (dvs. kan få økt sin fortjeneste) ved å ta ulik pris til forskjellige etterspørrere.
+
+Betingelser som må være oppfylt for å kunne utføre prisdiskriminering i et marked:
+
+-   Forskjellige etterspørrere (eller gruppe av etterspørre) må ha ulik marginal betalingsvillighet (MBV).
+-   Produsentene må mulighet til å *skille* de forskjellige etterspørrere fra hverandre.
+-   Videresalg mellom gruppene (dvs. fra konsumenter til konsumenter) er ikke mulig, alternativt kostbart å utføre.
+
+---
+
+## Første grads prisdiskriminering
+
+- Produsentene selger enhetene til forskjellige konsumenter til ulik pris. Prisen hver enkelt konsument betaler er nøyaktig lik det som konsumenten maksimalt er villig til å betale. 
+- Det innebærer at konsumentoverskuddet er lik null, mens produsenten sitter igjen med et produsentoverskudd som nøyaktig lik det samfunnsøkonomiske overskuddet.
+
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+f_grads <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/1_grads.png')
+knitr::include_graphics(f_grads)
+```
+
+
+
+---
+
+## Andre grads prisdiskriminering
+
+- Konsumentene deler seg her inn i ulike grupper basert på *selvsortering*. 
+- Produsenten tilbyr en meny av kontrakter (eks. en kontrakt til de som kjøper lite kvanta, og en annen kontrakt til de som kjøper store kvanta) til de ulike konsumentgruppene. 
+- Et eksempel som er mye brukt i klesbutikker, er «ta tre betal for to». Konsumenter som kjøper flere enheter, får dermed samme gode til en lavere enhetspris enn dem som bare kjøper ett gode.
+
+
+
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+a_grads <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/2_grads.png')
+knitr::include_graphics(a_grads)
+```
+
+---
+
+## Tredje grads Prisdiskriminering
+
+- Produsent selger ett gode til forskjellige priser ovenfor nærmest avgrensede konsumenter eller konsumentgrupper. 
+- Et typisk eksempel på tredjegrads prisdiskriminering kan være et busselskap som tar ulik pris fra forskjellige grupper (voksen-, barne-, student- og honnørpriser).
+
+
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+t_grads <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/3_grads.png')
+knitr::include_graphics(t_grads)
+```
+
+---
+
+- Som vist i diagrammet nedenfor, konsumenten vil her oppnå større produsentoverskudd som monopolist ved avgrensning enn dersom en bare forholdt seg til én konsumentgruppe.
+
+```{r, echo=FALSE, out.width="100%", fig.cap=""}
+t_grads_kl <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/3_gradskl.png')
+knitr::include_graphics(t_grads_kl)
+```
+
+---
+
+## Appendiks (diagramark fra forelesningen)
+
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+knitr::include_graphics("drawio/prisdiskalle.png")
+```
+
+---
+
+class: inverse, center, middle
+
+# Kapittel 13
+
+#`r paste(substring(del[11],3,16),tema[11])`
+
+`r paste("Oppdatert:",Sys.Date())`
+
+---
+
+## Markedssvikt
+
+Avvik fra forutsetningene om fullkommen konkurranse
+
+
+1. **Ufullkommen konkurranse og anvendelse av markedsmakt** (sett på tidligere)
+1. **Eksterne virkninger** (ser på nå)
+1. Kollektive goder
+1. Formyndergoder
+1. Ufullstendig informasjon
+
+---
+
+### Markedssvikt #2:Eksterne virkninger
+
+Er *bivirkninger* av andres konsum eller produksjon som den som forårsaker bivirkninger ikke tar hensyn til når man skal fatte beslutningen om hvor mye man skal produsere eller konsumere.
+
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+knitr::include_graphics(c("drawio/eks_ill.png"))
+```
+
+---
+
+**Negative eksternaliteter**
+
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+knitr::include_graphics("drawio/eks_neg.png")
+```
+
+**Positive eksternaliteter**
+
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+knitr::include_graphics("drawio/eks_pos.png")
+```
+
+---
+
+#### Negative eksternaliteter under fullkommen konkurranse 
+
+Anta det er negative eksternaliteter ved produksjonen. Det betyr at den samfunnsøkonomiske grensekostnaden består av bedriftenes grensekostnader pluss marginal ekstern kostnad MEK, dvs. $GK + MEK$. 
+
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+knitr::include_graphics(c("drawio/eks_dia.png"))
+```
+
+Den samfunnsøkonomisk effektive mengden er $x_{SO}$ enheter kjennetegnet ved at marginal betalingsvilje (gjenspeilet i etterspørselskurven) er lik den samfunnsøkonomiske grensekostnaden $C’ + MEK$.
+
+---
+
+#### Mulige løsninger (offentlige myndigheter)
+
+- **Avgifter og subsidier**
+<br>
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+knitr::include_graphics(c("drawio/eks_avg.png"))
+```
+
+Ved å ilegge en avgif $t= MEK$ per produsert enhet vil markeds­tilbudet skifte opp tilsvarende MEK og det etableres en ny markedslikevekt med markedspris $p_{KP}$ og likevektsmengde $x_{SO}$. Dermed vil avgiften i dette tilfellet fjerne et effektivitetstap og altså bidra til en samfunnsøkonomisk mer effektiv ressursbruk.
+
+---
+
+- **Direkte reguleringer**
+<br>
+
+Alternativt kan samme produksjonsnivå $x$ oppnås ved at myndighetene innfører en kvote som regulerer produksjonen slik at den ikke blir høyere enn det som er samfunnsøkonomisk optimalt.
+
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
+knitr::include_graphics(c("drawio/eks_kvo.png"))
+```
+
+---
+
+## Appendiks (diagramark fra forelesningen)
+
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+knitr::include_graphics("drawio/andre_emner.png")
 ```
 
 
