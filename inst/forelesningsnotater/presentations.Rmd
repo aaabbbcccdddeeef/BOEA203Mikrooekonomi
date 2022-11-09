@@ -33,7 +33,7 @@ library(plotly)
 
 ```{r eval=FALSE, include=FALSE}
 #- Eksempel med $U(x_1, x_2) = 10x_1x_2$
-pathn <- '/inst/forelesningsnotater/presentationsF'
+pathn <- '/inst/forelesningsnotater/presentations'
 xaringan::inf_mr(paste0(rprojroot::find_rstudio_root_file(),pathn,'.Rmd'))
 system(paste0('brave ',rprojroot::find_rstudio_root_file(),pathn,'.html'))
 servr::daemon_stop()
@@ -2331,8 +2331,6 @@ knitr::include_graphics(monk_ks)
 
 ```{r, echo=FALSE, out.width="45%", fig.cap=""}
 knitr::include_graphics("drawio/markedufullkommenanalyse.png")
-#system('drawio drawio/markedufullkommenanalyse.drawio')
-#system('drawio drawio/markedufullkommenanalyse.png')
 ```
 
 ---
@@ -2446,7 +2444,7 @@ Avvik fra forutsetningene om fullkommen konkurranse
 Er *bivirkninger* av andres konsum eller produksjon som den som forårsaker bivirkninger ikke tar hensyn til når man skal fatte beslutningen om hvor mye man skal produsere eller konsumere.
 
 ```{r, echo=FALSE, out.width="45%", fig.cap=""}
-knitr::include_graphics(c("drawio/eks_ill.png","drawio/eks_dia.png"))
+knitr::include_graphics(c("drawio/eks_ill.png"))
 ```
 
 ---
@@ -2465,14 +2463,24 @@ knitr::include_graphics("drawio/eks_pos.png")
 
 ---
 
-#### Mulige løsninger
+#### Negative eksternaliteter under fullkommen konkurranse 
 
-- Offentlige myndigheter
-  - **Avgifter og subsidier**<br>
+```{r, echo=FALSE, out.width="45%", fig.cap=""}
+knitr::include_graphics(c("drawio/eks_dia.png"))
+```
+
+---
+
+#### Mulige løsninger (offentlige myndigheter)
+
+- **Avgifter og subsidier**
+<br>
 ```{r, echo=FALSE, out.width="35%", fig.cap=""}
 knitr::include_graphics(c("drawio/eks_avg.png"))
 ```
-  - **Direkte reguleringer**<br>
+
+- **Direkte reguleringer**<br>
+<br>
 ```{r, echo=FALSE, out.width="35%", fig.cap=""}
 knitr::include_graphics(c("drawio/eks_kvo.png"))
 ```

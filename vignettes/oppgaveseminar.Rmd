@@ -21,7 +21,7 @@ Seminarene vil finne sted (merk:det gjøres ikke opptak) i de ukene hvor det ikk
 ```{r, echo=F, warning=F, message=F}
 library(kableExtra)
 library(dplyr)
-forel <- 7
+forel <- 8
 source(paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/timeplan.R'))
 timeplan <- df2
 c_names <- c("Fra forelesningsmodul","Oppgaver")

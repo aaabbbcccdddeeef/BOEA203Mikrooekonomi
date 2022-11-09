@@ -92,7 +92,7 @@ knitr::knit_exit()
 
 inst/arbeidskrav/regneverksted#1_losning.Rmd
 inst/forelesningsnotater/tavlefil.Rmd
-inst/forelesningsnotater/presentationsF.Rmd
+inst/forelesningsnotater/presentations.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
 https://github.com/joernih/BOEA203Mikrooekonomi.git
