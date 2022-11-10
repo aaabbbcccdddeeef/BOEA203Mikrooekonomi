@@ -2265,10 +2265,11 @@ Mark-up eller påslag er relativt lite (25%). Dette skyldes at markedsmakten bli
 **f)**<bR>
 
 $P=C'(X)$ innbærer at kvantumer gitt ved
-$$
+
+\begin{equation*}
 500-2X=100-4X \\
 X=66.7
-$$
+\end{equation*}
 Mens prisen blir
 $$
 P=500-2\cdot 66.7 =366.67
@@ -2284,8 +2285,16 @@ PO=\frac{50(366-100)}{2}+(50)\cdot(400-366)=10000
 \end{equation*}
 Effektivitetstap (dødvektstap)
 \begin{equation*}
-ST=\frac{(66.7-50)\cdot(400-300)}{2}=835
+ST=\frac{(66.7-50)\cdot(400-366.7)}{2}=835
 \end{equation*}
+
+---
+
+
+```{r, echo=FALSE, out.width="70%", fig.cap=""}
+mp102 <- paste0(rprojroot::find_rstudio_root_file(),'/inst/forelesningsnotater/drawio/10.2_mp2.png')
+knitr::include_graphics(mp102)
+```
 
 ---
 

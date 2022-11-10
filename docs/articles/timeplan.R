@@ -51,7 +51,7 @@ tema <- c(
 "Effektivitet, velferd og markedsvikt"  
 )
 length(tema)
-tema
+
 rom <- c(
 "", 
 "", 
@@ -115,8 +115,8 @@ undervfor <- c(
 "HGSD Auditorium D", 
 "HGSD Auditorium D",
 "HGSD2008",  
-"HGSD Auditorium G",  
-""
+"", 
+"HGSD Auditorium G"
 )
 length(undervfor)
 
@@ -151,4 +151,5 @@ delv <- del[c(1,2,3,5,6,7,8,9)]
 dagv <- c('Torsdag','Torsdag','Fredag',rep('Torsdag',5))
 tidv <- c('12:15-14:00','12:15-14:00','10:15-14:00',rep('12:15-14:00',5)) 
 df2 <- data.frame(Uke_nr=ukesem,Dag=dagv,Tidspunkt=tidv,Del=delv,Oppgaver_bok=gang)
+
 
