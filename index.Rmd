@@ -89,27 +89,23 @@ Knut Andre Vedøy
 ```{r, eval=T, echo=F}
 knitr::knit_exit()
 ```
-
 inst/arbeidskrav/regneverksted#1_losning.Rmd
 inst/forelesningsnotater/tavlefil.Rmd
 inst/forelesningsnotater/presentations.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
 https://github.com/joernih/BOEA203Mikrooekonomi.git
-
 # FK fire
 1. Innledning
 1. Velferd og SO
 1. FK og SO
 1. FK og avgifter
-
 # Monopol fem
 1. Innledning
 1. Årsaker til monopol
 1. Monopolistens tilpasning
 1. SO ved monopol
 1. Sammenligning MP og FK
-
 Oppdatering om veien videre i kurset
 Hei,
 Jeg er tilbake med fysisk undervisning denne uken på torsdag og fredag:
@@ -117,12 +113,9 @@ Torsdag:
 - Fullkommen konkurranse (denne dekker temaene som inngår i oppgave 2 fra arbeidskrav 2)
 Fredag: 
 -Monopol
-
 Slides tilknyttet disse teamene er nå publisert på nettsiden for kurset.
 Under fanen arbeidskrav og vil dere nå finne løsningsforslag fra arbeidskrav 1 samt tidligere eksamensoppgaver.
-
 Sees snart!
 Jørn
-
 # Knut Andre Vedøy
 # Julie G. Lund
