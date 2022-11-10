@@ -2334,9 +2334,9 @@ knitr::include_graphics(markedsformer)
 
 ## Monopolistisk konkurranse
 
-En produsent under monopolistisk konkurranse står, tilsvarende som for en monopolist, fallene etterspørselskurve.
-Godene er ikke lengre *homogene*, men *differensierte.*.
-Videre vil produsenten, som under fullkommen konkurranse, konkurrere med *mange produsenter* i et marked med *ubegrenset markedsadgang*.
+- En produsent under monopolistisk konkurranse står, tilsvarende som for en monopolist, fallene etterspørselskurve.
+- Godene er ikke lengre *homogene*, men *differensierte.*.
+- Videre vil produsenten, som under fullkommen konkurranse, konkurrere med *mange produsenter* i et marked med *ubegrenset markedsadgang*.
 
 ---
 
