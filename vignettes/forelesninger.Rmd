@@ -35,13 +35,13 @@ Forelesning #8: [`r tema[8]`](https://github.com/joernih/BOEA203Mikrooekonomi/bl
 
 Forelesning #9: [`r tema[9]`]
 <br>
-Forelesning #10: [`r tema[10]`]()
+Forelesning #10: [`r tema[9]`]
 <br>
-Forelesning #10: [`r tema[11]`]()
+Forelesning #11: [`r tema[9]`]
 
 ## Appendiks
 
-Figurpakke
+Figurpakke (publiseres snart)
 
 
 ```{r echo=F}

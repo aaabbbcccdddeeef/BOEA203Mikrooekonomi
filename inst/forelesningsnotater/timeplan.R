@@ -114,8 +114,8 @@ undervfor <- c(
 "HGSD Auditorium E", 
 "HGSD Auditorium D", 
 "HGSD Auditorium D",
-"HGSD1094",  
-"HGSD1094",  
+"HGSD2008",  
+"HGSD Auditorium G",  
 ""
 )
 length(undervfor)
