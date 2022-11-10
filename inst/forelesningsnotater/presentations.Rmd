@@ -2260,8 +2260,32 @@ Eller
 **e)**<bR>
 Mark-up eller påslag er relativt lite (25%). Dette skyldes at markedsmakten blir begrenset siden etterspørselen er svært elastisk.
 
+---
+
 **f)**<bR>
-Se løsningsforslag s. 119
+
+$P=C'(X)$ innbærer at kvantumer gitt ved
+$$
+500-2X=100-4X \\
+X=66.7
+$$
+Mens prisen blir
+$$
+P=500-2\cdot 66.7 =366.67
+$$
+
+Konsumentoverskudd
+\begin{equation*}
+KO=\frac{50(500-400)}{2}=2500
+\end{equation*}
+Produsentoverskudd
+\begin{equation*}
+PO=\frac{50(366-100)}{2}+(50)\cdot(400-366)=10000
+\end{equation*}
+Effektivitetstap (dødvektstap)
+\begin{equation*}
+ST=\frac{(66.7-50)\cdot(400-300)}{2}=835
+\end{equation*}
 
 ---
 
