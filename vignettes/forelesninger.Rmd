@@ -33,15 +33,15 @@ Forelesning #7: [`r tema[7]`](https://github.com/joernih/BOEA203Mikrooekonomi/bl
 <br>
 Forelesning #8: [`r tema[8]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/10%20Markedsteori%2C%20Monopol.pdf)
 
-Forelesning #9: [`r tema[9]`]
+Forelesning #9: [`r tema[9]`](11_Monopolistisk_konkurranse.pdf)
 <br>
-Forelesning #10: [`r tema[10]`]
+Forelesning #10: [`r tema[10]`](12_Prisdiskriminering.pdf)
 <br>
-Forelesning #11: [`r tema[11]`]
+Forelesning #11: [`r tema[11]`](13_Eksternaliteter.pdf)
 
 ## Appendiks
 
-[Figurpakke (publiseres snart)](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/forelesningsnotater/drawio/alle.odg)
+[Figurpakke (pdf)](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/forelesningsnotater/drawio/alle.pdf)
 
 ```{r echo=F}
 knitr::knit_exit()
@@ -64,7 +64,10 @@ Forelesning #10: [`r tema[10]`](https://github.com/joernih/SFB10816Mikrooekonomi
 
 ## Andre Emner
 
-Forelesning #11: [`r tema[11]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/13_effektivitet_markedssvikt.pdf)
+12_Prisdiskriminering.pdf
+13_Eksternaliteter.pdf
+1
+Forelesning #11: [`r tema[11]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/13_effektivitet_markedssvikt.pdf)[11_Monopolistisk_konkurranse.pdf]
 <br>
 Forelesning #12: [`r substring(tema[12],1,15)`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/14_litt_spillteori.pdf)`r substring(tema[12],17,nchar(tema[12]))`
 <br>
