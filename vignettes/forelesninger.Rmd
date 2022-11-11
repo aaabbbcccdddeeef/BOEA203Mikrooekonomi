@@ -41,8 +41,7 @@ Forelesning #11: [`r tema[9]`]
 
 ## Appendiks
 
-Figurpakke (publiseres snart)
-
+[Figurpakke (publiseres snart)](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/forelesningsnotater/drawio/alle.odg)
 
 ```{r echo=F}
 knitr::knit_exit()
