@@ -32,6 +32,17 @@ Innleveringsfrist: **30. oktober**
 Løsningsforslag: [Lenke her (trykk download for å laste ned PDF-filen)](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/arbeidskrav/Arbeidskrav%202_losning.pdf)
 
 ## Tidligere eksamensoppgaver
+[Eksamen, høst 2017](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/eksamensoppgaver/Eksamen_B%C3%98A203%20(Mikro%C3%B8konomi%201)_H%C3%B8st%202020.pdf)
+<br>
+[Eksamen, høst 2017 (løsningsforslag)]()
+<br>
+[Eksamen, høst 2018]()
+<br>
+[Eksamen, høst 2018 (løsningsforslag)]()
+
+
+
+
 
 [Eksamen, høst 2020](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/eksamensoppgaver/Eksamen_B%C3%98A203%20(Mikro%C3%B8konomi%201)_H%C3%B8st%202021.pdf)
 <br>
