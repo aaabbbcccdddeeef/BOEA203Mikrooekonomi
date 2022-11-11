@@ -2501,13 +2501,13 @@ knitr::include_graphics(c("drawio/eks_ill.png"))
 
 **Negative eksternaliteter**
 
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
+```{r, echo=FALSE, out.width="65%", fig.cap=""}
 knitr::include_graphics("drawio/eks_neg.png")
 ```
 
 **Positive eksternaliteter**
 
-```{r, echo=FALSE, out.width="45%", fig.cap=""}
+```{r, echo=FALSE, out.width="65%", fig.cap=""}
 knitr::include_graphics("drawio/eks_pos.png")
 ```
 
@@ -2522,7 +2522,7 @@ Anta det er negative eksternaliteter ved produksjonen. Det betyr at den samfunns
 knitr::include_graphics(c("drawio/eks_dia.png"))
 ```
 
-Den samfunnsøkonomisk effektive mengden er $x_{SO}$ enheter kjennetegnet ved at marginal betalingsvilje (gjenspeilet i etterspørselskurven) er lik den samfunnsøkonomiske grensekostnaden $C’ + MEK$.
+Den samfunnsøkonomisk effektive mengden er $x_{SO}$ enheter kjennetegnet ved at marginal betalingsvilje (gjenspeilet i etterspørselskurven) er lik den samfunnsøkonomiske grensekostnaden $GK + MEK$.
 
 ---
 
