@@ -1,0 +1,368 @@
+BØA203 (1): Mikroøkonomi 1
+
+
+
+
+      Rapport for emne BØA203
+                                                                    Stadiuminfo:       Utkast (S1)
+                                                                    Sist endret:       04.01.2023
+                                                                                       Øyvind Sunde (osu)
+                                                                    Opprettet i EpN:   Nei
+
+
+
+
+      Generelt
+      Emnekodeforslag                   BØA203
+      Tilknyttede campuser              BERGEN, HAUGESUND, SOGNDAL
+      Vekting                           7.5
+      Vektingstype                      Studiepoeng
+      Navn - bokmål                     Mikroøkonomi 1
+      Navn - nynorsk                    Mikroøkonomi 1
+      Navn - engelsk                    Microeconomics 1
+      Språk                             Norsk
+      Emnetype                          Vurderingsemne (VURDERING)
+      Formelle forkunnskapskrav
+      Vektingsreduksjon                 Regel 6514: 7.5sp 2020H-
+                                         SØ6-1001 1 Samfunnsøkonomi mikro
+                                         BØA203 1 Mikroøkonomi 1
+                                        Regel 6515: 7.5sp 2020H-
+                                         ØKB1106 1 Mikroøkonomi
+                                         BØA203 1 Mikroøkonomi 1
+                                        Regel 6516: 7.5sp 2020H-
+                                         ØSO001 1 Mikroøkonomi 1
+                                         BØA203 1 Mikroøkonomi 1
+                                        Regel 6523: 7.5sp 2020H-
+                                         ØKB1024 1 Mikroøkonomi
+                                         BØA203 1 Mikroøkonomi 1
+                                        Regel 6524: 6sp 2020H-
+                                         ØKB024 1 Mikroøkonomi og offentlig økonomi
+                                         BØA203 1 Mikroøkonomi 1
+                                        Regel 6525: 6sp 2020H-
+                                         SA0671 1 Mikroøkonomi
+                                         BØA203 1 Mikroøkonomi 1
+                                        Regel 6526: 6sp 2020H-
+                                         SA022 1 Samfunnsøkonomi I
+                                         BØA203 1 Mikroøkonomi 1
+
+
+
+      Rapportering
+      Varighet undervisning             1
+      Tidsenhet varighet undervisning   Semestre
+
+
+
+      Undervisning
+      Fjernund.status                   Nei
+      Undervisningstermin beskrivelse   Høst
+      Undervisningstermin               enandre
+      Personroller
+         Ugyldig: FAGLÆRER              Øyvind Sunde (osu), IØA (2022-08-01 00:00:00.0 - null)
+         Emneansvarlig                  Torbjørn Årethun (torbja), IØA (01.07.2020 - )
+
+
+
+
+Rapport fra EpN, 04.01.2023 09:52:26                                                                        side 1
+BØA203 (1): Mikroøkonomi 1
+
+
+
+
+      Emneinfo
+      Innhold og oppbygning
+      Bokmål:
+      Emnet inneholder grunnleggende teorier og modeller innen fagfeltet mikroøkonomi. I konsument- og
+      produsentteorien analyseres henholdsvis konsumentenes og produsentenes økonomiske tilpasning. I
+      markedsteorien studeres prisdannelsen i ulike markedsformer med hovedfokus på fullkommen
+      konkurranse og monopol, men også en introduksjon til monopolistisk konkurranse. Med utgangspunkt i
+      markedsteorien studeres betydningen av markedsform og konsekvensene av offentlig inngripen for
+      samfunnsøkonomisk effektivitet. Siste tema er markedssvikt, og hvordan offentlige tiltak kan bidra til en
+      mer effektiv ressursbruk i slike tilfeller.
+
+
+      Engelsk:
+      The course contains basic theories and models in the field of microeconomics. In consumer and producer
+      theory, the economic choices of consumers and producers are analysed, respectively. In market theory,
+      price formation is studied in various markets, the main focus being on perfect competition and monopoly,
+      but also an introduction to monopolistic competition. Based on market theory, the importance of
+      competition and the consequences of public intervention for economic efficiency are studied. The final
+      theme is market failures, and how public policy can promote a more efficient use of the resources when
+      markets fail.
+
+
+      Nynorsk:
+      Emnet inneheld grunnleggande teoriar og modellar innan fagfeltet mikroøkonomi. I konsument- og
+      produsentteorien analyserer ein høvesvis konsumentane og produsentane sin økonomiske tilpassing. I
+      marknadsteorien studerer ein korleis prisar vert danna i ulike marknadsformer med hovudfokus på
+      fullkommen konkurranse og monopol, men og ein introduksjon til monopolistisk konkurranse. Med
+      utgangspunkt i marknadsteorien studerer ein kva konsekvensar marknadsform og offentlig inngripen har
+      for samfunnsø-konomisk effektivitet. Siste tema er marknadssvikt, og korleis offentlige tiltak kan bidra til en
+      meir effektiv ressursbruk.
+
+
+      Læringsutbytte
+      Bokmål:
+      Ved fullført emne skal kandidaten ha oppnådd kunnskap, ferdigheter og generell kompetanse som følger:
+      Kunnskaper:
+      Ved fullført emne har kandidaten kunnskap om:
+      • Grunnleggende begreper og modeller innen mikroøkonomi
+      •Hvordan modellene kan brukes til å drøfte enkeltaktørers økonomiske atferd og samspillet mellom disse i
+       ulike markedsformer
+      •Kriterier for økonomiske effektivitet og situasjoner der vi har markedssvikt
+      •Hvordan myndighetenes politikk kan påvirke enkeltaktørers atferd og derigjennom priser, effektivitet og
+       fordeling av samfunnsøkonomisk overskudd
+      Ferdigheter:
+      Ved fullført emne kan kandidaten anvende faglig kunnskap til å:
+      • Analysere konsumenters og produsenters økonomiske tilpasning
+      •Analysere hvordan samspillet mellom konsumenter og produsenter fører til en markedslikevekt
+      •Presentere og drøfte markedslikevekten i ulike konkurransesituasjoner og ved offentlig inngrep
+      •Analysere situasjoner hvor markeder ikke fører til en samfunnsøkonomisk effektiv ressursbruk,
+
+
+
+Rapport fra EpN, 04.01.2023 09:52:26                                                                                    side 2
+BØA203 (1): Mikroøkonomi 1
+
+
+
+       markedssvikt, og hva myndighetene kan gjøre for å bidra til en mer effektiv ressursbruk
+      Generell kompetanse:
+      Ved fullført emne har kandidaten:
+      • Forståelse for forholdet mellom enkeltaktørers beslutninger og de samfunns-økonomiske konsekvensene
+      •Evne til å kunne reflektere over hendelser og økonomisk politikk som vedrører markeder og
+       markedsaktører
+
+
+      Engelsk:
+      On completion of the course, the candidate must have acquired knowledge, skills and general
+      competence as follows:
+      Knowledge: On completion of the course, the candidate has knowledge of:
+      • Basic concepts and models in microeconomics
+      •How microeconomic models can be used to analyse the economic behaviour of economic agents and
+       their interaction in markets
+      •Criteria for economic efficiency and market failure
+      •How government policy can affect the behaviour of economic agents and thus prices, efficiency and the
+       distribution of economic surplus
+      Skills: On completion of the course, the candidate can use his or hers professional knowledge to:
+      • Analyse the economic behaviour of consumers and producers
+      •Analyse how a market equilibrium is established as a result of the interaction between consumers and
+       producers
+      •Present and discuss the market equilibrium in various competitive situations with and without government
+       intervention
+      •Analyse situations where markets do not lead to economically efficient use of resources, market failures,
+       and how government can promote a more efficient use of resources
+      General competence: On completion of the course, the candidate:
+      • Understand the relationship between the decisions of individual economic agents and the economic
+        consequences
+      •Is able to reflect on events and economic policies related to markets and market agents
+
+
+      Nynorsk:
+      Ved fullført emne skal kandidaten ha oppnådd slik kunnskap, dugleik og generell kompetanse:
+      Kunnskap:
+      Ved fullført emne har kandidaten kunnskap om:
+      • Grunnleggande omgrep og modellar innan mikroøkonomi
+      •Korleis modellane kan nyttast til å drøfte enkeltaktører sin økonomiske åtferd og samspelet mellom desse
+       i ulike marknadsformer
+      •Kriterier for økonomiske effektivitet og situasjonar der ein har marknadssvikt
+      •Korleis styresmaktene sin politikk kan påverke enkeltaktørers åtferd og dermed prisar, effektivitet og
+       fordeling av samfunnsøkonomisk overskot
+      Dugleik:
+      Ved fullført emne kan kandidaten anvende sin faglege kunnskap til å:
+      • Analysere den økonomiske tilpasninga til konsumentar og produsentar
+      •Analysere korleis samspelet mellom konsumentar og produsentar fører til ein marknadslikevekt
+      •Presentere og drøfte marknadslikevekt i ulike konkurransesituasjonar og ved offentlig inngrep
+      •Analysere situasjonar der marknader ikkje fører til ein samfunnsøkonomisk effektiv ressursbruk,
+       marknadssvikt, og kva styresmaktene kan gjøre for å medverke til ein meir effektiv ressursbruk
+      Generell kompetanse:
+
+
+Rapport fra EpN, 04.01.2023 09:52:26                                                                               side 3
+BØA203 (1): Mikroøkonomi 1
+
+
+
+      Ved fullført emne har kandidaten:
+      • Forståing for forholdet mellom enkeltaktørane sine val og dei samfunns-økonomiske konsekvensane
+      •Evne til å kunne reflektere over hendingar og økonomisk politikk som vedkjem marknader og
+       marknadsaktørar
+
+
+      Krav til forkunnskaper
+      Bokmål:
+      Ingen
+
+
+      Engelsk:
+      None
+
+
+      Nynorsk:
+      Ingen
+
+
+      Anbefalte forkunnskaper
+      Bokmål:
+      BØA111 Matematikk eller tilsvarende.
+
+
+      Engelsk:
+      BØA111 Matematikk or equivalent.
+
+
+      Nynorsk:
+      BØA111 Matematikk eller tilsvarande.
+
+
+      Undervisnings- og læringsformer
+      Bokmål:
+      Forelesninger. Oppgaveløsing.
+
+
+      Engelsk:
+      Lectures. Problem solving.
+
+
+      Nynorsk:
+      Førelesningar. Oppgåveløysing.
+
+
+      Obligatorisk læringsaktivitet (arbeidskrav)
+      Bokmål:
+      Studenten må ha godkjent to arbeidskrav for å kunne gå opp til eksamen.
+
+
+      Engelsk:
+      In order to take the exam, two assignments must be approved.
+
+
+      Nynorsk:
+      Studenten må ha godkjent to arbeidskrav for å kunne gå opp til eksamen.
+
+
+
+
+Rapport fra EpN, 04.01.2023 09:52:26                                                                      side 4
+BØA203 (1): Mikroøkonomi 1
+
+
+
+      Vurderingsform
+      Bokmål:
+      4 timer skriftlig skoleeksamen. Karakterskala A - F, der F tilsvarer ikke bestått.
+
+
+      Engelsk:
+      4 hour written exam. Grade A - F.
+
+
+      Nynorsk:
+      4 timar skriftleg skuleeksamen. Karakterskala A - F, der F svarar til ikkje greidd.
+
+
+      Hjelpemidler ved eksamen
+      Bokmål:
+      Alle kalkulatormodeller kan benyttes forutsatt at følgende betingelser er oppfylt:
+      - kalkulatoren skal ha tomt minne
+      - kalkulatoren skal ikke ha mulighet for mottak/sending av informasjon
+      - kalkulatoren skal ikke kunne behandle symbolske matematiske uttrykk
+      - kalkulatoren kan ikke kobles til strømnettet
+      - kalkulatoren må ikke lage støy
+
+
+      Engelsk:
+      Any type of calculator can be used as long as it meets the following requirements:
+      - the calculator should have a clean memory
+      - the calculator should not be able to send or receive information
+      - the calculator should not be able to perform symbolic manipulations
+      - the calculator should not be able to be connected to the power net
+      - the calculator should not make any noise
+
+
+      Nynorsk:
+      Alle kalkulatormodellar kan nyttast under føresetnad om at følgjande vilkår er oppfylt:
+      - kalkulatoren skal ha tomt minne
+      - kalkulatoren skal ikkje kunna ta imot / senda informasjon
+      - kalkulatoren skal ikkje kunna behandla symbolske matematiske uttrykk
+      - kalkulatoren kan ikkje koplast til straumnettet
+      - kalkulatoren må ikkje laga støy
+
+
+      Emneansvarlig
+      Bokmål:
+      Øyvind Sunde
+
+
+      Engelsk:
+      Øyvind Sunde
+
+
+      Nynorsk:
+      Øyvind Sunde
+
+
+
+
+Rapport fra EpN, 04.01.2023 09:52:26                                                            side 5
+BØA203 (1): Mikroøkonomi 1
+
+
+
+      Studiested
+      Bokmål:
+      Bergen, Sogndal, Haugesund
+
+
+      Engelsk:
+      Bergen, Sogndal, Haugesund
+
+
+      Nynorsk:
+      Bergen, Sogndal, Haugesund
+
+
+      Undervisningsspråk
+      Bokmål:
+      Norsk
+
+
+      Engelsk:
+      Norwegian
+
+
+      Nynorsk:
+      Norsk
+
+
+      Undervisningssemester
+      Bokmål:
+      Høst
+
+
+      Engelsk:
+      Autumn
+
+
+      Nynorsk:
+      Haust
+
+
+      Vurderingssemester
+      Bokmål:
+      Høst
+
+
+      Engelsk:
+      Autumn
+
+
+      Nynorsk:
+      Haust
+
+
+
+
+Rapport fra EpN, 04.01.2023 09:52:26   side 6
+

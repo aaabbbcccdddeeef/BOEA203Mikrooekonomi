@@ -90,33 +90,25 @@ Knut Andre Vedøy
 knitr::knit_exit()
 ```
 
+
+../Template/SFB10816_BOEA203_Mikro_Plates/arbeidskrav/BØA203-Mikroøkonomi-1-Obligatoriske-arbeidskrav-Høst-2022.xlsx
+../Template/SFB10816_BOEA203_Mikro_Plates/arbeidskrav/godkjenning.R
+
+
 inst/arbeidskrav/regneverksted#1_losning.Rmd
 inst/forelesningsnotater/tavlefil.Rmd
 inst/forelesningsnotater/presentations.Rmd
 https://joernih.github.io/BOEA203Mikrooekonomi/
 https://hvl.instructure.com/courses/23179
 https://github.com/joernih/BOEA203Mikrooekonomi.git
-# FK fire
-1. Innledning
-1. Velferd og SO
-1. FK og SO
-1. FK og avgifter
-# Monopol fem
-1. Innledning
-1. Årsaker til monopol
-1. Monopolistens tilpasning
-1. SO ved monopol
-1. Sammenligning MP og FK
-Oppdatering om veien videre i kurset
+
+
 Hei,
-Jeg er tilbake med fysisk undervisning denne uken på torsdag og fredag:
-Torsdag: 
-- Fullkommen konkurranse (denne dekker temaene som inngår i oppgave 2 fra arbeidskrav 2)
-Fredag: 
--Monopol
-Slides tilknyttet disse teamene er nå publisert på nettsiden for kurset.
-Under fanen arbeidskrav og vil dere nå finne løsningsforslag fra arbeidskrav 1 samt tidligere eksamensoppgaver.
-Sees snart!
-Jørn
-# Knut Andre Vedøy
-# Julie G. Lund
+Kan ikke se å ha mottatt arbeidskravet i Mikro SFB10816 med innleveringsfrist den 31.03
+Dersom du mener at dette ikke medfører riktighet, send meg i så fall oppgaven
+på nytt. Gitt at du har deltatt i en gruppe som har sendt inn oppgaven for
+deg, send meg navnet på de andre gruppemedlemmene.
+Benytt denne e-mailen adressen, så behandler jeg svarende fortløpende.
+Selv må jeg sende ferdig liste til eksamenskontoret i løpet av noen dager, trenger derfor svar så fort som mulig.
+
+Jørn I. Halvorsen
