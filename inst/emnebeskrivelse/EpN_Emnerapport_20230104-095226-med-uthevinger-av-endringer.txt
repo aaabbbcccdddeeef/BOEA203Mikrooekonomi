@@ -75,11 +75,10 @@ Rapport fra EpN, 04.01.2023 09:52:26                                            
       Bokmål:
       Emnet inneholder grunnleggende teorier og modeller innen fagfeltet mikroøkonomi. I konsument- og
       produsentteorien analyseres henholdsvis konsumentenes og produsentenes økonomiske tilpasning. I
-      markedsteorien studeres prisdannelsen i ulike markedsformer med hovedfokus på fullkommen
-      konkurranse og monopol, men også en introduksjon til monopolistisk konkurranse. Med utgangspunkt i
-      markedsteorien studeres betydningen av markedsform og konsekvensene av offentlig inngripen for
-      samfunnsøkonomisk effektivitet. Siste tema er markedssvikt, og hvordan offentlige tiltak kan bidra til en
-      mer effektiv ressursbruk i slike tilfeller.
+      markedsteorien studeres prisdannelsen i ulike markedsformer. Hovedfokus er på fullkommen
+      konkurranse og monopol, men det gis også en introduksjon til monopolistisk konkurranse. Med utgangspunkt i
+      markedsteorien, studeres betydningen av markedsform på samfunnsøkonomisk effektivitet. Siste tema er markedssvikt, og 
+      hvordan offentlige tiltak kan bidra til en mer effektiv ressursbruk i slike tilfeller.
 
 
       Engelsk:
@@ -141,7 +140,7 @@ Rapport fra EpN, 04.01.2023 09:52:26                                            
       Knowledge: On completion of the course, the candidate has knowledge of:
       • Basic concepts and models in microeconomics
       •How microeconomic models can be used to analyse the economic behaviour of economic agents and
-       their interaction in markets
+       their interaction in *various* markets
       •Criteria for economic efficiency and market failure
       •How government policy can affect the behaviour of economic agents and thus prices, efficiency and the
        distribution of economic surplus
@@ -365,4 +364,23 @@ Rapport fra EpN, 04.01.2023 09:52:26                                            
 
 
 Rapport fra EpN, 04.01.2023 09:52:26   side 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
