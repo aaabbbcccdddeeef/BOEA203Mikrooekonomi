@@ -7,6 +7,9 @@
 
 ## Nyheter
 
+[Eksamen med sensorveiledning høsten
+2022](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/eksamensoppgaver/Eksamen_BOEA203_2022_bokmaal_losningsforslag.pdf)
+
 ### Studietips
 
 [Generelle studietips\_ System framfor
@@ -36,4 +39,4 @@ Jørn I. Halvorsen
 
 Knut Andre Vedøy
 
-**Siste gang oppdatert: 2023-01-12 11:19:49**
+**Siste gang oppdatert: 2023-01-12 11:24:13**

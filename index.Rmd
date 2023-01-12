@@ -57,7 +57,7 @@ git2r::config(user.name = "joernih", user.email = "jorn.halvorsen.com")
 
 ## Nyheter
 
-[Sensorveiledning eksamen høsten 2022]()
+[Eksamen med sensorveiledning høsten 2022](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/eksamensoppgaver/Eksamen_BOEA203_2022_bokmaal_losningsforslag.pdf)
 
 ### Studietips
 
