@@ -11,29 +11,29 @@ source('../inst/forelesningsnotater/timeplan.R')
 
 ## Del 1: Innledning
 
-Forelesning #1: [`r tema[1]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/1-3_introduksjon.pdf)
+Forelesning #1: [`r tema[1]`](https://github.com/joernih/BOEA203Mikrooekonomi/tree/main/inst/pdfs/1-3_introduksjon.pdf)
 
 ## Del 2 Produsentteori: Produsentens økonomiske adferd
 
-Forelesning #2: [`r tema[2]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/4%20Produksjonsteori:Produksjon.pdf)
+Forelesning #2: [`r tema[2]`](https://github.com/joernih/BOEA203Mikrooekonomi/tree/main/inst/pdfs/4%20Produksjonsteori:Produksjon.pdf)
 <br>
-Forelesning #3: [`r tema[3]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/5%20Produksjonsteori:Inntekter_og_kostnader.pdf)
+Forelesning #3: [`r tema[3]`](https://github.com/joernih/BOEA203Mikrooekonomi/tree/main/inst/pdfs/5%20Produksjonsteori:Inntekter_og_kostnader.pdf)
 <br>
-Forelesning #4: [`r tema[4]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/6_Produsentteori:Produkt_og_faktormarkeder.pdf)
+Forelesning #4: [`r tema[4]`](https://github.com/joernih/BOEA203Mikrooekonomi/tree/main/inst/pdfs/6_Produsentteori:Produkt_og_faktormarkeder.pdf)
 
 ## Del 3 Konsumentteori: Konsumentens økonomiske adferd
 
-Forelesning #5: [`r tema[5]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/7_Konsumentens_tilpasning.pdf)
+Forelesning #5: [`r tema[5]`](https://github.com/joernih/BOEA203Mikrooekonomi/tree/main/inst/pdfs/7_Konsumentens_tilpasning.pdf)
 <br>
-Forelesning #6: [`r tema[6]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/8_Konsumentens_adferd.pdf)
+Forelesning #6: [`r tema[6]`](https://github.com/joernih/BOEA203Mikrooekonomi/tree/main/inst/pdfs/8_Konsumentens_adferd.pdf)
 
-## del 4 markedsteori
+## Del 4 markedsteori
 
-Forelesning #7: [`r tema[7]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/9%20Markedsteori%2C%20Fullkommen%20konkurranse.pdf)
+Forelesning #7: [`r tema[7]`](https://github.com/joernih/BOEA203Mikrooekonomi/tree/main/inst/pdfs/9%20Markedsteori%2C%20Fullkommen%20konkurranse.pdf)
 <br>
-Forelesning #8: [`r tema[8]`](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/10%20Markedsteori%2C%20Monopol.pdf)
+Forelesning #8: [`r tema[8]`](https://github.com/joernih/BOEA203Mikrooekonomi/tree/main/inst/pdfs/10%20Markedsteori%2C%20Monopol.pdf)
 
-Forelesning #9: [`r tema[9]`](11_Monopolistisk_konkurranse.pdf)
+Forelesning #9: [`r tema[9]`](https://github.com/joernih/BOEA203Mikrooekonomi/tree/main/inst/pdfs/11_Monopolistisk_konkurranse.pdf)
 <br>
 Forelesning #10: [`r tema[10]`](12_Prisdiskriminering.pdf)
 <br>
@@ -42,36 +42,6 @@ Forelesning #11: [`r tema[11]`](13_Eksternaliteter.pdf)
 ## Appendiks
 
 [Figurpakke (pdf)](https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/forelesningsnotater/drawio/alle.pdf)
-
-```{r echo=F}
-knitr::knit_exit()
-```
-
- (https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/8_Konsumentens_adferd.pdf)
- (https://github.com/joernih/BOEA203Mikrooekonomi/blob/main/inst/pdfs/8_Konsumentens_adferd.pdf)
-
-## Markedsteori
-
-Forelesning #7: [`r tema[7]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/9_markedsform_fullkommen.pdf)
-<br>
-Forelesning #8: [`r tema[8]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/10_markedsform_monopol.pdf)
-<br>
-Forelesning #9: [`r tema[9]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/11_markedsform_ufullkommen.pdf)
-<br>
-Forelesning #10: [`r tema[10]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/12_prisdiskriminering.pdf)
-
-# Forelesningsslides
-
-## Andre Emner
-
-12_Prisdiskriminering.pdf
-13_Eksternaliteter.pdf
-1
-Forelesning #11: [`r tema[11]`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/13_effektivitet_markedssvikt.pdf)[11_Monopolistisk_konkurranse.pdf]
-<br>
-Forelesning #12: [`r substring(tema[12],1,15)`](https://github.com/joernih/SFB10816Mikrooekonomi/blob/main/inst/forelesningsnotater/14_litt_spillteori.pdf)`r substring(tema[12],17,nchar(tema[12]))`
-<br>
-Forelesning #13: `r tema[13]`
 
 ```{r echo=F}
 knitr::knit_exit()
