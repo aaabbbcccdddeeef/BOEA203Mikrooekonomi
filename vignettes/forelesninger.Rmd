@@ -27,7 +27,7 @@ Forelesning #5: [`r tema[5]`](https://github.com/joernih/BOEA203Mikrooekonomi/tr
 <br>
 Forelesning #6: [`r tema[6]`](https://github.com/joernih/BOEA203Mikrooekonomi/tree/main/inst/pdfs/8_Konsumentens_adferd.pdf)
 
-## Del 4 markedsteori
+## Del 4 Markedsteori
 
 Forelesning #7: [`r tema[7]`](https://github.com/joernih/BOEA203Mikrooekonomi/tree/main/inst/pdfs/9%20Markedsteori%2C%20Fullkommen%20konkurranse.pdf)
 <br>
@@ -35,9 +35,9 @@ Forelesning #8: [`r tema[8]`](https://github.com/joernih/BOEA203Mikrooekonomi/tr
 
 Forelesning #9: [`r tema[9]`](https://github.com/joernih/BOEA203Mikrooekonomi/tree/main/inst/pdfs/11_Monopolistisk_konkurranse.pdf)
 <br>
-Forelesning #10: [`r tema[10]`](12_Prisdiskriminering.pdf)
+Forelesning #10: [`r tema[10]`](https://github.com/joernih/BOEA203Mikrooekonomi/tree/main/inst/pdfs/12_Prisdiskriminering.pdf)
 <br>
-Forelesning #11: [`r tema[11]`](13_Eksternaliteter.pdf)
+Forelesning #11: [`r tema[11]`](https://github.com/joernih/BOEA203Mikrooekonomi/tree/main/inst/pdfs/13_Eksternaliteter.pdf)
 
 ## Appendiks
 
